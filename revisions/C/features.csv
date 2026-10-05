@@ -1,0 +1,15 @@
+﻿part,feature,location_mm,machining
+B01,blank,18 x 82; plate Z0..3; tower topZ23,A6061-T6; outlineR3; edgesR0.2
+B01,mount,"(0,4),(0,78)",D3.8 THRU; top CSK D7 90deg depth1.6
+B01,clamp taps,"(+/-4,46)",M3x0.5-6H THRU plate3; tap drillD2.5
+B01,piezo,"(0,20)",bottom D12.5 depth1.5; remaining1.5
+B01,wire,X0..9 Y18.9..21.1,bottom depth1.2; side open
+B01,tower,Y67..73 Z3..23,outlineR1; topR0.8
+B01,vertical rear slot,X0 Z12,width3.4 total15.4 THRU alongY; screw axesZ6..18
+B01,rear washer clearance,X-4..4 Y73..74,top depth1; floorZ2
+A02,blank,18 x 42; front Y0..22 H10; tailY20..42 H6,C3604; one solid; outerR2; edgeR0.2
+A02,ball cradle,X+/-4 Y6..22,top pocket depth8 floorZ2; cornerR1.5; shoulderY6
+A02,string slot,X+/-1.7 Y0..22,floorZ3.3; top long lipsR0.2
+A02,height taps,"(+/-6,11),(+/-6,18)",M3x0.5-6H THRU10; drillD2.5
+A02,clamp slots,"(+/-4,32)",width3.4 total15.4 THRU6; slot center travelY26..38
+A02,rear intonation tap,X0 Z3 fromY42 towards-Y,M3x0.5-6H usable20 min; drillD2.5 depth22 + point0.75

@@ -1,0 +1,27 @@
+{
+  "revision": "G",
+  "units": "mm",
+  "upload_parts": [
+    {
+      "name": "B05_smooth_base.step",
+      "size_bytes": 644708,
+      "sha256": "459f6c1a44244a1cd115f6689344148fcc543fa116c9be0f65b8f11471c3a9f5"
+    },
+    {
+      "name": "B05_smooth_base.pdf",
+      "size_bytes": 157379,
+      "sha256": "969f5d343bc0e364b066f901a17c423338eb56f20a24a044f2e9445b2cfb7959"
+    },
+    {
+      "name": "A06_smooth_anchor.step",
+      "size_bytes": 672082,
+      "sha256": "c777e0bc77f8cea8dfde6a6c8f55d83257efeea026eecc3cfc9584cb6f1f4fac"
+    },
+    {
+      "name": "A06_smooth_anchor.pdf",
+      "size_bytes": 145932,
+      "sha256": "a33e211bd4da1f7bb9e253a72d252863b69da48ef2d4dcb0f6962e0ec63f7645"
+    }
+  ],
+  "supplier_status": "not submitted; manual review pending"
+}

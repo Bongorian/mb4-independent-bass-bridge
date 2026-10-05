@@ -1,0 +1,27 @@
+# Original local workspace and historical delivery copies remain on disk.
+/.venv/
+/output/
+/output_rev*/
+/revision_history/
+/tmp/
+/MB4_*.zip
+/releases/
+
+# Regenerable presentation assets and working files.
+__pycache__/
+*.pyc
+*.log
+*.blend
+*.blend1
+**/preview_mesh/
+**/six_views/labelled/
+**/jlc_upload/
+/revisions/*/*.zip
+/docs/assets/revision-history.svg
+.DS_Store
+
+# Local environment and credentials.
+.env
+.env.*
+*.pem
+*.key

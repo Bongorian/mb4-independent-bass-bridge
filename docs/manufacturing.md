@@ -1,0 +1,51 @@
+# 加工と調達 — Rev I
+
+## CNCへ渡す2品
+
+| 部品 | 材料・数量 | 加工データ |
+| --- | --- | --- |
+| B07ベース | 6061-T6、4個 | [STEP](../revisions/I/cad/step/B07_long_travel_base.step)、[英文加工図](../revisions/I/pdf/B07_long_travel_base.pdf) |
+| A07アンカー | 6061-T6、4個 | [STEP](../revisions/I/cad/step/A07_long_travel_anchor.step)、[英文加工図](../revisions/I/pdf/A07_long_travel_anchor.pdf) |
+
+[JLC見積用ZIP](../downloads/MB4_JLCCNC_upload_RevI.zip)にはこの4ファイルだけを収録しています。B07とA07を別々の品目として各4個で見積依頼します。全組立を表す`MB4_assembly.step`は切削対象として提出しません。
+
+まず1弦分を実物評価する場合は各1個で見積依頼してください。Rev H以前のSTEP・図面は最新版の加工には使用しません。Rev Iでは両部品が変更されています。
+
+## 見積設定と図面の役割
+
+材料はAluminum 6061-T6、単位mm、表面はAs-machined、ねじ加工はYESを想定します。一般寸法はISO 2768-m、図面で指定する機能軸・幅は±0.05 mm、ボディ座面平面度0.05 mm、Ra3.2目標です。詳細は各加工図が優先します。
+
+STEPのねじ穴は下穴径で表現しています。M3下穴φ2.5、M4下穴φ3.3のまま納品する指示ではありません。加工図どおりM3×0.5-6H、M4×0.7-6Hに加工します。STEPは3D形状、同名PDFはねじ・寸法公差・仕上げ指示を担います。
+
+[英文見積依頼文](../revisions/I/RFQ_JLC.txt)と[加工フィーチャー表](../revisions/I/features.csv)も参照してください。図面にはリブを削除しないこと、機能座面を研磨しないこと、指定逃げとRを維持することを記載しています。
+
+## 加工上の確認点
+
+上面・下面・後端の段取りによる切削を想定した形です。A07の後方M4はY55から−Yへ下穴加工経路12 mm、裏面開放窓へ抜けるタップです。全周ねじ領域はY47〜55の8 mmで、出口の一部ねじ壁も加工して下面からバリ取りします。
+
+B07には後木ねじと低い位置の調整ボルト頭を逃がす上面開放トレーがあります。リブ幅3、後壁厚6、壁・リブ内角R2は維持します。工具径、到達性、固定方法とタップ出口の加工は業者の審査事項です。
+
+**JLCへ送信・見積確定・発注はしていません。** 保存図面は試作見積用です。2026-10-05に確認したJLC公式資料は次のとおりです。最新条件は依頼時に確認してください。
+
+- [CNC注文ガイド](https://jlccnc.com/help/article/cnc-machining-ordering-guidelines)
+- [CNC設計ガイド](https://jlccnc.com/help/article/cnc-machining-design-guideline)
+- [ねじ穴ガイド](https://jlccnc.com/help/article/threaded-hole-guideline)
+- [Aluminum 6061](https://jlccnc.com/help/article/aluminum-6061-cnc-machining)
+
+## 市販金物
+
+数量と高さによる長さの選択は[部品表](../revisions/I/BOM.csv)、[購入候補表](../revisions/I/MISUMI_purchase_options.csv)、[参照元と選定理由](../revisions/I/hardware_sources.txt)に記載しています。
+
+| 用途 | Rev Iの候補 | 4弦分 |
+| --- | --- | --- |
+| 後方調整ねじ | NBK SNSS-M4-45-FT／ミスミSNSS-M4X45-FT、M4×45全ねじ | 4本 |
+| 後方座金 | WSJS-SUS-M4、外径8・厚さ0.5 | 4枚 |
+| 圧縮ばね | UY6-35、SUS304-WPB、外径6・自由長35 | 4個 |
+| 高さ調整 | MSSFS4-8/12/16、M4平先 | 使用高さで計16本 |
+| 固定ねじ | SSBCB3-12/16/20、25 mmのみSBCB3-25 | 計8本 |
+| 固定座金 | WSJS-SUS-M3、外径6・厚さ0.5、必要枚数を積層 | 高さによる |
+| ボディ木ねじ | ステンレス皿3.5×20候補、頭φ7以下・90° | 8本 |
+
+後方ねじを半ねじM4×45で代用すると、非ねじ部がアンカーへ入り成立しません。ばねも長さだけで置換せず、外径・線径・許容たわみと自由長公差を確認します。表中の金物はステンレスですが、鋼種や強度区分は品番ごとに異なります。
+
+購入候補表の価格確認日は2026-10-05です。新しい後方全ねじとUY6-35の現在の見積価格は未取得です。過去版の価格・品番を最新版へ読み替えないでください。

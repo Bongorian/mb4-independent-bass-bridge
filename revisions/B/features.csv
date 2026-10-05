@@ -1,0 +1,25 @@
+﻿part,feature,location_mm,machining,notes
+B01,blank,18 x 82 x 12; plate z0..5,,A6061-T6
+B01,mount,"(0,4), (0,78)",D3.8 THRU; CSK D7 90deg depth1.6,2
+B01,slide slot,"(+/-4,48)",width3.4 total length15.4 THRU,2
+B01,nut channel,"(+/-4,48)",5.8 x 22 depth2.2 from bottom; R1.5,2
+B01,piezo pocket,"(0,20)",D12.5 depth1.5 from bottom,1
+B01,wire channel,x0..9 y18.9..21.1,depth1.2 from bottom,right edge open
+B01,tower,y62..68 z5..12,width18,1
+B01,tower hole,x0 z7.5,D3.4 THRU along Y,1
+B01,rear clearance,x-4..4 y68..74,top pocket depth1.5; floor z3.5,1
+C01,blank,18 x 40 x 5,,A6061-T6
+C01,hold tapped holes,"(+/-6,3)",M3x0.5 THRU; tap drill D2.5,2
+C01,clamp clearance,"(+/-4,34)",D3.4 THRU,2
+C01,rear tap,x0 z2.5 y40 inward,M3x0.5 usable depth10; cylindrical drill12 plus point .75,1
+A01,blank,18 x 26 x 10,,C3604
+A01,ball bore,x0 z5 from rear y26,D8 depth20 along -Y; seat y6,1
+A01,string slot,x+/-1.7 y0..26,width3.4; bottom z3.3; depth6.7 from top,open top
+A01,height taps,"(+/-6,11), (+/-6,22)",M3x0.5 THRU; tap drill D2.5,4
+A01,hold clearance,"(+/-6,3)",D3.4 THRU,2
+B01,outline fillet,four vertical corners,R3 constant along plate height,Rev B
+B01,plate edge fillet,top/bottom outer perimeter,R0.2,functional pockets not rounded
+B01,tower fillet,four vertical corners / top perimeter,R1.5 / R1.0,integral tower root preserved
+C01,outer fillet,four vertical corners / top+bottom perimeter,R2 / R0.2,screw lands retained
+A01,outer fillet,four vertical corners / top+bottom perimeter,R2 / R0.2,screw lands retained
+A01,slot mouth fillet,two long upper edges x+/-1.7 z10,R0.2,seat / minimum slot width / floor preserved

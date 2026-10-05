@@ -1,0 +1,13 @@
+feature,RevG_coordinate,RevH_coordinate,physical_change
+base length,98,86,front edge trimmed12mm toward end
+front body mount,0/5,0/8,15mm toward end using unchanged wall datum
+piezo centre,0/20,0/24,16mm toward end using unchanged wall datum
+rear body mount,0/93,0/81,same physical position; datum shifted12
+clamp pads,+-6/54,+-6/42,same physical position; datum shifted12
+wall,Y75..81,Y63..69,same physical position; datum shifted12
+ribs,Bezier plus compound outer fillets,straight planar3mm webs withC0.25,no stepped upper rim beneath web root; internalR2 retained
+anchor,A06,A06,unchanged local geometry and matching drawing
+normal anchor q,8..18,-4..6,same10mm travel
+nominal maximum q,8..20,-4..8,same12mm conditional travel
+string axis height,8..20,8..20,unchanged reference ball envelope
+assembly,front fixing accessible,front fixing under removable anchor,fix base first then install anchor

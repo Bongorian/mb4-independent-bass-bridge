@@ -1,0 +1,155 @@
+[
+  {
+    "revision": "A",
+    "title": "初期構成",
+    "preview": "revisions/A/bridge_preview.png",
+    "sha256": "583a3440a0919e44186a5de816ac35b5a45d4617351bd3c5e301962cad047db5",
+    "base_length_mm": 82,
+    "minimum_reference_string_centre_mm": 15,
+    "CNC_parts_per_string": 3,
+    "changes": [
+      "各弦独立・裏面ピエゾの基本構成",
+      "ベース＋キャリッジ＋黄銅アンカー"
+    ],
+    "sources": [
+      "revisions/A/cad/parameters.json",
+      "revisions/A/README.txt"
+    ]
+  },
+  {
+    "revision": "B",
+    "title": "外周に丸み",
+    "preview": "revisions/B/bridge_preview.png",
+    "sha256": "bf3e171965da1bbc31708878c689cb3859f3dab62d46bdf0a115dc3fb28f5cf8",
+    "base_length_mm": 82,
+    "minimum_reference_string_centre_mm": 15,
+    "CNC_parts_per_string": 3,
+    "changes": [
+      "ベース・アンカーの外周にRを追加",
+      "基本機構と機能寸法を維持"
+    ],
+    "sources": [
+      "revisions/B/cad/parameters.json",
+      "revisions/B/README.txt"
+    ]
+  },
+  {
+    "revision": "C",
+    "title": "低弦高化・2部品化",
+    "preview": "revisions/C/bridge_preview.png",
+    "sha256": "278ebc45f9dd5af6ca0abaf9ccc389fb9112797d3b78e6d3d2d65703c9ae45d7",
+    "base_length_mm": 82,
+    "minimum_reference_string_centre_mm": 8,
+    "CNC_parts_per_string": 2,
+    "changes": [
+      "キャリッジとアンカーを一体化",
+      "ネジ＋バネで12 mmの前後調整"
+    ],
+    "sources": [
+      "revisions/C/cad/parameters.json",
+      "revisions/C/README.txt"
+    ]
+  },
+  {
+    "revision": "D",
+    "title": "後壁と固定部を補強",
+    "preview": "revisions/D/bridge_preview.png",
+    "sha256": "553431990bd22a2f1baaf5238a1f7ec9dd9751611165b9c34683b580b3e74fda",
+    "base_length_mm": 82,
+    "minimum_reference_string_centre_mm": 8,
+    "CNC_parts_per_string": 2,
+    "changes": [
+      "前後リブと厚い固定パッドを追加",
+      "後方調整ネジをM3からM4へ"
+    ],
+    "sources": [
+      "revisions/D/cad/parameters.json",
+      "revisions/D/README.txt"
+    ]
+  },
+  {
+    "revision": "E",
+    "title": "アーチと曲線リブ",
+    "preview": "revisions/E/bridge_preview.png",
+    "sha256": "c92ce69a3d5a15e4e39e012d86697611f1415e9b808889a4b882bf237b764973",
+    "base_length_mm": 90,
+    "minimum_reference_string_centre_mm": 8,
+    "CNC_parts_per_string": 2,
+    "changes": [
+      "後壁をアーチ化・曲線リブを採用",
+      "後方2穴を追加し、ベース長90 mmへ"
+    ],
+    "sources": [
+      "revisions/E/cad/parameters.json",
+      "revisions/E/README.md"
+    ]
+  },
+  {
+    "revision": "F",
+    "title": "後方1穴・一体クラウン",
+    "preview": "revisions/F/bridge_preview.png",
+    "sha256": "64434f03fbd2ecef063506475718e73a46690daaa6fb4f98a3adcf8a7c25d511",
+    "base_length_mm": 90,
+    "minimum_reference_string_centre_mm": 8,
+    "CNC_parts_per_string": 2,
+    "changes": [
+      "後方2穴を中央1穴へ戻す",
+      "丸いクラウンとミスミ標準金物を採用"
+    ],
+    "sources": [
+      "revisions/F/cad/parameters.json",
+      "revisions/F/README.md"
+    ]
+  },
+  {
+    "revision": "G",
+    "title": "アルミ化・加工性を見直し",
+    "preview": "revisions/G/bridge_preview.png",
+    "sha256": "35fa74be8e33dfb2dc902046bd0525f082c49787627993aed203608eff83c184",
+    "base_length_mm": 98,
+    "minimum_reference_string_centre_mm": 8,
+    "CNC_parts_per_string": 2,
+    "changes": [
+      "両部品を6061-T6に統一・丸みを追加",
+      "穴の交差を修正、後タップを裏窓へ貫通"
+    ],
+    "sources": [
+      "revisions/G/cad/parameters.json",
+      "revisions/G/README.txt"
+    ]
+  },
+  {
+    "revision": "H",
+    "title": "ベース短縮・リブを簡潔に",
+    "preview": "revisions/H/bridge_preview.png",
+    "sha256": "8a08c11dfb315ccd4a8abea913a96e2d4f2995089e1baa1c459313384edfbd00",
+    "base_length_mm": 86,
+    "minimum_reference_string_centre_mm": 8,
+    "CNC_parts_per_string": 2,
+    "changes": [
+      "前取付穴とピエゾをエンド側へ移動",
+      "ベース長98→86 mm・リブを平面化"
+    ],
+    "sources": [
+      "revisions/H/cad/parameters.json",
+      "revisions/H/README.txt"
+    ]
+  },
+  {
+    "revision": "I",
+    "title": "調整範囲を20 mmへ",
+    "preview": "revisions/I/bridge_preview.png",
+    "sha256": "809d33d65d3ec7e379a9933fdf9003a0b9b98c7cb178c82dffc658a42ece7d89",
+    "base_length_mm": 86,
+    "minimum_reference_string_centre_mm": 8,
+    "CNC_parts_per_string": 2,
+    "changes": [
+      "長穴を延長、M4×45全ねじ＋長いバネ",
+      "ベース長86 mmを維持して可動域を拡大"
+    ],
+    "sources": [
+      "revisions/I/cad/parameters.json",
+      "revisions/I/README.txt"
+    ]
+  }
+]

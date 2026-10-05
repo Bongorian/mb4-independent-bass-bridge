@@ -1,0 +1,66 @@
+{
+  "revision": "F",
+  "cases": [
+    {
+      "q": 8,
+      "g": 0,
+      "catalogue_OD6_envelope": "clear",
+      "rear_D6_driver": "clear"
+    },
+    {
+      "q": 8,
+      "g": 6,
+      "catalogue_OD6_envelope": "clear",
+      "rear_D6_driver": "clear"
+    },
+    {
+      "q": 8,
+      "g": 12,
+      "catalogue_OD6_envelope": "clear",
+      "rear_D6_driver": "clear"
+    },
+    {
+      "q": 14,
+      "g": 0,
+      "catalogue_OD6_envelope": "clear",
+      "rear_D6_driver": "clear"
+    },
+    {
+      "q": 14,
+      "g": 6,
+      "catalogue_OD6_envelope": "clear",
+      "rear_D6_driver": "clear"
+    },
+    {
+      "q": 14,
+      "g": 12,
+      "catalogue_OD6_envelope": "clear",
+      "rear_D6_driver": "clear"
+    },
+    {
+      "q": 20,
+      "g": 0,
+      "catalogue_OD6_envelope": "clear",
+      "rear_D6_driver": "clear"
+    },
+    {
+      "q": 20,
+      "g": 6,
+      "catalogue_OD6_envelope": "clear",
+      "rear_D6_driver": "clear"
+    },
+    {
+      "q": 20,
+      "g": 12,
+      "catalogue_OD6_envelope": "clear",
+      "rear_D6_driver": "clear"
+    }
+  ],
+  "spring_ID_nominal": 5.3,
+  "spring_ID_at_OD_lower_limit_reference": 4.8,
+  "bolt_diameter": 4,
+  "minimum_plain_shank_gap_nominal": 1.5,
+  "minimum_thread_overlap_nominal": 6.5,
+  "height_tap": "M4x0.7 THRU8",
+  "limitations": "nominal dimensions; no physical tolerance/strength certification"
+}

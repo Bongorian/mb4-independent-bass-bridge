@@ -1,0 +1,9 @@
+{
+  "module_x_envelope_mm": [
+    -9.0000001,
+    9.0000001
+  ],
+  "pitch_mm": 19,
+  "adjacent_envelope_gap_mm": 0.9999998000000012,
+  "condition": "x geometry independent of height/intonation position; M3 washerOD6 required"
+}

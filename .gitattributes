@@ -1,0 +1,9 @@
+# Keep saved CAD, drawings and historical documents byte-for-byte.
+revisions/** -text
+
+# Treat large manufacturing formats as binary in diffs.
+*.step binary
+*.dxf binary
+*.png binary
+*.pdf binary
+*.zip binary

@@ -1,0 +1,23 @@
+﻿part,feature,location_mm,machining
+B04,blank,18 x 90; plateZ0..3; max25,A6061-T6; planR4; front topR0.5 bottomR0.2
+B04,front mount,"(0,5)",D3.8 THRU3; CSK D7 90deg depth1.6; remaining1.4
+B04,rear mount,"(0,85)",D3.8 THRU5; CSK D7 90deg depth1.6; remaining3.4
+B04,rear flange,Y80..90 topZ5,outer top rimR0.6; cubic ramp Y78..80 Z3..5; see STEP
+B04,ramp Bezier control YZ,"(78,3); (78+2/3,3); (78+4/3,5); (80,5)",cubic profile extruded width18
+B04,clamp pads,"(+/-6,46)",6x6 topZ6; planR1 topR0.2; integral
+B04,clamp taps,"(+/-6,46)",M3x0.5-6H THRU6; drillD2.5
+B04,piezo,"(0,20)",bottom D12.5 depth1.5; remaining1.5
+B04,wire,X0..9 Y18.9..21.1,bottom depth1.2; side open
+B04,wall,Y67..73; shouldersZ16; apexZ25,"XZ crownR9 center(0,16); front/back profileR0.8; front central rootR0.8"
+B04,front ribs,"X[-9,-6] and[6,9]","YZ quadratic Bezier (60.5,3),(63.75,3),(67,16); floorZ3; exposed curved edgesR0.6"
+B04,rear ribs,"X[-9,-6] and[6,9]","YZ quadratic Bezier (80,5),(76.5,5),(73,16); floorZ3; exposed curved edgesR0.6"
+B04,rear slot,X0 Z13,width4.5 total16.5 THRU6; axesZ7..19
+B04,rear washer clearance,X+/-4.5 Y73..74,floorZ2
+A05,blank,18x42; bodyZ0..8; crown topZ10,C3604; noseR7; waist Beziers and rearR3: STEP; upperR0.5; lowerR0.3
+A05,crown,"center(0,9); D12; topZ10",integral boss; upperR0.8 rootR0.4
+A05,ball cradle,X+/-4 Y6..17,floorZ2; planR1.5; shoulderY6
+A05,string slot,X+/-1.7 Y0..22,floorZ3.3; crown upper lipsR0.25
+A05,height taps,"(+/-5,15),(+/-5,20.5)",M4x0.7-6H THRU8; drillD3.3
+A05,clamp slots,"(+/-6,32)",width3.4 total15.4; clamp lane materialZ3..8
+A05,under relief,"(+/-6,32)",6x20 depth3; planR1; sides open
+A05,rear tap,X0 Z4 fromY42 towards-Y,M4x0.7-6H usable20 min; drillD3.3 depth22+point1.0

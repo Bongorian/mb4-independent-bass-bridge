@@ -1,0 +1,29 @@
+MB4 Rev E 金物の仕様参照（2026-10-05調査）
+型番例は寸法と規格の参照。価格・国内在庫・発送先は未確認。
+同等規格の一般的なステンレス金物から調達してください。
+
+M4×35全ねじ 六角穴付：Accu SSCF-M4-35-A2-BL 等
+https://www.accu.co.uk/metric-cap-head-screws/159430-SSCF-M4-35-A2-BL
+標準キャップ頭φ7×4、六角3、ピッチ0.7。全ねじ指定が必要。
+
+M3小径座金：DIN433 φ6/内径3.2/厚0.5
+https://www.accu.co.uk/metric-flat-washers/404911-HRDW-M3-A4
+M4小径座金：DIN433 φ8/内径4.3/厚0.5
+https://www.accu.co.uk/metric-flat-washers/404944-HRDW-M4-A4-BL
+M3は一般φ7では隣弦の座金との余裕が小さいため、外径6以下を使用。
+
+圧縮ばね：MBA CS-0500-0200-03-S4-C
+https://minibearings.com/products/5-20-0-3-springs-cs0500020003s4c
+メーカーPDF p.20：
+https://files.minibearings.au/pdf/catalogues/Springs.pdf
+OD5、自由長20、線0.3、内径4.4参考、作動5で荷重1.47 N、密着3.15、定数0.1 N/mm。
+外形だけで代用せず、M4軸の通過と使用作動長5〜17の条件を購入品で確認。
+
+ねじ引張応力断面積：Bossard Materials screws & nuts の並目ねじ表
+M3 5.03 mm2、M4 8.78 mm2。
+https://www.bossard.com.cn/-/media/bossard-group/website/documents/technical-resources/en/f-009-en.pdf
+参照寸法は概算比較用。強度等級・締付け・局所応力を含む全体強度保証ではありません。
+
+Rev Eの木ねじ：SUS皿木ねじ3.5×20、頭外径7以下、計12本。
+前座面厚3／後座面厚5。頭形状と木部の下穴・保持力は実物確認。
+金物規格はRev Dと同じ。後方左右固定に伴い木ねじのみ4本増加。

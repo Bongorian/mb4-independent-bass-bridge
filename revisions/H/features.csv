@@ -1,0 +1,12 @@
+﻿part,feature,coordinates_mm,machining
+B06,Mounts,X0/Y8 and X0/Y81,D3.8 THRU; CSK D7/90 depth1.6
+B06,Clamps,X+/-6/Y42,M3x0.5-6H THRU6; pilot2.5
+B06,Piezo,X0/Y24,Bottom D12.5 depth1.5; wireW2.2 depth1.2
+B06,Wall,Y63..69,R9 arch apex25; arch/web edgesC0.25; wall-rib internalR2
+B06,Ribs,"X[-9,-6] and[6,9]",Straight web faces; diagonalC0.25; STEP geometry
+A06,Height,X+/-5.25/Y20 and Y27,M4x0.7-6H THRU8; pilot3.3
+A06,Rear thread,X0/Z4 fromY50 towards-Y,M4x0.7-6H THRU to underside window; pilot3.3 path12; full land8minY42..50; tap all outlet walls
+A06,Central window,X0/Y32.5,W4.4/L15/depth6.3/R1.5
+A06,Side relief,X+/-6/Y40,6x20/depth3/R1.5
+A06,Clamps,X+/-6/Y40,SlotW3.4/totalL15.4
+A06,Crown,X0/Y9,D12/topZ10/topR1/rootR0.8; body upperR0.8/lowerR0.4

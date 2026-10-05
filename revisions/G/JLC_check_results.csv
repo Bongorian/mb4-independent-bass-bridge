@@ -1,0 +1,10 @@
+item,Rev_F_issue,Rev_G_change,result,remaining_confirmation
+materials,Anchor C3604 inconsistent with aluminum request,Both parts6061-T6,updated,supplier selected material must match PDFs
+front height tap,breakout into ball pocket,move axes to +/-5.25/Y20,0.8 radial guard present Z1..7,actual thread quality and loaded strength
+rear height tap,near/open into side underside relief,move axes to +/-5.25/Y27 with side relief startingY30,0.8 radial guard present Z1..7,actual thread quality and loaded strength
+rear axial tap,20mm usable blind tap plus drill allowance,THRU to open window pilot path12 / full land8min,full rear land guard presentY42..50,tap partial outlet walls too
+internal wall/rib corner,sharp plan corner,R2 actual solid fillet,valid STEP,manual tool access review
+external finish,small edge rounds,larger geometric rounds plus buttonhead references,valid STEP / refreshed previews,finish price and actual surface appearance
+rear mounting,keep1 rear hole,module rear centralX0/Y93,8 body mount holes total,actual wood screw head and wood pilot choice
+height and motion,sub10mm required,reference string axis8..20; usual motion10 nominal max12,9 assembly cases and1201 height choices passed,real ball contact and actual spring length
+ordering,assembly STEP unsuitable,separate single part STEP plus same-namePDF,upload ZIP structure prepared,JLC manual acceptance and price not yet obtained

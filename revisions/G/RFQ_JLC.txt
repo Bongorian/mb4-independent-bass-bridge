@@ -1,0 +1,36 @@
+MB4 Rev G - quote request specification (not yet submitted)
+
+Two separate line items, each quantity 4:
+B05_smooth_base.step + B05_smooth_base.pdf
+A06_smooth_anchor.step + A06_smooth_anchor.pdf
+Both Aluminum 6061-T6, as-machined. Dimensions mm. Threads YES.
+
+The parts assemble together as an independent bass-string bridge module.
+The STEP holes are tap drill diameters. Please make the M3x0.5-6H and
+M4x0.7-6H threads specified on the matching drawings.
+A06 rear tap is THRU to an open underside window, not a deep blind tap.
+Tap every remaining outlet wall, with a fully circumferential threaded
+land of at least 8 mm at Y42..50. Total pilot drilling path from Y50 is12 mm.
+
+Please confirm:
+- Rear axial tap reaches its open underside outlet and is deburred there.
+- Top/bottom milling access to rounded pockets and underside relief.
+- Machining access to R2 wall/rib inner corners and curved outside fillets.
+- Specified functional seats and hole positions are retained.
+- Internal floor-wall easing R0.2 MAX, protected hole mouths/seats C0.1 MAX;
+  remaining cosmetic edges C0.2 MAX.
+- Quote includes the standard threads; no inserts or custom hardware needed.
+
+3D geometry from STEP; threads, tolerances and finish from matching PDF.
+General dimensions ISO2768-m; only marked functional hole positions/widths
++/-0.05. Body seating flatness0.05. Ra3.2 target. Do not polish functional seats.
+Do not use the assembly STEP or mesh/render files for manufacturing.
+
+Public reference (checked2026-10-05):
+https://jlccnc.com/help/article/cnc-machining-ordering-guidelines
+https://jlccnc.com/help/article/cnc-machining-design-guideline
+https://jlccnc.com/help/article/threaded-hole-guideline
+https://jlccnc.com/help/article/aluminum-6061-cnc-machining
+
+Status: CAD feasibility review passed within the stated checks. This is not
+supplier acceptance, a firm quote or a strength certification.

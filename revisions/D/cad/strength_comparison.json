@@ -1,0 +1,62 @@
+{
+  "load_assumption_N_per_string": 350.0,
+  "gap_test_mm": 12,
+  "max_string_axis_mm": 20,
+  "rear_screw_axes_mm": {
+    "C": 18,
+    "D": 19
+  },
+  "z_scan_mm": [
+    3.6,
+    18.6
+  ],
+  "z_step_mm": 0.2,
+  "peak_nominal_bending": {
+    "C": {
+      "rev": "C",
+      "z": 5.2,
+      "area_mm2": 89.14159265359287,
+      "centroid_y": 69.99999999999997,
+      "Ixx_mm4": 263.3517687776475,
+      "section_modulus_mm3": 87.78392292588167,
+      "nominal_bending_MPa": 51.03440186630284
+    },
+    "D": {
+      "rev": "D",
+      "z": 6.8,
+      "area_mm2": 108.87688418311618,
+      "centroid_y": 69.79722846800819,
+      "Ixx_mm4": 756.6365170622012,
+      "section_modulus_mm3": 136.81006455414163,
+      "nominal_bending_MPa": 31.211154047151094
+    }
+  },
+  "peak_stress_D_over_C": 0.6115708797551186,
+  "central_spine_net_area_estimate_mm2": {
+    "C": 20.531416529422962,
+    "D": 48.43362938564083,
+    "ratio": 2.3590008666100575
+  },
+  "screw_tensile_area_mm2": {
+    "M3": 5.03,
+    "M4": 8.78,
+    "ratio": 1.7455268389662026
+  },
+  "clamp_engagement_mm": {
+    "C": [
+      2.3,
+      2.8
+    ],
+    "D": [
+      5.3,
+      5.8
+    ]
+  },
+  "limitations": [
+    "nominal cantilever section comparison, NOT FEA",
+    "geometry-dependent local notch stress omitted",
+    "rigid base idealization; screws, preload, fatigue, body wood not modeled",
+    "350N chosen comparison assumption, actual string load not measured"
+  ],
+  "source_screw_area": "Bossard f-009-en.pdf, metric coarse-thread tensile stress areas"
+}

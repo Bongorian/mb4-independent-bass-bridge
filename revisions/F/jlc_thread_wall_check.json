@@ -1,0 +1,478 @@
+{
+  "part": "A05_crown_anchor",
+  "revision": "F",
+  "nominal_thread_major_diameter_mm": 4,
+  "probe_radius_mm": 2.02,
+  "results": [
+    {
+      "hole_center_xy_mm": [
+        -5,
+        15
+      ],
+      "direction": "toward_cradle",
+      "xyz_mm": [
+        -2.98,
+        15,
+        1
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        -5,
+        15
+      ],
+      "direction": "toward_cradle",
+      "xyz_mm": [
+        -2.98,
+        15,
+        3
+      ],
+      "material_present": false
+    },
+    {
+      "hole_center_xy_mm": [
+        -5,
+        15
+      ],
+      "direction": "toward_cradle",
+      "xyz_mm": [
+        -2.98,
+        15,
+        6
+      ],
+      "material_present": false
+    },
+    {
+      "hole_center_xy_mm": [
+        -5,
+        15
+      ],
+      "direction": "outer_side",
+      "xyz_mm": [
+        -7.02,
+        15,
+        1
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        -5,
+        15
+      ],
+      "direction": "outer_side",
+      "xyz_mm": [
+        -7.02,
+        15,
+        3
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        -5,
+        15
+      ],
+      "direction": "outer_side",
+      "xyz_mm": [
+        -7.02,
+        15,
+        6
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        -5,
+        15
+      ],
+      "direction": "rearward",
+      "xyz_mm": [
+        -5,
+        17.02,
+        1
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        -5,
+        15
+      ],
+      "direction": "rearward",
+      "xyz_mm": [
+        -5,
+        17.02,
+        3
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        -5,
+        15
+      ],
+      "direction": "rearward",
+      "xyz_mm": [
+        -5,
+        17.02,
+        6
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        -5,
+        20.5
+      ],
+      "direction": "toward_cradle",
+      "xyz_mm": [
+        -2.98,
+        20.5,
+        1
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        -5,
+        20.5
+      ],
+      "direction": "toward_cradle",
+      "xyz_mm": [
+        -2.98,
+        20.5,
+        3
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        -5,
+        20.5
+      ],
+      "direction": "toward_cradle",
+      "xyz_mm": [
+        -2.98,
+        20.5,
+        6
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        -5,
+        20.5
+      ],
+      "direction": "outer_side",
+      "xyz_mm": [
+        -7.02,
+        20.5,
+        1
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        -5,
+        20.5
+      ],
+      "direction": "outer_side",
+      "xyz_mm": [
+        -7.02,
+        20.5,
+        3
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        -5,
+        20.5
+      ],
+      "direction": "outer_side",
+      "xyz_mm": [
+        -7.02,
+        20.5,
+        6
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        -5,
+        20.5
+      ],
+      "direction": "rearward",
+      "xyz_mm": [
+        -5,
+        22.52,
+        1
+      ],
+      "material_present": false
+    },
+    {
+      "hole_center_xy_mm": [
+        -5,
+        20.5
+      ],
+      "direction": "rearward",
+      "xyz_mm": [
+        -5,
+        22.52,
+        3
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        -5,
+        20.5
+      ],
+      "direction": "rearward",
+      "xyz_mm": [
+        -5,
+        22.52,
+        6
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        5,
+        15
+      ],
+      "direction": "toward_cradle",
+      "xyz_mm": [
+        2.98,
+        15,
+        1
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        5,
+        15
+      ],
+      "direction": "toward_cradle",
+      "xyz_mm": [
+        2.98,
+        15,
+        3
+      ],
+      "material_present": false
+    },
+    {
+      "hole_center_xy_mm": [
+        5,
+        15
+      ],
+      "direction": "toward_cradle",
+      "xyz_mm": [
+        2.98,
+        15,
+        6
+      ],
+      "material_present": false
+    },
+    {
+      "hole_center_xy_mm": [
+        5,
+        15
+      ],
+      "direction": "outer_side",
+      "xyz_mm": [
+        7.02,
+        15,
+        1
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        5,
+        15
+      ],
+      "direction": "outer_side",
+      "xyz_mm": [
+        7.02,
+        15,
+        3
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        5,
+        15
+      ],
+      "direction": "outer_side",
+      "xyz_mm": [
+        7.02,
+        15,
+        6
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        5,
+        15
+      ],
+      "direction": "rearward",
+      "xyz_mm": [
+        5,
+        17.02,
+        1
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        5,
+        15
+      ],
+      "direction": "rearward",
+      "xyz_mm": [
+        5,
+        17.02,
+        3
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        5,
+        15
+      ],
+      "direction": "rearward",
+      "xyz_mm": [
+        5,
+        17.02,
+        6
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        5,
+        20.5
+      ],
+      "direction": "toward_cradle",
+      "xyz_mm": [
+        2.98,
+        20.5,
+        1
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        5,
+        20.5
+      ],
+      "direction": "toward_cradle",
+      "xyz_mm": [
+        2.98,
+        20.5,
+        3
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        5,
+        20.5
+      ],
+      "direction": "toward_cradle",
+      "xyz_mm": [
+        2.98,
+        20.5,
+        6
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        5,
+        20.5
+      ],
+      "direction": "outer_side",
+      "xyz_mm": [
+        7.02,
+        20.5,
+        1
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        5,
+        20.5
+      ],
+      "direction": "outer_side",
+      "xyz_mm": [
+        7.02,
+        20.5,
+        3
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        5,
+        20.5
+      ],
+      "direction": "outer_side",
+      "xyz_mm": [
+        7.02,
+        20.5,
+        6
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        5,
+        20.5
+      ],
+      "direction": "rearward",
+      "xyz_mm": [
+        5,
+        22.52,
+        1
+      ],
+      "material_present": false
+    },
+    {
+      "hole_center_xy_mm": [
+        5,
+        20.5
+      ],
+      "direction": "rearward",
+      "xyz_mm": [
+        5,
+        22.52,
+        3
+      ],
+      "material_present": true
+    },
+    {
+      "hole_center_xy_mm": [
+        5,
+        20.5
+      ],
+      "direction": "rearward",
+      "xyz_mm": [
+        5,
+        22.52,
+        6
+      ],
+      "material_present": true
+    }
+  ],
+  "finding": "Front height holes open into the ball pocket above its Z2 floor. Rear holes also approach the bottom relief. Full-thickness cylindrical tap assumptions are not valid.",
+  "limitations": "Finite spot checks; no thread geometry, strength, CAM toolpath or supplier acceptance analysis."
+}

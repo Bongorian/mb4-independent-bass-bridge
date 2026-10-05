@@ -1,0 +1,234 @@
+{
+  "revision": "F-single-rear-crown-prototype",
+  "units": "mm",
+  "valid_solids": {
+    "B04_single_rear_base": {
+      "volume_mm3": 7130.258603446746,
+      "bbox_mm": [
+        18.000000200000386,
+        90.0,
+        25.0
+      ]
+    },
+    "A05_crown_anchor": {
+      "volume_mm3": 3249.5722529005916,
+      "bbox_mm": [
+        18.000000200001814,
+        42.0000001,
+        10.000000200000004
+      ]
+    }
+  },
+  "assembly_solids": 64,
+  "limits": [
+    {
+      "q": 8,
+      "g": 0,
+      "string_axis_height": 8,
+      "spring_length": 17,
+      "spring_force_reference_N": 0.29400000000000004,
+      "solid_height_margin": 13.15,
+      "intonation_thread_overlap": 6.5,
+      "plain_shank_gap": 13.5,
+      "screw_tip_local_y": 35.5,
+      "clamp_length": 12,
+      "clamp_washer_stack": 1.5,
+      "clamp_tip_z": 0.5,
+      "clamp_thread_engagement": 5.5,
+      "height_screw_length": 8,
+      "height_thread_engagement": 8
+    },
+    {
+      "q": 8,
+      "g": 6,
+      "string_axis_height": 14,
+      "spring_length": 17,
+      "spring_force_reference_N": 0.29400000000000004,
+      "solid_height_margin": 13.15,
+      "intonation_thread_overlap": 6.5,
+      "plain_shank_gap": 13.5,
+      "screw_tip_local_y": 35.5,
+      "clamp_length": 20,
+      "clamp_washer_stack": 3.5,
+      "clamp_tip_z": 0.5,
+      "clamp_thread_engagement": 5.5,
+      "height_screw_length": 12,
+      "height_thread_engagement": 6
+    },
+    {
+      "q": 8,
+      "g": 12,
+      "string_axis_height": 20,
+      "spring_length": 17,
+      "spring_force_reference_N": 0.29400000000000004,
+      "solid_height_margin": 13.15,
+      "intonation_thread_overlap": 6.5,
+      "plain_shank_gap": 13.5,
+      "screw_tip_local_y": 35.5,
+      "clamp_length": 25,
+      "clamp_washer_stack": 2.5,
+      "clamp_tip_z": 0.5,
+      "clamp_thread_engagement": 5.5,
+      "height_screw_length": 16,
+      "height_thread_engagement": 4
+    },
+    {
+      "q": 14,
+      "g": 0,
+      "string_axis_height": 8,
+      "spring_length": 11,
+      "spring_force_reference_N": 0.882,
+      "solid_height_margin": 7.15,
+      "intonation_thread_overlap": 12.5,
+      "plain_shank_gap": 7.5,
+      "screw_tip_local_y": 29.5,
+      "clamp_length": 12,
+      "clamp_washer_stack": 1.5,
+      "clamp_tip_z": 0.5,
+      "clamp_thread_engagement": 5.5,
+      "height_screw_length": 8,
+      "height_thread_engagement": 8
+    },
+    {
+      "q": 14,
+      "g": 6,
+      "string_axis_height": 14,
+      "spring_length": 11,
+      "spring_force_reference_N": 0.882,
+      "solid_height_margin": 7.15,
+      "intonation_thread_overlap": 12.5,
+      "plain_shank_gap": 7.5,
+      "screw_tip_local_y": 29.5,
+      "clamp_length": 20,
+      "clamp_washer_stack": 3.5,
+      "clamp_tip_z": 0.5,
+      "clamp_thread_engagement": 5.5,
+      "height_screw_length": 12,
+      "height_thread_engagement": 6
+    },
+    {
+      "q": 14,
+      "g": 12,
+      "string_axis_height": 20,
+      "spring_length": 11,
+      "spring_force_reference_N": 0.882,
+      "solid_height_margin": 7.15,
+      "intonation_thread_overlap": 12.5,
+      "plain_shank_gap": 7.5,
+      "screw_tip_local_y": 29.5,
+      "clamp_length": 25,
+      "clamp_washer_stack": 2.5,
+      "clamp_tip_z": 0.5,
+      "clamp_thread_engagement": 5.5,
+      "height_screw_length": 16,
+      "height_thread_engagement": 4
+    },
+    {
+      "q": 20,
+      "g": 0,
+      "string_axis_height": 8,
+      "spring_length": 5,
+      "spring_force_reference_N": 1.47,
+      "solid_height_margin": 1.15,
+      "intonation_thread_overlap": 18.5,
+      "plain_shank_gap": 1.5,
+      "screw_tip_local_y": 23.5,
+      "clamp_length": 12,
+      "clamp_washer_stack": 1.5,
+      "clamp_tip_z": 0.5,
+      "clamp_thread_engagement": 5.5,
+      "height_screw_length": 8,
+      "height_thread_engagement": 8
+    },
+    {
+      "q": 20,
+      "g": 6,
+      "string_axis_height": 14,
+      "spring_length": 5,
+      "spring_force_reference_N": 1.47,
+      "solid_height_margin": 1.15,
+      "intonation_thread_overlap": 18.5,
+      "plain_shank_gap": 1.5,
+      "screw_tip_local_y": 23.5,
+      "clamp_length": 20,
+      "clamp_washer_stack": 3.5,
+      "clamp_tip_z": 0.5,
+      "clamp_thread_engagement": 5.5,
+      "height_screw_length": 12,
+      "height_thread_engagement": 6
+    },
+    {
+      "q": 20,
+      "g": 12,
+      "string_axis_height": 20,
+      "spring_length": 5,
+      "spring_force_reference_N": 1.47,
+      "solid_height_margin": 1.15,
+      "intonation_thread_overlap": 18.5,
+      "plain_shank_gap": 1.5,
+      "screw_tip_local_y": 23.5,
+      "clamp_length": 25,
+      "clamp_washer_stack": 2.5,
+      "clamp_tip_z": 0.5,
+      "clamp_thread_engagement": 5.5,
+      "height_screw_length": 16,
+      "height_thread_engagement": 4
+    }
+  ],
+  "hardware_interference": "passed; mating threads excluded",
+  "rear_mounts": {
+    "xy_mm": [
+      [
+        0,
+        85
+      ]
+    ],
+    "seat_z_mm": 5,
+    "driver_clearance": "D6 x35 vertical envelope passed with adjustment hardware present"
+  },
+  "front_mount_xy_mm": [
+    0,
+    5
+  ],
+  "ball_reference": "D6 x thickness4.75 cylinder: 4 cradle positions clear, floorZ2",
+  "clamp_tip_sweep": "1201 heights in 0..12: tipsZ0.2..0.7",
+  "height_jack_sweep": "1201 heights in 0..12: M4 length8/12/16, engagement4..8; top flush or recessed",
+  "anchor_features": {
+    "crown_diameter": 12,
+    "crown_center_xy": [
+      0,
+      9
+    ],
+    "body_top_z": 8,
+    "crown_top_z": 10,
+    "height_taps_xy": [
+      [
+        -5,
+        15
+      ],
+      [
+        -5,
+        20.5
+      ],
+      [
+        5,
+        15
+      ],
+      [
+        5,
+        20.5
+      ]
+    ],
+    "cradle_y": [
+      6,
+      17
+    ]
+  },
+  "spring_model": "constant-pitch reference only; verify purchased spring ends and load curve",
+  "not_tested": [
+    "physical ball/winding fit",
+    "strength/fatigue",
+    "acoustic/piezo output",
+    "specific bass fit"
+  ]
+}

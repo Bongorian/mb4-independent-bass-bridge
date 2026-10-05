@@ -1,0 +1,19 @@
+﻿part,feature,location_mm,machining
+B02,blank,18 x 82; plateZ0..3; walltop25,A6061-T6; outlineR3; edgeR0.2
+B02,mount,"(0,4),(0,78)",D3.8 THRU3; CSK D7 90deg depth1.6
+B02,clamp pads,"(+/-6,46)",6x6 topZ6; planR1 top edgeR0.2; integral
+B02,clamp taps,"(+/-6,46)",M3x0.5-6H THRU6; drillD2.5
+B02,piezo,"(0,20)",bottom D12.5 depth1.5; remaining1.5
+B02,wire,X0..9 Y18.9..21.1,bottom depth1.2; side open
+B02,wall,Y67..73 Z3..25,outlineR1; topR0.8; front central rootR1
+B02,front gussets,"X[-9,-6] and[6,9]","YZ triangles (63,3),(67,3),(67,15); exposed diagonalsR0.2"
+B02,rear gussets,"X[-9,-6] and[6,9]","YZ triangles (73,3),(76,3),(73,15); exposed diagonalsR0.2"
+B02,rear slot,X0 Z13,width4.5 total16.5 THRU6; axesZ7..19
+B02,rear washer clearance,X+/-4.5 Y73..74,top depth1; floorZ2
+A03,blank,18 x 42; frontY0..22 H10; tailY20..42 H8,C3604; outerR2 edgesR0.2
+A03,ball cradle,X+/-4 Y6..22,depth8 floorZ2; planR1.5; shoulderY6
+A03,string slot,X+/-1.7 Y0..22,floorZ3.3; two long top lipsR0.2
+A03,height taps,"(+/-6,11),(+/-6,18)",M3x0.5-6H THRU10; drillD2.5
+A03,clamp slots,"(+/-6,32)",width3.4 total15.4 THRU8; actual clamp lane materialZ3..8
+A03,under relief,"(+/-6,32)",6x20 depth3 from bottom; plan cornersR1; sides open
+A03,rear tap,X0 Z4 fromY42 towards-Y,M4x0.7-6H usable20 min; drillD3.3 depth22+point1.0

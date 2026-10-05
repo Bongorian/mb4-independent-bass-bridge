@@ -1,0 +1,27 @@
+{
+  "revision": "I",
+  "units": "mm",
+  "upload_parts": [
+    {
+      "name": "B07_long_travel_base.step",
+      "size_bytes": 459461,
+      "sha256": "730e2d71fdc8dc95075bb3a977e9a78abde47b16d177f612eeede2bff351aedd"
+    },
+    {
+      "name": "B07_long_travel_base.pdf",
+      "size_bytes": 100894,
+      "sha256": "29c20effa926a2b16adc92cad67484550696a34a3af74080878e418098c4cdf7"
+    },
+    {
+      "name": "A07_long_travel_anchor.step",
+      "size_bytes": 672074,
+      "sha256": "743e3279bfd7eef8fc448ab9478504353d3ea7773925ca7b025572443e54c5ab"
+    },
+    {
+      "name": "A07_long_travel_anchor.pdf",
+      "size_bytes": 121559,
+      "sha256": "7b81432f6e36545f0e80c23faeb7bef168aa8a9e03f55bf1610e1fbc81a8683f"
+    }
+  ],
+  "supplier_status": "not submitted; manual review pending"
+}

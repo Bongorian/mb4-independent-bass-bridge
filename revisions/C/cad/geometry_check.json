@@ -1,0 +1,152 @@
+{
+  "revision": "C-low-spring-prototype",
+  "units": "mm",
+  "valid_solids": {
+    "B01_base": {
+      "volume_mm3": 5902.792910485095,
+      "bbox_mm": [
+        18.0000002,
+        82.0,
+        23.0
+      ]
+    },
+    "A02_integrated_anchor": {
+      "volume_mm3": 4042.460223810591,
+      "bbox_mm": [
+        18.0000002,
+        42.0,
+        10.000000199999999
+      ]
+    }
+  },
+  "assembly_solids": 64,
+  "limits": [
+    {
+      "q": 8,
+      "g": 0,
+      "string_axis_height": 8,
+      "spring_length": 17,
+      "spring_force_reference_N": 0.30000000000000004,
+      "solid_height_margin": 13.85,
+      "intonation_thread_overlap": 6.5,
+      "screw_tip_local_y": 35.5,
+      "clamp_length": 10,
+      "clamp_washer_stack": 1.5,
+      "clamp_tip_z": 0.5
+    },
+    {
+      "q": 8,
+      "g": 6,
+      "string_axis_height": 14,
+      "spring_length": 17,
+      "spring_force_reference_N": 0.30000000000000004,
+      "solid_height_margin": 13.85,
+      "intonation_thread_overlap": 6.5,
+      "screw_tip_local_y": 35.5,
+      "clamp_length": 16,
+      "clamp_washer_stack": 1.5,
+      "clamp_tip_z": 0.5
+    },
+    {
+      "q": 8,
+      "g": 12,
+      "string_axis_height": 20,
+      "spring_length": 17,
+      "spring_force_reference_N": 0.30000000000000004,
+      "solid_height_margin": 13.85,
+      "intonation_thread_overlap": 6.5,
+      "screw_tip_local_y": 35.5,
+      "clamp_length": 25,
+      "clamp_washer_stack": 4.5,
+      "clamp_tip_z": 0.5
+    },
+    {
+      "q": 14,
+      "g": 0,
+      "string_axis_height": 8,
+      "spring_length": 11,
+      "spring_force_reference_N": 0.9,
+      "solid_height_margin": 7.85,
+      "intonation_thread_overlap": 12.5,
+      "screw_tip_local_y": 29.5,
+      "clamp_length": 10,
+      "clamp_washer_stack": 1.5,
+      "clamp_tip_z": 0.5
+    },
+    {
+      "q": 14,
+      "g": 6,
+      "string_axis_height": 14,
+      "spring_length": 11,
+      "spring_force_reference_N": 0.9,
+      "solid_height_margin": 7.85,
+      "intonation_thread_overlap": 12.5,
+      "screw_tip_local_y": 29.5,
+      "clamp_length": 16,
+      "clamp_washer_stack": 1.5,
+      "clamp_tip_z": 0.5
+    },
+    {
+      "q": 14,
+      "g": 12,
+      "string_axis_height": 20,
+      "spring_length": 11,
+      "spring_force_reference_N": 0.9,
+      "solid_height_margin": 7.85,
+      "intonation_thread_overlap": 12.5,
+      "screw_tip_local_y": 29.5,
+      "clamp_length": 25,
+      "clamp_washer_stack": 4.5,
+      "clamp_tip_z": 0.5
+    },
+    {
+      "q": 20,
+      "g": 0,
+      "string_axis_height": 8,
+      "spring_length": 5,
+      "spring_force_reference_N": 1.5,
+      "solid_height_margin": 1.85,
+      "intonation_thread_overlap": 18.5,
+      "screw_tip_local_y": 23.5,
+      "clamp_length": 10,
+      "clamp_washer_stack": 1.5,
+      "clamp_tip_z": 0.5
+    },
+    {
+      "q": 20,
+      "g": 6,
+      "string_axis_height": 14,
+      "spring_length": 5,
+      "spring_force_reference_N": 1.5,
+      "solid_height_margin": 1.85,
+      "intonation_thread_overlap": 18.5,
+      "screw_tip_local_y": 23.5,
+      "clamp_length": 16,
+      "clamp_washer_stack": 1.5,
+      "clamp_tip_z": 0.5
+    },
+    {
+      "q": 20,
+      "g": 12,
+      "string_axis_height": 20,
+      "spring_length": 5,
+      "spring_force_reference_N": 1.5,
+      "solid_height_margin": 1.85,
+      "intonation_thread_overlap": 18.5,
+      "screw_tip_local_y": 23.5,
+      "clamp_length": 25,
+      "clamp_washer_stack": 4.5,
+      "clamp_tip_z": 0.5
+    }
+  ],
+  "hardware_interference": "passed; mating threads excluded",
+  "ball_reference": "D6 x thickness4.75 cylinder: 5 cradle positions clear, floorZ2",
+  "clamp_tip_sweep": "1201 heights in 0..12: tipsZ0.2..0.7",
+  "spring_model": "constant-pitch reference only; verify purchased spring ends and load curve",
+  "not_tested": [
+    "physical ball/winding fit",
+    "strength/fatigue",
+    "acoustic/piezo output",
+    "specific bass fit"
+  ]
+}

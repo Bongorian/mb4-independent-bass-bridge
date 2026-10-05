@@ -1,0 +1,20 @@
+﻿feature,RevH,RevI,reason_or_tradeoff
+base_length,86,86,unchanged
+base_width,18,18,unchanged
+normal_continuous_travel,10,20,doubled
+anchor_length,50,55,extended rear tail
+anchor_front_q,-4..6,-15..5,same datum as Rev H
+front_overhang_at_limit,4,15,overall module length90 ->101 at respective forward limits
+clamp_slot_total_length,15.4,23.4,usable M3 centre travel20 plus0.2 per end
+clamp_base_Y,42,36,moved forward6
+height_X,+/-5.25,+/-5.7,foot avoids front countersink over entire travel
+height_Y,20/27,19/25,four jacks retained; clears longer side relief
+wall_Y,63..69,70.5..76.5,moved rear7.5; thickness6 retained
+rear_rib_foot_Y,76,81.5,rear brace shortened to remain before outline corner
+rear_mount_Y,81,81,same body hole; CSK seat loweredZ5 ->Z3
+rear_head_clearance,none,top-open 8x8/R1.5 depth2 +D7.4 depth2,allows minimum reference string height8
+intonation_bolt,SCB4-30 partialthread20,SNSS-M4X45-FT FULL THREAD,new standard stainless bolt
+spring,UY6-20,UY6-35,new standard stainless spring
+piezo_centre_Y,24,24,unchanged
+wood_holes,2/string,2/string,unchanged 8 total
+height_range_reference,8..20,8..20,unchanged

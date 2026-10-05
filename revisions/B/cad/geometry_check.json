@@ -1,0 +1,190 @@
+{
+  "units": "mm",
+  "valid_solids": {
+    "B01_base": {
+      "volume_mm3": 6768.367851397487,
+      "bbox_mm": [
+        18.0000001,
+        82.0,
+        12.0
+      ]
+    },
+    "C01_carrier": {
+      "volume_mm3": 3380.8926562646197,
+      "bbox_mm": [
+        18.0000001,
+        40.0,
+        5.0
+      ]
+    },
+    "A01_anchor": {
+      "volume_mm3": 3047.345812178115,
+      "bbox_mm": [
+        18.0000001,
+        26.0000001,
+        10.0
+      ]
+    }
+  },
+  "limit_checks": [
+    {
+      "carrier_y": 8,
+      "height_gap": 0,
+      "intersection_mm3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "carrier_y": 8,
+      "height_gap": 2.5,
+      "intersection_mm3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "carrier_y": 8,
+      "height_gap": 5,
+      "intersection_mm3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "carrier_y": 14,
+      "height_gap": 0,
+      "intersection_mm3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "carrier_y": 14,
+      "height_gap": 2.5,
+      "intersection_mm3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "carrier_y": 14,
+      "height_gap": 5,
+      "intersection_mm3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "carrier_y": 20,
+      "height_gap": 0,
+      "intersection_mm3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "carrier_y": 20,
+      "height_gap": 2.5,
+      "intersection_mm3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "carrier_y": 20,
+      "height_gap": 5,
+      "intersection_mm3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "hardware_unrelated_part_interference": "passed at 9 range combinations; mating thread overlaps excluded",
+  "thread_geometry": "tap drill only; see drawing",
+  "not_tested": [
+    "physical string termination",
+    "strength by FEA/test",
+    "piezo transfer function",
+    "specific bass fit"
+  ],
+  "revision": "B-rounded-prototype",
+  "rounding": {
+    "revision": "B-rounded-prototype",
+    "base_outline_radius": 3.0,
+    "carrier_outline_radius": 2.0,
+    "anchor_outline_radius": 2.0,
+    "tower_outline_radius": 1.5,
+    "tower_top_radius": 1.0,
+    "external_edge_radius": 0.2,
+    "anchor_slot_lip_radius": 0.2,
+    "string_pitch": 19.0,
+    "base_width": 18.0,
+    "base_length": 82.0,
+    "base_thickness": 5.0,
+    "carrier_length": 40.0,
+    "carrier_thickness": 5.0,
+    "anchor_length": 26.0,
+    "anchor_height": 10.0,
+    "ball_bore_diameter": 8.0,
+    "string_slot_width": 3.4,
+    "string_axis_local_z": 5.0,
+    "ball_seat_y": 6.0,
+    "carrier_y_min": 8.0,
+    "carrier_y_max": 20.0,
+    "height_gap_min": 0.0,
+    "height_gap_max": 5.0,
+    "tower_y": 62.0,
+    "tower_length": 6.0,
+    "tower_height": 12.0,
+    "piezo_pocket_diameter": 12.5,
+    "piezo_pocket_depth": 1.5,
+    "piezo_y": 20.0
+  },
+  "revision_A_comparison": {
+    "B01_base": {
+      "removed_mm3": 64.91679990388502,
+      "protected_probes": {
+        "mount_seat_front": "unchanged",
+        "mount_seat_rear": "unchanged",
+        "piezo_bond_plane": "unchanged",
+        "rear_washer_seat": "unchanged"
+      },
+      "only_material_removed": true
+    },
+    "C01_carrier": {
+      "removed_mm3": 19.095883949168496,
+      "protected_probes": {
+        "clamp_land_-4": "unchanged",
+        "clamp_land_4": "unchanged",
+        "jack_contact_-6_11": "unchanged",
+        "jack_contact_-6_22": "unchanged",
+        "jack_contact_6_11": "unchanged",
+        "jack_contact_6_22": "unchanged"
+      },
+      "only_material_removed": true
+    },
+    "A01_anchor": {
+      "removed_mm3": 36.30504137421397,
+      "protected_probes": {
+        "hold_land_-6": "unchanged",
+        "hold_land_6": "unchanged",
+        "ball_seat": "unchanged"
+      },
+      "only_material_removed": true
+    }
+  },
+  "assembly_step_roundtrip": {
+    "valid": true,
+    "solid_count": 84
+  }
+}

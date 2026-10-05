@@ -1,0 +1,1306 @@
+{
+  "snapshot_date": "2026-10-05",
+  "purpose": "Preserved historical files; all hashes checked against original local archives before publication",
+  "files": [
+    {
+      "path": "revisions/A/BOM.csv",
+      "size_bytes": 957,
+      "sha256": "e719382b83c22eab1f0f15d02630c9639e476b2bc440526b6132d0f10910824e"
+    },
+    {
+      "path": "revisions/A/MB4_mount_template_1to1.dxf",
+      "size_bytes": 20961,
+      "sha256": "ae3e891af31056031173faf922b2ddd6ab77815a0e99ed184a76dd324e9c17e5"
+    },
+    {
+      "path": "revisions/A/README.txt",
+      "size_bytes": 2696,
+      "sha256": "4ff22cedb992e18d035d898ea78efd3fc768dbfa5a4dbc539f7dca86c1581346"
+    },
+    {
+      "path": "revisions/A/RFQ.txt",
+      "size_bytes": 1448,
+      "sha256": "540cde0823d6525e18ee97520f04d1bb7938e9b85a11292080b0d24362473c5e"
+    },
+    {
+      "path": "revisions/A/bridge_preview.png",
+      "size_bytes": 2139959,
+      "sha256": "583a3440a0919e44186a5de816ac35b5a45d4617351bd3c5e301962cad047db5"
+    },
+    {
+      "path": "revisions/A/cad/build_bridge.py",
+      "size_bytes": 7595,
+      "sha256": "90f35d431e4362392aed233032bc5527c83fbde7a155847bc5d733172c74c180"
+    },
+    {
+      "path": "revisions/A/cad/geometry_check.json",
+      "size_bytes": 1970,
+      "sha256": "23996b64a5aca526b05957159485959a841bc23838d755d4f58abb202dc43262"
+    },
+    {
+      "path": "revisions/A/cad/make_documents.py",
+      "size_bytes": 19441,
+      "sha256": "61fe5c105eff961b6bf65d42fc072930e7738195f2457da7a170893c747a8a6f"
+    },
+    {
+      "path": "revisions/A/cad/parameters.json",
+      "size_bytes": 585,
+      "sha256": "460254087eb741ec443fce5ce26384d62a48001ec6ba584e890b1480743463bc"
+    },
+    {
+      "path": "revisions/A/cad/render_bridge.py",
+      "size_bytes": 2347,
+      "sha256": "564fd96b0cf431873dd5952badd14cb05e6ebe5a27af86b5e70fb41ac5f44015"
+    },
+    {
+      "path": "revisions/A/cad/requirements.txt",
+      "size_bytes": 61,
+      "sha256": "6f954bb484f19f8c3ecd81f15c9f8878f464e8e4bddaea1c25b709c066ffba16"
+    },
+    {
+      "path": "revisions/A/cad/scene_manifest.json",
+      "size_bytes": 16102,
+      "sha256": "40defcd7d14e33927c54f761098ae6def82dd5a001d2559514d0d72ee8494f0e"
+    },
+    {
+      "path": "revisions/A/cad/step/A01_anchor.step",
+      "size_bytes": 59588,
+      "sha256": "a033fdfb2aecf8c2e27df09e91910b7de557304481d17fc7d5d62945c6800ab1"
+    },
+    {
+      "path": "revisions/A/cad/step/B01_base.step",
+      "size_bytes": 174099,
+      "sha256": "25a1f91c79b1065e1eadc13ee0769c71ea5bd574c3072284c49c528410fc37d4"
+    },
+    {
+      "path": "revisions/A/cad/step/C01_carrier.step",
+      "size_bytes": 35521,
+      "sha256": "bff0f400c55f46e7d2f8cfa57f3ed901c2ad667465af89944d5fc72398766f8e"
+    },
+    {
+      "path": "revisions/A/cad/step/MB4_assembly.step",
+      "size_bytes": 2798572,
+      "sha256": "885cea2e07ecccf760f69107cc2883e28ffecdd442a34eaa3b54d69588a5670b"
+    },
+    {
+      "path": "revisions/A/features.csv",
+      "size_bytes": 1087,
+      "sha256": "d2ff7ca532113ebe2bc459b3be4fc35a4183e1d6dfa7ee154e76f963f7900b63"
+    },
+    {
+      "path": "revisions/A/pdf/MB4_design_and_drawings.pdf",
+      "size_bytes": 1863781,
+      "sha256": "f41bf94e36ede2187a927bf9f0367d378fe46e2f1375acb6fd7133cec0cdcb2d"
+    },
+    {
+      "path": "revisions/B/BOM.csv",
+      "size_bytes": 957,
+      "sha256": "e719382b83c22eab1f0f15d02630c9639e476b2bc440526b6132d0f10910824e"
+    },
+    {
+      "path": "revisions/B/MB4_mount_template_1to1.dxf",
+      "size_bytes": 24229,
+      "sha256": "9c34837b8fe5786e15cc73c8a25085d42914cc3afd09fcff49ad5a7d04784af9"
+    },
+    {
+      "path": "revisions/B/README.txt",
+      "size_bytes": 3385,
+      "sha256": "16363ee9d3c9a8e9b715c780a61c413042120dd031344b2f1eba1bea34a42afe"
+    },
+    {
+      "path": "revisions/B/RFQ.txt",
+      "size_bytes": 1625,
+      "sha256": "4000add013dcefa54d40af901063b2f4f5c4972f2802ef4fc8b1bd92fa482ae7"
+    },
+    {
+      "path": "revisions/B/bridge_preview.png",
+      "size_bytes": 2223748,
+      "sha256": "bf3e171965da1bbc31708878c689cb3859f3dab62d46bdf0a115dc3fb28f5cf8"
+    },
+    {
+      "path": "revisions/B/cad/build_bridge.py",
+      "size_bytes": 9040,
+      "sha256": "c294b9abedf34627d816943cdd9942fda3d71cd7f42e71d6c061f93f5804d8c0"
+    },
+    {
+      "path": "revisions/B/cad/geometry_check.json",
+      "size_bytes": 3960,
+      "sha256": "392863d15f0863dc5cb5c67a92a5d5596b017d38cc4d950e581886fe836af36a"
+    },
+    {
+      "path": "revisions/B/cad/make_documents.py",
+      "size_bytes": 22468,
+      "sha256": "eefe037acdd304ca46e91ae6c128955457f13928b4358a267c273b56d86c0fc2"
+    },
+    {
+      "path": "revisions/B/cad/parameters.json",
+      "size_bytes": 810,
+      "sha256": "2402454343c817b5485a4c553c7af6ae3075d41eaa7a184e78e15f90f2984026"
+    },
+    {
+      "path": "revisions/B/cad/render_bridge.py",
+      "size_bytes": 2484,
+      "sha256": "9c034b8a61bbdaa27ee08ff9612cbe4a9c3189dd94cbea6d394c344a2587adfb"
+    },
+    {
+      "path": "revisions/B/cad/requirements.txt",
+      "size_bytes": 61,
+      "sha256": "6f954bb484f19f8c3ecd81f15c9f8878f464e8e4bddaea1c25b709c066ffba16"
+    },
+    {
+      "path": "revisions/B/cad/scene_manifest.json",
+      "size_bytes": 16102,
+      "sha256": "40defcd7d14e33927c54f761098ae6def82dd5a001d2559514d0d72ee8494f0e"
+    },
+    {
+      "path": "revisions/B/cad/step/A01_anchor.step",
+      "size_bytes": 155239,
+      "sha256": "d199b28112c273f311df1ab5d8cdd2e7ff806c4191a9b3d6e1e9a15c7aa615d2"
+    },
+    {
+      "path": "revisions/B/cad/step/B01_base.step",
+      "size_bytes": 292083,
+      "sha256": "a3ce69d2061693e22409d78971bbc03f68d7c2bcb342b99fd1772efe77e33272"
+    },
+    {
+      "path": "revisions/B/cad/step/C01_carrier.step",
+      "size_bytes": 95395,
+      "sha256": "d5f5f7646c324181117cf5d146fb7170c90c4cf675f20dd32b6bea142e573e28"
+    },
+    {
+      "path": "revisions/B/cad/step/MB4_assembly.step",
+      "size_bytes": 3937476,
+      "sha256": "52ce4755a29cab69c0f3d62bf91cc0531085cd463142b7cabd0c7b93e42045da"
+    },
+    {
+      "path": "revisions/B/features.csv",
+      "size_bytes": 1643,
+      "sha256": "84c13de79f1b151670e2555d0971cb935147d6308490dd757e9607526c98c875"
+    },
+    {
+      "path": "revisions/B/pdf/MB4_design_and_drawings.pdf",
+      "size_bytes": 2040267,
+      "sha256": "2d32251d8a3b9d47c6b98a40b3670509fca9ec45f603c3e80ac143bb20ba4191"
+    },
+    {
+      "path": "revisions/C/BOM.csv",
+      "size_bytes": 874,
+      "sha256": "bd179f74337b5619f11880718a1d4ad3a381ba90e95155fe093a5ff3a686e3a1"
+    },
+    {
+      "path": "revisions/C/MB4_mount_template_1to1.dxf",
+      "size_bytes": 24229,
+      "sha256": "87f3361f4468ad26f82bb5c590ca6bf19d9c6eb8b7647bab03ccf7681fa93d0a"
+    },
+    {
+      "path": "revisions/C/README.txt",
+      "size_bytes": 3995,
+      "sha256": "50859372a66dc00652faf79b78ec4527f484ca256866eb231c739166d05d1d7b"
+    },
+    {
+      "path": "revisions/C/RFQ.txt",
+      "size_bytes": 2030,
+      "sha256": "34ef04a3960bd405f47a231d30af562bd413b9ccb284c1c1b496b8f4c39729b2"
+    },
+    {
+      "path": "revisions/C/bridge_preview.png",
+      "size_bytes": 2248268,
+      "sha256": "278ebc45f9dd5af6ca0abaf9ccc389fb9112797d3b78e6d3d2d65703c9ae45d7"
+    },
+    {
+      "path": "revisions/C/cad/build_bridge.py",
+      "size_bytes": 9067,
+      "sha256": "4a84781f20683fb7e7fbb97156fb0049d3119ef5a2c9e167414b92c437ced95c"
+    },
+    {
+      "path": "revisions/C/cad/geometry_check.json",
+      "size_bytes": 3906,
+      "sha256": "c9f2c5b910661cad81fff2e800298c90c276f8a93e7568c52110013fdb44bd7b"
+    },
+    {
+      "path": "revisions/C/cad/make_documents.py",
+      "size_bytes": 17364,
+      "sha256": "feefafd4ad73cba87e67037fce7ac94ccd477b341ee1ddf8addff900f4ded677"
+    },
+    {
+      "path": "revisions/C/cad/parameters.json",
+      "size_bytes": 1444,
+      "sha256": "8edbd6d9e40b08bb66912f98f6aa9d98f8f118c906cb220183b7fb958b64a193"
+    },
+    {
+      "path": "revisions/C/cad/render_bridge.py",
+      "size_bytes": 2484,
+      "sha256": "2ad7b65f89ccc408b5c5aa12df1b709de8b16a70f07be2e93a741e2de853a43f"
+    },
+    {
+      "path": "revisions/C/cad/requirements.txt",
+      "size_bytes": 61,
+      "sha256": "6f954bb484f19f8c3ecd81f15c9f8878f464e8e4bddaea1c25b709c066ffba16"
+    },
+    {
+      "path": "revisions/C/cad/scene_manifest.json",
+      "size_bytes": 12542,
+      "sha256": "812ada550aa3e3155ae22e38523ddfcde4a611dfdbc21aa215f7003782df1c68"
+    },
+    {
+      "path": "revisions/C/cad/step/A02_integrated_anchor.step",
+      "size_bytes": 295048,
+      "sha256": "9eae11f238c387b37dd4ef5a301628c7bc23bfa1688c319972f275d6cd0f27a3"
+    },
+    {
+      "path": "revisions/C/cad/step/B01_base.step",
+      "size_bytes": 213223,
+      "sha256": "9b7fd950b1b0735c744b73667ab29ec9ee67df27e4791440f1c87b81c87a01b9"
+    },
+    {
+      "path": "revisions/C/cad/step/MB4_assembly.step",
+      "size_bytes": 3675057,
+      "sha256": "78f343394602946376918edc320d535f8523514b68be8b39f19ff7de730598f9"
+    },
+    {
+      "path": "revisions/C/features.csv",
+      "size_bytes": 1023,
+      "sha256": "4c9f91f3571d93764bb259010ae736a54792c296439721d8370a4804df7464a8"
+    },
+    {
+      "path": "revisions/C/pdf/MB4_design_and_drawings.pdf",
+      "size_bytes": 2150435,
+      "sha256": "affa2462de4696efc11f762aedf96082ce649318f66fd222618c3cdd8f6bb82d"
+    },
+    {
+      "path": "revisions/D/BOM.csv",
+      "size_bytes": 831,
+      "sha256": "1eee049d7bdec05a6ea24941167278b1cf77213d91befd5c4ddcb84276112e78"
+    },
+    {
+      "path": "revisions/D/MB4_mount_template_1to1.dxf",
+      "size_bytes": 22321,
+      "sha256": "5a190fe405575e606d355ed4b4cee04207c5f6a2626194f89ebbfd5a4b9fba3d"
+    },
+    {
+      "path": "revisions/D/README.txt",
+      "size_bytes": 5630,
+      "sha256": "f03eae20c7ad01299125780b4d290caf77bab9b1f80e0cbaf1b74ac8aa47cf5d"
+    },
+    {
+      "path": "revisions/D/RFQ.txt",
+      "size_bytes": 2583,
+      "sha256": "670027dff4089a0581a3f3d28481cfabb6fd70c17fc3340a7d7c854bf712f526"
+    },
+    {
+      "path": "revisions/D/bridge_preview.png",
+      "size_bytes": 2259395,
+      "sha256": "553431990bd22a2f1baaf5238a1f7ec9dd9751611165b9c34683b580b3e74fda"
+    },
+    {
+      "path": "revisions/D/cad/build_bridge.py",
+      "size_bytes": 10192,
+      "sha256": "0be5ae1e29bf513f2e54c2dfae32dd41d645b8da25fc1fc5129de8cd528b9669"
+    },
+    {
+      "path": "revisions/D/cad/compare_sections.py",
+      "size_bytes": 3105,
+      "sha256": "65adfb8b2599f2479d1883b811668cb2510c9a2658e6b0cbb33c56c0b474149b"
+    },
+    {
+      "path": "revisions/D/cad/geometry_check.json",
+      "size_bytes": 4271,
+      "sha256": "164776fc942d8a1515c3b5fdf7b86d54b4489fd59b8ea53b509e25869e0f7e0d"
+    },
+    {
+      "path": "revisions/D/cad/make_documents.py",
+      "size_bytes": 19833,
+      "sha256": "4e5409de652fd37fae8e69e70d8f6c60a9c544a5726a9504ae8918d1fa6163c1"
+    },
+    {
+      "path": "revisions/D/cad/parameters.json",
+      "size_bytes": 1927,
+      "sha256": "66ac1f494c1ed0763597f02489b73da669b36cc738ba3a99188a49a142305bc5"
+    },
+    {
+      "path": "revisions/D/cad/reference/RevC_B01_base.step",
+      "size_bytes": 213223,
+      "sha256": "9b7fd950b1b0735c744b73667ab29ec9ee67df27e4791440f1c87b81c87a01b9"
+    },
+    {
+      "path": "revisions/D/cad/render_bridge.py",
+      "size_bytes": 2484,
+      "sha256": "2219f2a768bd25cf49fb12d7d403a0b1e1da38d8fcb123c5827c7c7321a89841"
+    },
+    {
+      "path": "revisions/D/cad/requirements.txt",
+      "size_bytes": 61,
+      "sha256": "6f954bb484f19f8c3ecd81f15c9f8878f464e8e4bddaea1c25b709c066ffba16"
+    },
+    {
+      "path": "revisions/D/cad/scene_manifest.json",
+      "size_bytes": 12646,
+      "sha256": "b0397204bf0e449ecb2907ee5188af49ab3fdff37cb30ee80058f3a42efbe60e"
+    },
+    {
+      "path": "revisions/D/cad/section_scan.csv",
+      "size_bytes": 14766,
+      "sha256": "70ef99b05af9f2d92fd7620620090302eb45ddffe7ff125f27c3658b9c48e622"
+    },
+    {
+      "path": "revisions/D/cad/step/A03_strengthened_anchor.step",
+      "size_bytes": 365279,
+      "sha256": "3270762a01d408ddf469bf0fc440ae17a9b6cc59458176f1efbd29b41dbc0e41"
+    },
+    {
+      "path": "revisions/D/cad/step/B02_reinforced_base.step",
+      "size_bytes": 444406,
+      "sha256": "c7ce4372b49a049e1faa7b81d2dbfc2502301b68392c681e67d400d4fcd54dd3"
+    },
+    {
+      "path": "revisions/D/cad/step/MB4_assembly.step",
+      "size_bytes": 4938115,
+      "sha256": "c20c07d3018a1ff91ba519c3510bc0c4d6b2b7c68f05d9922407c00693101e07"
+    },
+    {
+      "path": "revisions/D/cad/strength_comparison.json",
+      "size_bytes": 1526,
+      "sha256": "e131271c7804de3cf6df493babea361513edb7071d23929719373e3541e1818b"
+    },
+    {
+      "path": "revisions/D/cad/width_envelope_check.json",
+      "size_bytes": 227,
+      "sha256": "d1c6b8a00dc8baff00917ad84ab75624709bb3bf14fb6858938f4347562795e4"
+    },
+    {
+      "path": "revisions/D/features.csv",
+      "size_bytes": 1325,
+      "sha256": "1e47bb6d587ca824cf795014c60adca72c3ec8e2f1255e3b2894964b6f9c453c"
+    },
+    {
+      "path": "revisions/D/hardware_sources.txt",
+      "size_bytes": 1477,
+      "sha256": "41d391471b90e30ec8341132a39f3ef8e3388454c4d104bc476903baf781cff0"
+    },
+    {
+      "path": "revisions/D/pdf/MB4_design_and_drawings.pdf",
+      "size_bytes": 2192503,
+      "sha256": "439fb2046cd4574a8ce7f6e44a1715936fb3d3f7652ab0e3c4f05bb568357581"
+    },
+    {
+      "path": "revisions/E/BOM.csv",
+      "size_bytes": 839,
+      "sha256": "6fea8e260128e647c564aafad5dc28332962ab1607364c6817a009e9c889d095"
+    },
+    {
+      "path": "revisions/E/MB4_mount_template_1to1.dxf",
+      "size_bytes": 22753,
+      "sha256": "8c757a9183b9b981d8f8d5d0398dac27d058be8b0389978b1d163eba4a80d7a8"
+    },
+    {
+      "path": "revisions/E/README.md",
+      "size_bytes": 4870,
+      "sha256": "1abcddaaab44dfa0f720a468f63b5e42ba74b807a5238c7ce23ae764f2824a5e"
+    },
+    {
+      "path": "revisions/E/RFQ_CNC.md",
+      "size_bytes": 2932,
+      "sha256": "a7878523613d298a17cb1880812042ba7805c67fae8d1345ab2c61cf3006a1d0"
+    },
+    {
+      "path": "revisions/E/bridge_preview.png",
+      "size_bytes": 2272791,
+      "sha256": "c92ce69a3d5a15e4e39e012d86697611f1415e9b808889a4b882bf237b764973"
+    },
+    {
+      "path": "revisions/E/bridge_rear_preview.png",
+      "size_bytes": 2260284,
+      "sha256": "2810ef01542c7c62974764a42712199370d6e0817f2c85d05760294f7a528b61"
+    },
+    {
+      "path": "revisions/E/cad/build_bridge.py",
+      "size_bytes": 12165,
+      "sha256": "0503188c66af830a3141f9c1f20f3415e7e777783834d12e0c818efb01fad030"
+    },
+    {
+      "path": "revisions/E/cad/compare_sections.py",
+      "size_bytes": 2302,
+      "sha256": "171de65ee5aca075d2405674d20d8feaf919896953f8307ebd186196ff044f2d"
+    },
+    {
+      "path": "revisions/E/cad/geometry_check.json",
+      "size_bytes": 4560,
+      "sha256": "ca8e3e55bd7ce7030a04926dbb28f338d8bfcb73e83c7b2d7a7a113882859fe9"
+    },
+    {
+      "path": "revisions/E/cad/make_documents.py",
+      "size_bytes": 21349,
+      "sha256": "3ee48d98cfed3662adea4d295cb1c316c7129fb9f64ee400acb24c2622ed679a"
+    },
+    {
+      "path": "revisions/E/cad/parameters.json",
+      "size_bytes": 2548,
+      "sha256": "ca4fe10d0e3c5869374d55e97f9b03d00eb6f455a7250e0defa8aa3d245157f4"
+    },
+    {
+      "path": "revisions/E/cad/reference/RevD_B02_base.step",
+      "size_bytes": 444406,
+      "sha256": "c7ce4372b49a049e1faa7b81d2dbfc2502301b68392c681e67d400d4fcd54dd3"
+    },
+    {
+      "path": "revisions/E/cad/render_bridge.py",
+      "size_bytes": 2711,
+      "sha256": "a097a5eb1f32a9aee816f18f4467be0efd2f54734ae3a88364a409748a91b215"
+    },
+    {
+      "path": "revisions/E/cad/requirements.txt",
+      "size_bytes": 61,
+      "sha256": "6f954bb484f19f8c3ecd81f15c9f8878f464e8e4bddaea1c25b709c066ffba16"
+    },
+    {
+      "path": "revisions/E/cad/scene_manifest.json",
+      "size_bytes": 12582,
+      "sha256": "e963c10d79b43f504f0dc0c78898efda65fa82ff1405a419abe92899057e25d0"
+    },
+    {
+      "path": "revisions/E/cad/section_scan.csv",
+      "size_bytes": 15107,
+      "sha256": "d86ba8edc4b5623e3eac8c24a25dfc2e5aaabf6f4e220a8f749fa8b8a1fe5de5"
+    },
+    {
+      "path": "revisions/E/cad/step/A04_organic_anchor.step",
+      "size_bytes": 337938,
+      "sha256": "5c2925f3cdefba9db5c128b890b74d5736913e8ea89b2494065d46e28cc4f8e1"
+    },
+    {
+      "path": "revisions/E/cad/step/B03_organic_base.step",
+      "size_bytes": 739263,
+      "sha256": "beadf31bdb2b36bc628ecae8962b7497c0a3795ee4acff91d9f2802e8fcb1d30"
+    },
+    {
+      "path": "revisions/E/cad/step/MB4_assembly.step",
+      "size_bytes": 6056503,
+      "sha256": "982da1d451caaf2a0b6cf212f8ed583b5c3f52689418bafcecabccd3c16b9369"
+    },
+    {
+      "path": "revisions/E/cad/strength_comparison.json",
+      "size_bytes": 1492,
+      "sha256": "93836e2c398d5d28777be52ff6de2e62d57e2165060ff78a6c320381dab965fc"
+    },
+    {
+      "path": "revisions/E/features.csv",
+      "size_bytes": 1670,
+      "sha256": "1e1c7e45c59c9261370bbc6bf2b88ec2cce722c2e251a10a2f199bb7d09b17bf"
+    },
+    {
+      "path": "revisions/E/hardware_sources.txt",
+      "size_bytes": 1732,
+      "sha256": "b0245437711675f00395c281ddce7b0ab2a0e809a9e3057236948884380387e6"
+    },
+    {
+      "path": "revisions/E/pdf/MB4_design_and_drawings.pdf",
+      "size_bytes": 4659121,
+      "sha256": "f40d4de27c9f98179fec5108e334204d57a47fd065e58ba24fdfb62b6b68dd0d"
+    },
+    {
+      "path": "revisions/E/pdf/qa/page-01.png",
+      "size_bytes": 407891,
+      "sha256": "44c0bb5d16eea8941af97694800d8ae9cea785f04b8f39f007f7ff979e9e8127"
+    },
+    {
+      "path": "revisions/E/pdf/qa/page-02.png",
+      "size_bytes": 107768,
+      "sha256": "3a36b0dd80d600eda13c8df745a5aa9e8395326befd848f65cd8e883351ed0d1"
+    },
+    {
+      "path": "revisions/E/pdf/qa/page-03.png",
+      "size_bytes": 94346,
+      "sha256": "e4d3972e1565a287f77735ed4dd35a4eb9f816da71b6648005b61a32fc8f9a16"
+    },
+    {
+      "path": "revisions/E/pdf/qa/page-04.png",
+      "size_bytes": 114908,
+      "sha256": "1cb43c6216b5fb85617092f482a331d1e6a6e0421307cb3c80c5a8732d68ba52"
+    },
+    {
+      "path": "revisions/E/pdf/qa/page-05.png",
+      "size_bytes": 141782,
+      "sha256": "a8045d21a4ce5e6cfdab4c396e55ce2de39258681c187732748dd418f2b205bc"
+    },
+    {
+      "path": "revisions/E/pdf/qa/page-06.png",
+      "size_bytes": 153295,
+      "sha256": "5f123c04566823cf99fa0f752d3c13260f1918da1be1b0a102cd2e615dc48631"
+    },
+    {
+      "path": "revisions/E/pdf/qa/page-07.png",
+      "size_bytes": 92502,
+      "sha256": "09c88169d1b441dc5ce21a0ba508aff7a13c2ba347e84076563e7285899e5751"
+    },
+    {
+      "path": "revisions/E/pdf/qa/page-08.png",
+      "size_bytes": 181007,
+      "sha256": "3404e3b78d8c1d0f03f26ac4c41eba692c6477326fb45f9cd6bf3bb414d0dd35"
+    },
+    {
+      "path": "revisions/E/pdf/qa/page-09.png",
+      "size_bytes": 436652,
+      "sha256": "4b7d4fcd649f753332a976d56db9eace4e41eb884c381d42e98afebc8d8c0a00"
+    },
+    {
+      "path": "revisions/E/pdf/qa/page-10.png",
+      "size_bytes": 142071,
+      "sha256": "0d52f2d6df83f6c9108e78d3a8af2b0bc0f8259560d60efff43c37b3e50c49c4"
+    },
+    {
+      "path": "revisions/F/BOM.csv",
+      "size_bytes": 738,
+      "sha256": "19cb8759caf78fa53222dd3441fe2050d87ebdf9d5b5d3f7517591331903d210"
+    },
+    {
+      "path": "revisions/F/JLC_REVIEW_READ_BEFORE_ORDER.txt",
+      "size_bytes": 7411,
+      "sha256": "d6593d5f8678efb73c631e783b3c827023acb9ea0262f9f2d66556630e5bf0a5"
+    },
+    {
+      "path": "revisions/F/JLC_thread_wall_issue.png",
+      "size_bytes": 175911,
+      "sha256": "a6617ebc31cf8f9a4922d02b39b9b82d6d0e86317429475aed6ce5879bebf3eb"
+    },
+    {
+      "path": "revisions/F/MB4_mount_template_1to1.dxf",
+      "size_bytes": 22327,
+      "sha256": "8448013d9575424c8a4bde764756d09c2ad39bb16f40c4f51994991dd24ce14f"
+    },
+    {
+      "path": "revisions/F/MISUMI_initial_setup_example.csv",
+      "size_bytes": 467,
+      "sha256": "1e67a0145d9a5e836e2262e6795bf57906a2a19a18610c33951f925e4384e0fe"
+    },
+    {
+      "path": "revisions/F/MISUMI_purchase_options.csv",
+      "size_bytes": 6167,
+      "sha256": "0e630e5580b787c80417ca4ab16e0d6d62610c72190ffa4050498bf64ce58069"
+    },
+    {
+      "path": "revisions/F/README.md",
+      "size_bytes": 5813,
+      "sha256": "dc280d06e5472abed97509403b17e9db70e6c99ba1a074dc05c5fca9ecc7f9eb"
+    },
+    {
+      "path": "revisions/F/RFQ_CNC.md",
+      "size_bytes": 3550,
+      "sha256": "2e778d7cf946d1475385b3424a98dfeacd13faeaff9d5f7226dd7073ced396eb"
+    },
+    {
+      "path": "revisions/F/bridge_preview.png",
+      "size_bytes": 2277131,
+      "sha256": "64434f03fbd2ecef063506475718e73a46690daaa6fb4f98a3adcf8a7c25d511"
+    },
+    {
+      "path": "revisions/F/bridge_rear_preview.png",
+      "size_bytes": 2267354,
+      "sha256": "af619f9f7de5a442a92f123675adcc78824bfd0a4aa52648c54d451462f97370"
+    },
+    {
+      "path": "revisions/F/cad/build_bridge.py",
+      "size_bytes": 13902,
+      "sha256": "9548bd95da82e4dfdd6ed942b96b717c0a484817f7866e2d8b3998ad0a859691"
+    },
+    {
+      "path": "revisions/F/cad/catalogue_envelope_check.json",
+      "size_bytes": 1372,
+      "sha256": "e0aa4afd2c338af58e02ec8c3fa31d8b7ab80fbbf5ffbbb2b7e2b7020677e489"
+    },
+    {
+      "path": "revisions/F/cad/check_jlc_thread_walls.py",
+      "size_bytes": 1608,
+      "sha256": "9b06c80308e7c389e67ded08ec3c589216ac66a326c4dc26aae59bd02d8f5cfc"
+    },
+    {
+      "path": "revisions/F/cad/compose_six_views.py",
+      "size_bytes": 3075,
+      "sha256": "f60ba11a701279e84274ddb939acbcce8a441fe4b2afb348aa56c56e14d33878"
+    },
+    {
+      "path": "revisions/F/cad/geometry_check.json",
+      "size_bytes": 5918,
+      "sha256": "0c7ed80b6f879e4617ba3113660a379245c151229bf037fa52fb1c070f26a89a"
+    },
+    {
+      "path": "revisions/F/cad/make_documents.py",
+      "size_bytes": 22225,
+      "sha256": "e494cdf1bd2a5567021f8d0e238423d6d4da7788b40172cf36d29e22bc767363"
+    },
+    {
+      "path": "revisions/F/cad/parameters.json",
+      "size_bytes": 3131,
+      "sha256": "54dc9617726ce3ca9b18181e23bbd3cabef5229117d31a6d32be936a9721c7c8"
+    },
+    {
+      "path": "revisions/F/cad/reference/RevE_A04_anchor.step",
+      "size_bytes": 337938,
+      "sha256": "5c2925f3cdefba9db5c128b890b74d5736913e8ea89b2494065d46e28cc4f8e1"
+    },
+    {
+      "path": "revisions/F/cad/reference/RevE_B03_base.step",
+      "size_bytes": 739263,
+      "sha256": "beadf31bdb2b36bc628ecae8962b7497c0a3795ee4acff91d9f2802e8fcb1d30"
+    },
+    {
+      "path": "revisions/F/cad/render_bridge.py",
+      "size_bytes": 2711,
+      "sha256": "1f4902cc2ed1fdb1c8dc292d56e690015c1268d92dc2fa6d4b35fefd69eb7f15"
+    },
+    {
+      "path": "revisions/F/cad/render_six_views.py",
+      "size_bytes": 3441,
+      "sha256": "9672d62fd896a4d5613fae183513fdbeea30ed6e3d000d7b47b1347c90f214ba"
+    },
+    {
+      "path": "revisions/F/cad/requirements.txt",
+      "size_bytes": 61,
+      "sha256": "6f954bb484f19f8c3ecd81f15c9f8878f464e8e4bddaea1c25b709c066ffba16"
+    },
+    {
+      "path": "revisions/F/cad/scene_manifest.json",
+      "size_bytes": 12598,
+      "sha256": "3c51d13adb81bd8fdc87e71990cfdc8a96f19d31d85a5bb1cf0f0948b0b39e26"
+    },
+    {
+      "path": "revisions/F/cad/step/A05_crown_anchor.step",
+      "size_bytes": 581891,
+      "sha256": "28079373a6920c3e44079baff6384d8221cd7f75779a77f9d241c17c7b298e55"
+    },
+    {
+      "path": "revisions/F/cad/step/B04_single_rear_base.step",
+      "size_bytes": 732620,
+      "sha256": "cf065f02eb1005bde120f26f29b3b57dc09d09ef761e8d1c4a9a873f741f2e6e"
+    },
+    {
+      "path": "revisions/F/cad/step/MB4_assembly.step",
+      "size_bytes": 7041798,
+      "sha256": "fd3908965737eb8cbffea38dc1848078c4408603e54fdb875d133969aec239cc"
+    },
+    {
+      "path": "revisions/F/cad/verify_catalogue_envelopes.py",
+      "size_bytes": 1181,
+      "sha256": "0830432fd61ada5812447a49371a122eb4ae56dca680315ee2fa18b4c80f2a2d"
+    },
+    {
+      "path": "revisions/F/features.csv",
+      "size_bytes": 1742,
+      "sha256": "8027371edb0d7779f1f05ba480577da107b92778ce50dcaa143c433595a66d72"
+    },
+    {
+      "path": "revisions/F/hardware_sources.txt",
+      "size_bytes": 5562,
+      "sha256": "8ba4d89a5af6ce5bbac5d7b7d065e783fbe5874b9a78fed26044af8e257aa3e5"
+    },
+    {
+      "path": "revisions/F/jlc_thread_wall_check.json",
+      "size_bytes": 7752,
+      "sha256": "c301969a0aae86b6b135dd4d88eaf815f5a1df9926b1f2c0d3394bdb29d7ab2f"
+    },
+    {
+      "path": "revisions/F/pdf/MB4_design_and_drawings.pdf",
+      "size_bytes": 4674779,
+      "sha256": "f671f951a523f005808f59ebe03fbe0dd15d7f629eb937854d2f6532668ee533"
+    },
+    {
+      "path": "revisions/F/six_views/01_front.png",
+      "size_bytes": 677450,
+      "sha256": "a5d618a218256d39889fb9e999966951f51470638be4f7f5068e04eac0aa0af0"
+    },
+    {
+      "path": "revisions/F/six_views/02_rear.png",
+      "size_bytes": 661550,
+      "sha256": "78cfbace657012aebe8f22af55dbc89b437fef9983ca658b3180cac74a7759c1"
+    },
+    {
+      "path": "revisions/F/six_views/03_left.png",
+      "size_bytes": 613311,
+      "sha256": "0047d4c9d3b35e7b77d6f145a7860858131a4315bc34dd25143e2aa5cbfe1394"
+    },
+    {
+      "path": "revisions/F/six_views/04_right.png",
+      "size_bytes": 615728,
+      "sha256": "de1962cbf763918972b4f268d7c5a38de40afcf7e5f40d015807a1505904461b"
+    },
+    {
+      "path": "revisions/F/six_views/05_top.png",
+      "size_bytes": 1432207,
+      "sha256": "3e86b9eb17259fac88c5ff596e3e6407a93cb652f2f688c099e116babfafcc0b"
+    },
+    {
+      "path": "revisions/F/six_views/06_bottom.png",
+      "size_bytes": 1237430,
+      "sha256": "b91d98c0a0f2c65e30fa65067f07bb11119064e6f95b68aaeae76c1ca26434d6"
+    },
+    {
+      "path": "revisions/F/six_views/MB4_RevF_six_views.png",
+      "size_bytes": 577451,
+      "sha256": "50a81806d6eeab7d77db54ad4b1f679e4dd45327ddf015ed68e7f06cf855264f"
+    },
+    {
+      "path": "revisions/F/six_views/README.txt",
+      "size_bytes": 443,
+      "sha256": "9f45d9daf508c2afb2d5c271f284ea26013b04d05f5c3a00af3b1e1565118d84"
+    },
+    {
+      "path": "revisions/F/six_views/views.json",
+      "size_bytes": 1865,
+      "sha256": "fdea2b6af764544022359d7efe6e873ea218db63f2b676d28a6bd24dcf6f76a2"
+    },
+    {
+      "path": "revisions/G/BOM.csv",
+      "size_bytes": 694,
+      "sha256": "1b25f07244efe4581ffbd5182a61986bc27a249c106598e80fcac3d654bd0a8d"
+    },
+    {
+      "path": "revisions/G/JLC_check_results.csv",
+      "size_bytes": 1408,
+      "sha256": "bdffa0414447c7dfea6e9a80e52d1aedcd6861e39db7d19ff0c2be8e21d010d3"
+    },
+    {
+      "path": "revisions/G/MB4_mount_template_1to1.dxf",
+      "size_bytes": 21705,
+      "sha256": "e33624a380c587145eb9bd65c436a3b1137f40a37a8c606a455274e1d040cfbc"
+    },
+    {
+      "path": "revisions/G/MISUMI_purchase_options.csv",
+      "size_bytes": 7281,
+      "sha256": "9037b2cea078951793a1539b90a9228bd815a65688ec2600d5670467b99a7713"
+    },
+    {
+      "path": "revisions/G/README.txt",
+      "size_bytes": 4365,
+      "sha256": "f366cb9c36d0ae5fe66f4727aa2337791634f3b7233b0f814a9f66a7ab3ca0af"
+    },
+    {
+      "path": "revisions/G/RFQ_JLC.txt",
+      "size_bytes": 1889,
+      "sha256": "b2051b8c83aab7590c63f7926428d7f47dce06b0131e90861192eba29178a1f3"
+    },
+    {
+      "path": "revisions/G/bridge_preview.png",
+      "size_bytes": 2248911,
+      "sha256": "35fa74be8e33dfb2dc902046bd0525f082c49787627993aed203608eff83c184"
+    },
+    {
+      "path": "revisions/G/bridge_rear_preview.png",
+      "size_bytes": 2223203,
+      "sha256": "505f9406cead859b27ab19efbac2a7d8b6660ea8e27b7f62301b83a4aff17c19"
+    },
+    {
+      "path": "revisions/G/cad/build_bridge.py",
+      "size_bytes": 14755,
+      "sha256": "563b83d76162298bd31f7487db767c700075c6f7c7bfe530aba4dbd73c8d58c2"
+    },
+    {
+      "path": "revisions/G/cad/compose_six_views.py",
+      "size_bytes": 3075,
+      "sha256": "9b4f09a210ada9cc08235a43f031393b17617726f822db76a50be82531a18b03"
+    },
+    {
+      "path": "revisions/G/cad/geometry_check.json",
+      "size_bytes": 6971,
+      "sha256": "c29051d16df77fb09622137ed684e90cd8fcb997353d9f343ce0967c59dad83e"
+    },
+    {
+      "path": "revisions/G/cad/make_documents.py",
+      "size_bytes": 18036,
+      "sha256": "a143749eca94d26eece4ae126a99b1ff2b8c498168f95dc98b2471528a4102be"
+    },
+    {
+      "path": "revisions/G/cad/package_outputs.py",
+      "size_bytes": 2309,
+      "sha256": "90bbc5c15b053e192df8079dc5a608a7df88c4e852c7bcc100df53274ae1537f"
+    },
+    {
+      "path": "revisions/G/cad/parameters.json",
+      "size_bytes": 3785,
+      "sha256": "9207b5a63bd051368282cd0eb87b2f36ba35ed327804ea9e8c7e9f58c232be87"
+    },
+    {
+      "path": "revisions/G/cad/render_bridge.py",
+      "size_bytes": 2767,
+      "sha256": "3ce1beb5bdf456e8920b1c79350dcd78645b797a0cf74b13d4fef4d2e741ee40"
+    },
+    {
+      "path": "revisions/G/cad/render_six_views.py",
+      "size_bytes": 3441,
+      "sha256": "4d814f9112cd82693a2581f6f727de0dfe50b0e192a705d42c73dc4697e8cb3e"
+    },
+    {
+      "path": "revisions/G/cad/requirements.txt",
+      "size_bytes": 76,
+      "sha256": "cee182d246293a5ad4e4aab59e9591488dfc21b9dc011fee0c64cbb99cb1a6cc"
+    },
+    {
+      "path": "revisions/G/cad/scene_manifest.json",
+      "size_bytes": 12554,
+      "sha256": "77854e7db62779e2fbcb924802692a68a24e7c419dc4393ff4fcb1a7d60df03d"
+    },
+    {
+      "path": "revisions/G/cad/step/A06_smooth_anchor.step",
+      "size_bytes": 672082,
+      "sha256": "c777e0bc77f8cea8dfde6a6c8f55d83257efeea026eecc3cfc9584cb6f1f4fac"
+    },
+    {
+      "path": "revisions/G/cad/step/B05_smooth_base.step",
+      "size_bytes": 644708,
+      "sha256": "459f6c1a44244a1cd115f6689344148fcc543fa116c9be0f65b8f11471c3a9f5"
+    },
+    {
+      "path": "revisions/G/cad/step/MB4_assembly.step",
+      "size_bytes": 7052645,
+      "sha256": "31e05fc37a4189007affbc9bbb5cdeaef4941fa1531b8c6167d80f752d20604a"
+    },
+    {
+      "path": "revisions/G/features.csv",
+      "size_bytes": 748,
+      "sha256": "ac8e1e1d5ba1dbeb1e8370d235e7face2f755620e93d138ec70f4c3c90f6fa1c"
+    },
+    {
+      "path": "revisions/G/file_manifest.json",
+      "size_bytes": 774,
+      "sha256": "3b5f5308c90a619e6d7d264ecd573519ec51ac8572ccad327d7486720330851d"
+    },
+    {
+      "path": "revisions/G/hardware_sources.txt",
+      "size_bytes": 6339,
+      "sha256": "b85579fe65349d8298e466de97eb2a57f3a5072669f4da154e42964e9b2001e3"
+    },
+    {
+      "path": "revisions/G/pdf/A06_smooth_anchor.pdf",
+      "size_bytes": 145932,
+      "sha256": "a33e211bd4da1f7bb9e253a72d252863b69da48ef2d4dcb0f6962e0ec63f7645"
+    },
+    {
+      "path": "revisions/G/pdf/B05_smooth_base.pdf",
+      "size_bytes": 157379,
+      "sha256": "969f5d343bc0e364b066f901a17c423338eb56f20a24a044f2e9445b2cfb7959"
+    },
+    {
+      "path": "revisions/G/pdf/MB4_RevG_guide.pdf",
+      "size_bytes": 2180805,
+      "sha256": "0e74ce9a93e4787c6208c1bc6b9c24f9051ca13ece461fadecfba80c4bf7b89f"
+    },
+    {
+      "path": "revisions/G/six_views/01_front.png",
+      "size_bytes": 684923,
+      "sha256": "e5f8c011cc2536dc044d25a79cd4e01b4de44f614dda1f6102a328ebbbe00808"
+    },
+    {
+      "path": "revisions/G/six_views/02_rear.png",
+      "size_bytes": 668602,
+      "sha256": "58fd4b7a0e0dbb965e54c45ac2fb8cfc2d3dc1628f03ae171b5feb0d5cd63da7"
+    },
+    {
+      "path": "revisions/G/six_views/03_left.png",
+      "size_bytes": 626344,
+      "sha256": "a9be89302a2ca993a35aabd2c0ebea66767dd99d8008ef959f44ce163a7ee9a2"
+    },
+    {
+      "path": "revisions/G/six_views/04_right.png",
+      "size_bytes": 627036,
+      "sha256": "b4ea0342e2bbe639722839ef57bb99d9a82be235e010dd1c12fb93c8ff7f9fdd"
+    },
+    {
+      "path": "revisions/G/six_views/05_top.png",
+      "size_bytes": 1481254,
+      "sha256": "217b723b315c231e61dc987d2a3ff095675d65cd36ba04b366cdc8f3232cb688"
+    },
+    {
+      "path": "revisions/G/six_views/06_bottom.png",
+      "size_bytes": 1304809,
+      "sha256": "9d7fb27d0a38b206e277c802f7945ef1544e04803d6b4ffffd2dc81b69c543d5"
+    },
+    {
+      "path": "revisions/G/six_views/MB4_RevG_six_views.png",
+      "size_bytes": 612917,
+      "sha256": "5231c79b3eadc61964b05efb935d828d1d16788f0e3e97ae70dc24bd4161711e"
+    },
+    {
+      "path": "revisions/G/six_views/README.txt",
+      "size_bytes": 443,
+      "sha256": "74d5c03b2ea38fa10896922261f90bfd507531653e1a090423131327e739133c"
+    },
+    {
+      "path": "revisions/G/six_views/views.json",
+      "size_bytes": 1865,
+      "sha256": "d6099ba8c9b3ed8396ea5c81fe46fbeb3ea92772ad197c3a7b7a26221c49e150"
+    },
+    {
+      "path": "revisions/H/BOM.csv",
+      "size_bytes": 694,
+      "sha256": "da11bc988ad3d59d63dbabff751b487d71efe85bc72178bdced705563a242c09"
+    },
+    {
+      "path": "revisions/H/MB4_mount_template_1to1.dxf",
+      "size_bytes": 21699,
+      "sha256": "2b69dd3d86bb9a98f73423d90679e124a066175db4f6cb13480d5292ce0d3a74"
+    },
+    {
+      "path": "revisions/H/MISUMI_purchase_options.csv",
+      "size_bytes": 7255,
+      "sha256": "ff290b4065a7a876cf71b4d6a98a5bc8f5b14de7a19d048d4d04cff778699442"
+    },
+    {
+      "path": "revisions/H/README.txt",
+      "size_bytes": 4876,
+      "sha256": "87e82b19509ee348bfb8eeecdf2f24865084c0af24571353f7bad8d26d1b79e9"
+    },
+    {
+      "path": "revisions/H/RFQ_JLC.txt",
+      "size_bytes": 2195,
+      "sha256": "b93937d60030ca82568e99d40ee13b4f6b78d5962bad8b6b1e7bb1baba9fc258"
+    },
+    {
+      "path": "revisions/H/bridge_preview.png",
+      "size_bytes": 2291097,
+      "sha256": "8a08c11dfb315ccd4a8abea913a96e2d4f2995089e1baa1c459313384edfbd00"
+    },
+    {
+      "path": "revisions/H/bridge_rear_preview.png",
+      "size_bytes": 2239674,
+      "sha256": "1a9bb8e12b3110aa568dfaf1cc5ef407c14c7782a005a3b8916f66c6e170b055"
+    },
+    {
+      "path": "revisions/H/cad/build_bridge.py",
+      "size_bytes": 16655,
+      "sha256": "24fe82e5a6e1af5baee06ce66f15437075a6b250b221d37bfee3f5f0b9f12ad1"
+    },
+    {
+      "path": "revisions/H/cad/compose_six_views.py",
+      "size_bytes": 3075,
+      "sha256": "4d4c79d08fa76cdef56f894567b6377799bce2b872bb8b44cd99b5d7fd68bb8a"
+    },
+    {
+      "path": "revisions/H/cad/geometry_check.json",
+      "size_bytes": 7408,
+      "sha256": "84fee3cec8cbd3932d4f550e9b038781871e8950b900bbbd4093f43470f47a6f"
+    },
+    {
+      "path": "revisions/H/cad/make_documents.py",
+      "size_bytes": 14983,
+      "sha256": "904f4debf82e877f669fdc9375ef8b6ed3a42dc9439c4bfdb802103ab1576d42"
+    },
+    {
+      "path": "revisions/H/cad/package_outputs.py",
+      "size_bytes": 2310,
+      "sha256": "17765a856cf77dac952646d6a8d0edbf03f3b2f37415a202df0d42dbd017733a"
+    },
+    {
+      "path": "revisions/H/cad/parameters.json",
+      "size_bytes": 4412,
+      "sha256": "99388fd571d682002beb0d2e923bcdb1faddad7320adeebcdb769aac7f889f3f"
+    },
+    {
+      "path": "revisions/H/cad/render_bridge.py",
+      "size_bytes": 2875,
+      "sha256": "9e4d50a14bb05f534130e346e918adfdd3dc9acbdd26327c7fd20628a15caea7"
+    },
+    {
+      "path": "revisions/H/cad/render_six_views.py",
+      "size_bytes": 3441,
+      "sha256": "e012b3d12ac1bb17f0dbee9a4874b081b8c0f52ef99133e5254c3db4ed49bd72"
+    },
+    {
+      "path": "revisions/H/cad/requirements.txt",
+      "size_bytes": 76,
+      "sha256": "cee182d246293a5ad4e4aab59e9591488dfc21b9dc011fee0c64cbb99cb1a6cc"
+    },
+    {
+      "path": "revisions/H/cad/scene_manifest.json",
+      "size_bytes": 12562,
+      "sha256": "dd581b7f0b5e7ce0fe882399a5a2e966043fb8909ea8725985c06d48aea0bf8c"
+    },
+    {
+      "path": "revisions/H/cad/step/A06_smooth_anchor.step",
+      "size_bytes": 672082,
+      "sha256": "439b414b6968399f86782bd85af3c47ff7ec8c54f149c98e3933e60ec50ebd5a"
+    },
+    {
+      "path": "revisions/H/cad/step/B06_compact_base.step",
+      "size_bytes": 451066,
+      "sha256": "5fb5308982d8aca1d4f20558587e2ec0d660c09e993d3a31cf19b812be74452d"
+    },
+    {
+      "path": "revisions/H/cad/step/MB4_assembly.step",
+      "size_bytes": 6235359,
+      "sha256": "e3ae78ee1166a10527babe657b11a69f1355b7698d0eb555dc39c2a2ba4912eb"
+    },
+    {
+      "path": "revisions/H/features.csv",
+      "size_bytes": 765,
+      "sha256": "09db5263d22183a86f289c91934c05c9d2c95b459f4a5bf2318521a5496fc2af"
+    },
+    {
+      "path": "revisions/H/file_manifest.json",
+      "size_bytes": 776,
+      "sha256": "a152e3a0128326ff276d5e16fec3814b7563a5bcab1bc7cd82d3469b64cf468f"
+    },
+    {
+      "path": "revisions/H/hardware_sources.txt",
+      "size_bytes": 6335,
+      "sha256": "70d0ae9522b7849e12709303e596a84590d62434bbe5df60d384ec63b2b0963a"
+    },
+    {
+      "path": "revisions/H/pdf/A06_smooth_anchor.pdf",
+      "size_bytes": 145932,
+      "sha256": "a33e211bd4da1f7bb9e253a72d252863b69da48ef2d4dcb0f6962e0ec63f7645"
+    },
+    {
+      "path": "revisions/H/pdf/B06_compact_base.pdf",
+      "size_bytes": 101155,
+      "sha256": "f4fd60a66fc4545bfcd1df41a1fa8795832586c1b1346e09cc875bed28d84ec6"
+    },
+    {
+      "path": "revisions/H/pdf/MB4_RevH_guide.pdf",
+      "size_bytes": 2269407,
+      "sha256": "136509b73f86c860ebebcc4367511103d8f677632beaca8644c1cc3251f23414"
+    },
+    {
+      "path": "revisions/H/revision_changes.csv",
+      "size_bytes": 899,
+      "sha256": "ab4abe65c1a41bce4dd8bfda6554ab2cc2f94cc493e19c986f5d2aadc2eae66c"
+    },
+    {
+      "path": "revisions/H/six_views/01_front.png",
+      "size_bytes": 711213,
+      "sha256": "ebf0faef82dab2590ddc516404db0e502a195a4a39f37fc7e36169909704f02b"
+    },
+    {
+      "path": "revisions/H/six_views/02_rear.png",
+      "size_bytes": 689613,
+      "sha256": "fa6bb5f70e9f016fc2603af151ef833f984e294abc45687e2d3aceb5fb44edc3"
+    },
+    {
+      "path": "revisions/H/six_views/03_left.png",
+      "size_bytes": 645248,
+      "sha256": "60e56c7aeaf37ee9b8fd12e3eb097e5e52275f815b478399db5ea538cc39e805"
+    },
+    {
+      "path": "revisions/H/six_views/04_right.png",
+      "size_bytes": 646533,
+      "sha256": "ef62e380ac8818ab5fc6b9f20cf1e2fc8d1e50ef0fa48964d6ae16e062d86e7a"
+    },
+    {
+      "path": "revisions/H/six_views/05_top.png",
+      "size_bytes": 1483968,
+      "sha256": "c7228ff36dd5454bd37c69a077a826477156b8f96c59ae3b4b7b580cd3027ac2"
+    },
+    {
+      "path": "revisions/H/six_views/06_bottom.png",
+      "size_bytes": 1319340,
+      "sha256": "d06216785ebb1c4446cbe425f2786cc7c1cd4351980ccd9e0b8c376fc88a2fe6"
+    },
+    {
+      "path": "revisions/H/six_views/MB4_RevH_six_views.png",
+      "size_bytes": 635260,
+      "sha256": "ebeb059e17fa309971b06ee0f82da1bd02c1c2eb197d447dfd29e6a82fe1c366"
+    },
+    {
+      "path": "revisions/H/six_views/README.txt",
+      "size_bytes": 443,
+      "sha256": "74daeb8fc68ef0d9cb06440e92ba761db5c3128d3953ceb03bfa984b0ff14610"
+    },
+    {
+      "path": "revisions/H/six_views/views.json",
+      "size_bytes": 1865,
+      "sha256": "7205e008a581c81121cfd463b00d5d2969e51b57b2c09844700a6677010aed6a"
+    },
+    {
+      "path": "revisions/I/BOM.csv",
+      "size_bytes": 722,
+      "sha256": "58467f2a0f62c31ae2c65ec5a283674bcdd4f6e923ae8321fdb25561acefeff9"
+    },
+    {
+      "path": "revisions/I/MB4_mount_template_1to1.dxf",
+      "size_bytes": 21583,
+      "sha256": "651ec0e6c225a2595c0360626db242f9b2f324206db796136d836eb681ccdaaa"
+    },
+    {
+      "path": "revisions/I/MISUMI_purchase_options.csv",
+      "size_bytes": 6480,
+      "sha256": "1b75d134f90dfa6cfb0521d360f4723bf217925423fc33b32256d45150444a53"
+    },
+    {
+      "path": "revisions/I/README.txt",
+      "size_bytes": 4674,
+      "sha256": "fff812b393aee87b1007594b46ddddb50bb3768d2219c62e4a786a94ddea95ac"
+    },
+    {
+      "path": "revisions/I/RFQ_JLC.txt",
+      "size_bytes": 1694,
+      "sha256": "fdd76a2a1de9f46709a186d74b6a0caad1081ed79b2b7c360d76849d7630ecc8"
+    },
+    {
+      "path": "revisions/I/bridge_preview.png",
+      "size_bytes": 2323532,
+      "sha256": "809d33d65d3ec7e379a9933fdf9003a0b9b98c7cb178c82dffc658a42ece7d89"
+    },
+    {
+      "path": "revisions/I/bridge_rear_preview.png",
+      "size_bytes": 2262623,
+      "sha256": "fc5c7b6237deac1ae4890a7be751f5adf22ca7291253ffb1bf98117c8b8bbd51"
+    },
+    {
+      "path": "revisions/I/cad/build_bridge.py",
+      "size_bytes": 17690,
+      "sha256": "73e879cd28a99f61c13e5674add0553baa412faffb70ba6fc50d2fe728dca777"
+    },
+    {
+      "path": "revisions/I/cad/compose_six_views.py",
+      "size_bytes": 3075,
+      "sha256": "c54f83090b1e40839fab85e20e8ef880f8ff40b7a7dee473b8e83ce9e7014598"
+    },
+    {
+      "path": "revisions/I/cad/geometry_check.json",
+      "size_bytes": 8573,
+      "sha256": "b013d3e63074d5447284e0b1c529da50cb078a08deab9d4e5f617553a0e5a981"
+    },
+    {
+      "path": "revisions/I/cad/make_documents.py",
+      "size_bytes": 18518,
+      "sha256": "38825bcd7baaffb0f7ccce61806df484fc8f1e35dc6853ff602d9f619642a312"
+    },
+    {
+      "path": "revisions/I/cad/package_outputs.py",
+      "size_bytes": 2319,
+      "sha256": "df474fa799f0d459ec16fc8a156963db35ca5185dae3eea2249b364f1eefd4be"
+    },
+    {
+      "path": "revisions/I/cad/parameters.json",
+      "size_bytes": 4981,
+      "sha256": "d0e6ecb50e7bdf07387437c346c4e2737cee0aeda4df4adaf75002a1484a5686"
+    },
+    {
+      "path": "revisions/I/cad/render_bridge.py",
+      "size_bytes": 2875,
+      "sha256": "18c225e1beeb8a8ee653318096a4d18ac1189904a1d8268cb4771451db3a97b5"
+    },
+    {
+      "path": "revisions/I/cad/render_six_views.py",
+      "size_bytes": 3441,
+      "sha256": "2cea528c5961642d7284669b3c22a32d186ced8c8a8c59016eeeaae7c86ae5d9"
+    },
+    {
+      "path": "revisions/I/cad/requirements.txt",
+      "size_bytes": 76,
+      "sha256": "cee182d246293a5ad4e4aab59e9591488dfc21b9dc011fee0c64cbb99cb1a6cc"
+    },
+    {
+      "path": "revisions/I/cad/scene_manifest.json",
+      "size_bytes": 12730,
+      "sha256": "4dfa84b3da40fdaaf7a04debe658d2792292d4a33f58b02a6bbf8685d27c6f4f"
+    },
+    {
+      "path": "revisions/I/cad/step/A07_long_travel_anchor.step",
+      "size_bytes": 672074,
+      "sha256": "743e3279bfd7eef8fc448ab9478504353d3ea7773925ca7b025572443e54c5ab"
+    },
+    {
+      "path": "revisions/I/cad/step/B07_long_travel_base.step",
+      "size_bytes": 459461,
+      "sha256": "730e2d71fdc8dc95075bb3a977e9a78abde47b16d177f612eeede2bff351aedd"
+    },
+    {
+      "path": "revisions/I/cad/step/MB4_assembly.step",
+      "size_bytes": 6409519,
+      "sha256": "93a68ae59956112e2b60b7a046df5da73dafc6c34dd1123902043344d50b1cb9"
+    },
+    {
+      "path": "revisions/I/cad/travel_sweep_check.json",
+      "size_bytes": 378,
+      "sha256": "333809fc48f213e199bb85c0f64c5afc228a2f820db9fbc8c010758d7817e627"
+    },
+    {
+      "path": "revisions/I/cad/verify_travel.py",
+      "size_bytes": 1819,
+      "sha256": "7a6498af682babd9063842cf994579e3fb4dde350a7d5da4daa6dca05c788491"
+    },
+    {
+      "path": "revisions/I/features.csv",
+      "size_bytes": 819,
+      "sha256": "d145198ed354a09a3bdca8528a2f9c03275a14a8c688aa14ce430ee0cb330cff"
+    },
+    {
+      "path": "revisions/I/file_manifest.json",
+      "size_bytes": 794,
+      "sha256": "22a47edcbd1767f01bca615d3c3cd871a670aa197599f7ebfa40b93f0231b7de"
+    },
+    {
+      "path": "revisions/I/hardware_sources.txt",
+      "size_bytes": 5788,
+      "sha256": "9af8140851c987c86556cc03114ba740ee2943b02cdb54def8f9122a88783d7e"
+    },
+    {
+      "path": "revisions/I/pdf/A07_long_travel_anchor.pdf",
+      "size_bytes": 121559,
+      "sha256": "7b81432f6e36545f0e80c23faeb7bef168aa8a9e03f55bf1610e1fbc81a8683f"
+    },
+    {
+      "path": "revisions/I/pdf/B07_long_travel_base.pdf",
+      "size_bytes": 100894,
+      "sha256": "29c20effa926a2b16adc92cad67484550696a34a3af74080878e418098c4cdf7"
+    },
+    {
+      "path": "revisions/I/pdf/MB4_RevI_guide.pdf",
+      "size_bytes": 2316223,
+      "sha256": "e1b553655cea18ce06ed76bde5a503bde6cef9faaa6d291de44ab3cf3de38075"
+    },
+    {
+      "path": "revisions/I/revision_changes.csv",
+      "size_bytes": 1147,
+      "sha256": "d3ce5dce657a6ee3fd4eaf79b890b0fb95bcffe8e2a443d5a677a36e9b4ad65a"
+    },
+    {
+      "path": "revisions/I/six_views/01_front.png",
+      "size_bytes": 711162,
+      "sha256": "093b1f6f783e91121e0346cb4dee9080a68f6b0a2b57fd8fca2a668878439023"
+    },
+    {
+      "path": "revisions/I/six_views/02_rear.png",
+      "size_bytes": 687396,
+      "sha256": "636fa2c2bddc15d037e913bdaa0ad83cf5a7cb00d131faf8ffdf27d5e717cb18"
+    },
+    {
+      "path": "revisions/I/six_views/03_left.png",
+      "size_bytes": 659478,
+      "sha256": "60d96c32cabaa127d4dd377dc6a4c8aa388afff5b5098ef633ee12427d3d625a"
+    },
+    {
+      "path": "revisions/I/six_views/04_right.png",
+      "size_bytes": 657827,
+      "sha256": "d651a701afebb414b0025f3c7a5030f8d465cff0379cab441b2dee736d441812"
+    },
+    {
+      "path": "revisions/I/six_views/05_top.png",
+      "size_bytes": 1504104,
+      "sha256": "edbeea455605161494963e3fbefde7348ef722445f2d798b6eaa7b1f9555038a"
+    },
+    {
+      "path": "revisions/I/six_views/06_bottom.png",
+      "size_bytes": 1333069,
+      "sha256": "8b7339631138af8b1dd46dbaf0882a9fdeeea20298cdf8edb77544a6f190b5ec"
+    },
+    {
+      "path": "revisions/I/six_views/MB4_RevI_six_views.png",
+      "size_bytes": 650264,
+      "sha256": "9de117f218c6a5dc7f4f123cf2b1642312c4ae3a2001d046290a335d73d46dbe"
+    },
+    {
+      "path": "revisions/I/six_views/README.txt",
+      "size_bytes": 443,
+      "sha256": "d27ed594dca55f2794d3f752ff1a27d4d1889df61cab6629ff94c84c5fee7fc7"
+    },
+    {
+      "path": "revisions/I/six_views/views.json",
+      "size_bytes": 1865,
+      "sha256": "c958a1975fe8283be8522d0e2289d1c05309eb6027a08caf37a1139867f68367"
+    },
+    {
+      "path": "revisions/I/travel_preview.png",
+      "size_bytes": 96798,
+      "sha256": "ad8b03b50082eef141c7a7c7930bf8a1042c83eea024dcea876df7f282f0b851"
+    }
+  ]
+}

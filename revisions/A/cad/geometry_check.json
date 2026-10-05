@@ -1,0 +1,120 @@
+{
+  "units": "mm",
+  "valid_solids": {
+    "B01_base": {
+      "volume_mm3": 6833.284651351363,
+      "bbox_mm": [
+        18.0,
+        82.0,
+        12.0
+      ]
+    },
+    "C01_carrier": {
+      "volume_mm3": 3399.988540213791,
+      "bbox_mm": [
+        18.0,
+        40.0,
+        5.0
+      ]
+    },
+    "A01_anchor": {
+      "volume_mm3": 3083.6508535530847,
+      "bbox_mm": [
+        18.0,
+        26.0,
+        10.0
+      ]
+    }
+  },
+  "limit_checks": [
+    {
+      "carrier_y": 8,
+      "height_gap": 0,
+      "intersection_mm3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "carrier_y": 8,
+      "height_gap": 2.5,
+      "intersection_mm3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "carrier_y": 8,
+      "height_gap": 5,
+      "intersection_mm3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "carrier_y": 14,
+      "height_gap": 0,
+      "intersection_mm3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "carrier_y": 14,
+      "height_gap": 2.5,
+      "intersection_mm3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "carrier_y": 14,
+      "height_gap": 5,
+      "intersection_mm3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "carrier_y": 20,
+      "height_gap": 0,
+      "intersection_mm3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "carrier_y": 20,
+      "height_gap": 2.5,
+      "intersection_mm3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "carrier_y": 20,
+      "height_gap": 5,
+      "intersection_mm3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "hardware_unrelated_part_interference": "passed at 9 range combinations; mating thread overlaps excluded",
+  "thread_geometry": "tap drill only; see drawing",
+  "not_tested": [
+    "physical string termination",
+    "strength by FEA/test",
+    "piezo transfer function",
+    "specific bass fit"
+  ]
+}

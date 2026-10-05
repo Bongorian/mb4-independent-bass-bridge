@@ -1,0 +1,76 @@
+MB4 Rev F / JLCCNC加工性確認 / 2026-10-05
+
+結論
+アルミ製ブリッジをJLCCNCへ依頼する方向は成立する。ただし現行Rev Fは、そのまま確定発注する版として扱わない。
+公開加工条件とローカルSTEPを照合した設計側の判定。JLCCNCによる個別ファイルの受注承認、見積回答、CAM確認は取得していない。
+
+対象
+B04_single_rear_base：18×90×25 mm、板厚3、固定パッド6、後方座面5。
+A05_crown_anchor：18×42×10 mm、本体8。
+ユーザーの希望はアルミ。両部品6061-T6を試作の見積候補とする。JLCCNCは6061と7075に対応する。
+現行Rev FのPDF、BOM、features.csvではアンカーがC3604真鍮。両部品をアルミにする発注用図面へ改訂が必要。材質変更だけでは、以下の形状の問題は解消しない。
+
+修正が必要：高さタップと窪みの重なり
+前側M4高さタップ：中心(±5,15)、ボール窪み側壁X±4、窪み底Z2。
+M4の外径半径2に対し、タップ中心から窪み側壁まで1しかないため、内側で約1 mm重なる。
+STEPのφ3.3下穴も窪みに開口する。上部の穴は全周を囲まれたタップではない。
+実STEP検査：右前穴の内側点(2.98,15,1)には材料があり、(2.98,15,3)/(2.98,15,6)には材料がない。左前穴も同様。
+前穴の全周を囲む部分は公称約2 mmに限られる。高い設定でねじ掛かりが上部だけになる場合もある。
+後側穴(±5,20.5)も、下面の逃げへねじ外径の後方が一部開口する。実点(±5,22.52,1)に材料なし。
+タップ位置、窪み幅・長さ、裏逃げを同時に変更し、ねじ外径に対する連続した肉厚と各高さでの掛かりを再確認する。
+この欠肉は前回のCAD干渉確認で拾えていなかった問題。ソリッドが有効であることは、タップの加工性や強度の保証ではない。
+検査ログ：jlc_thread_wall_check.json / 再検査：cad/check_jlc_thread_walls.py。
+図解：JLC_thread_wall_issue.png。
+
+技術審査が必要：後尾の深いM4
+A05後端Y42、X0/Z4からM4×0.7-6H、有効20 mm、下穴φ3.3深さ22＋先端1。
+有効ねじ長20はM4の呼び径の5倍。JLCCNCの推奨3D以内という目安を超える。
+特殊工具・追加費用・加工時間の懸念があるが、推奨値を超えたことだけで加工不可能とは断定しない。
+現行M4×30の最大公称侵入18.5に対応するため、単にタップを12へ浅くする変更は不可。
+盲穴底の余長も確認し、ねじ／調整幅／アンカー形状をまとめて見直すか、現行深さの受注可否をJLCへ確認する。
+
+内側の角と小R
+B04：壁とリブの交点X±6/Y67およびY73に、鋭角の内側縦エッジが残る。
+STEPの直線縦エッジ：前Z3.8〜13.6298、後Z3〜14.0939。上方から加工する場合の到達深さと工具径を併せて検討。
+この壁・リブ内隅に工具用の平面Rを設計側で追加し、ばねと座金の包絡域を再確認する。
+重要：中央根元R0.8は底面と壁の丸み。平面の内隅Rと異なり、R0.8だけを根拠に工具径φ1.6しか使えないとは判断しない。コーナR付きエンドミルなどで加工する方法があり、JLCの工具・段取り確認が必要。
+A05：弦スリット幅3.4、底Z3.3、終端Y22の内側縦角は工具Rの指示が必要。終端を丸める場合、後尾タップと球受けの機能を再確認する。
+球受けはR1.5、最大深さ8。小径工具での加工候補だが、工具長・加工費は個別審査。
+クラウン根元R0.4の仕上げ方法は確認対象。外周の凸R、底面・壁のR、平面内隅Rを混同して判定しない。
+指定R±0.05を外観用の全Rへ要求すると費用が増える可能性がある。機能に必要なRを特定し、外観Rの許容差は別にする。
+
+公開条件上、見通しがよい部分
+部品全体寸法はJLCCNCの寸法範囲内。
+板厚3、後方座面5、ピエゾ窪み底の残厚1.5は、金属壁厚推奨0.8を上回る。ただしこれは加工上の目安でありブリッジの許容荷重ではない。
+ピエゾ窪みφ12.5深さ1.5、配線溝幅2.2深さ1.2は浅い開放形状。
+M3×0.5貫通6、M4×0.7貫通8は一般的なサイズ。ただし周囲の肉の問題を解消してから依頼する。
+先端R7、後壁R9、有機的な輪郭は切削できる種類の形状。段取り・工具パスの費用は別途。
+
+発注データの整え方
+1. B04とA05を別々の単一ソリッドSTEPで登録。MB4_assembly.stepは製作登録に使わない。
+2. 部品ごとにSTEPと同名のPDFを用意し、両方の材質をアルミへ統一する。
+3. Web選択をThreads=YES、材質6061-T6、数量各1個（試作）または各4個にする。
+4. PDFへM3×0.5-6H / M4×0.7-6H、位置、貫通／有効深さ、必要公差を明記。現行のφ2.5／φ3.3下穴表現はJLCの要求に合う。
+5. 一般寸法±0.10と機能寸法±0.05の範囲を図示。必要面だけ平面度・Raを指定。
+6. ボール保持肩・接触面・支持面・穴口は、標準の約0.2 mmバリ取りではなく必要なC0.1以下などを個別指定する。
+7. 初回は無処理を見積候補にする。アルマイトを選ぶ場合はタップ、支持・固定面、ピエゾ接着面、電気的導通箇所と仕上がり寸法を合わせて確認する。
+8. JLCの技術審査が完了し、形状変更と材料指定が一致してから確定発注する。
+従来のMB4_CNC_order_RevF.zipは一般の試作見積用で、上記問題を修正したJLC確定発注版ではない。JLCはアップロードZIPの中身をSTEP/PDF/DWG/DXF等の対応形式に限定しているため、CSV・画像・READMEを含む旧ZIPをそのままアップロードしない。
+
+JLCへの確認用メモ（未送信）
+Both parts are intended to be machined in Aluminum 6061-T6. Please review each single-body STEP with its matching PDF.
+Please confirm the available internal corner radii and tool access at the wall/rib intersections, the crown root, and the end of the string slot.
+Please confirm whether the rear M4x0.7-6H hole with 20 mm minimum usable thread and a 22 mm cylindrical pilot depth is supported, and whether it adds tooling costs.
+Please identify any required radius, blind-hole clearance or tolerance changes before manufacturing.
+The current height-hole/pocket overlaps are under design revision; do not release the unchanged Rev F geometry for production.
+
+参照：2026-10-05閲覧のJLCCNC公式情報
+設計ガイド：https://jlccnc.com/help/article/cnc-machining-design-guideline
+タップ穴：https://jlccnc.com/help/article/threaded-hole-guideline
+注文・ファイル・優先規則：https://jlccnc.com/help/article/cnc-machining-ordering-guidelines
+加工能力：https://jlccnc.com/capabilities/cnc-machining-service
+6061：https://jlccnc.com/help/article/aluminum-6061-cnc-machining
+7075：https://jlccnc.com/help/article/aluminum-7075-cnc-machining
+
+未確認
+実機工具・CAM・治具・受注可否・価格・納期、実弦のボール端／巻き部、強度・疲労・木ねじ保持力、アルミでの接触部摩耗とねじ寿命、ピエゾの出力とクロストーク。
