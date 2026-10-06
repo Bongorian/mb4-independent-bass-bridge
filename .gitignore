@@ -29,3 +29,5 @@ __pycache__/
 # CAD document/raster QA is intermediate output.
 **/qa/
 /docs/assets/rev-i-to-j.svg
+
+/docs/assets/rev-j-to-k.svg

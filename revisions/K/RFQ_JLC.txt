@@ -1,0 +1,36 @@
+MB4 Rev K / prototype quotation request / not submitted
+B09_streamlined_base.step + same-name PDF / quantity4
+A09_streamlined_anchor.step + same-name PDF / quantity4
+Aluminum6061-T6 / As-machined / Threads YES / units mm.
+
+B09: single R9 arch wall, constant depth6, exposed arch rimsR1.2.
+Swept cubic ribs width3, vertical wall rootsR2, outer rimsR0.8;
+inner exposed rims C0.2 MAX deburr. No raised washer/spring bosses.
+A09: one continuous Bezier roof, parabolic transverse front and tangent
+height transition Y21..27.8 to rear deckZ8. No raised spine or separate crown.
+Straight side outline replaces the pinched waist. Roof rimR0.7/bottomR0.6.
+Height axesX+/-5.5,Y19/24: upperD4.2 wells toZ8, then M4x0.7-6H THRU8 toZ0.
+The access floor has a0.5mm radial material ring; keep mouths isolated.
+M3 washer seats, wall front/rear faces, body datum, height-screw running face
+and piezo glue seat remain flat. STEP governs all 3D surfaces.
+
+M3x0.5-6H THRU6 on B09 with tap drill2.5.
+Rear M4 enters atX0/Z4 fromY55 in-Y, drill path12, open underside outlet.
+Full ring thread landY47..55 is8 MIN. Tap partial outlet walls; deburr below.
+B09 rear tray8x8/R1.5/depth2 toZ3 and D7.4x2 head recess.
+Body countersinks D7/90, seatZ3, plate floor1.4.
+Clamp pad roots extend into the plate; do not create an under-pad lip/groove.
+ISO2768-m; marked axes/widths +/-0.05; body-seat flatness0.05; Ra3.2 target.
+Review ball-end surface finishing, top/bottom/end setups, fixture and tool reach.
+Do not remove ribs, substitute triangles for swept curves, flatten the roof,
+or polish functional seats. Flag necessary tool-radius changes before machining.
+No guaranteed acceptance or unchanged machining cost is claimed.
+
+Submit separate single-part STEP/PDF pairs, not the assembly or preview meshes.
+Official JLC design/thread guides re-read2026-10-06:
+https://jlccnc.com/help/article/cnc-machining-design-guideline
+https://jlccnc.com/help/article/threaded-hole-guideline
+Materials/order references checked2026-10-05:
+https://jlccnc.com/help/article/cnc-machining-ordering-guidelines
+https://jlccnc.com/help/article/aluminum-6061-cnc-machining
+Status: CAD prototype; supplier review and physical testing pending.

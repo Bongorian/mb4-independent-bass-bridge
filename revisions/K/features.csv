@@ -1,0 +1,12 @@
+﻿part,feature,coordinates_mm,machining
+B09,Mounts,X0/Y8 and X0/Y81,D3.8 THRU; CSK D7/90 depth1.6 atZ3; rear top-open D7.4 depth2 and8x8 trayfloorZ3
+B09,Clamps,X+/-6/Y36,M3x0.5-6H THRU6; pilot2.5
+B09,Piezo,X0/Y24,Bottom D12.5 depth1.5; wireW2.2 depth1.2
+B09,Wall,Y70.5..76.5,"Single R9 arch, thickness6; exposed arch rimR1.2; wall/web vertical rootsR2; no raised bosses"
+B09,Ribs,"X[-9,-6] and[6,9]","Width3, single swept cubic front rawY64..72.5/rear rawY74.5..81.5; tips lap2 into wall; outerR0.8, inner C0.2 MAX unmodelled; see STEP for exact curves"
+A09,Height,X+/-5.5/Y19 and Y24,M4x0.7-6H fromZ8 toZ0; pilot3.3; top accessD4.2 toZ8; isolated mouth with floor radial guard0.5
+A09,Rear thread,X0/Z4 fromY55 towards-Y,M4x0.7-6H THRU to underside window; pilot3.3 path12; full land8minY47..55; tap all outlet walls
+A09,Central window,X0/Y36,W4.4/L22/depth6.3/R1.5
+A09,Side relief,X+/-6/Y41.5,6x27/depth3/R1.5
+A09,Clamps,X+/-6/Y41,SlotW3.4/totalL23.4
+A09,Convex roof,Front Z7.8+2.7*(1-(X/9)^2); Y0..21,"Single Bezier roof, front parabolic XZ, smooth tangent rampY21..27.8 to rear deckZ8; rimR0.7 bottomR0.6; no raised spine or waist; STEP governs"

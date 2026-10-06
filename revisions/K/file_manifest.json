@@ -1,0 +1,27 @@
+{
+  "revision": "K",
+  "units": "mm",
+  "upload_parts": [
+    {
+      "name": "B09_streamlined_base.step",
+      "size_bytes": 655957,
+      "sha256": "14b67110fc05aefcc020eaddcd6eab8e6472a1c29663f81ab24049516a65352f"
+    },
+    {
+      "name": "B09_streamlined_base.pdf",
+      "size_bytes": 135527,
+      "sha256": "3a90e5dbb2015217b54ac6f767ffdd3c9e88ed46c7d2db4ff3e0b155486ca980"
+    },
+    {
+      "name": "A09_streamlined_anchor.step",
+      "size_bytes": 804142,
+      "sha256": "9dea79c758d523b023a84a9e3d9ce681699389b2e2d9293213e1e68f4586f8a4"
+    },
+    {
+      "name": "A09_streamlined_anchor.pdf",
+      "size_bytes": 131680,
+      "sha256": "a427241e7c972156d46910d155c26556c1e5bdd771f002112b5648ca1d0e2022"
+    }
+  ],
+  "supplier_status": "not submitted; manual review pending"
+}

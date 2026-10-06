@@ -1,0 +1,11 @@
+﻿ID,item,quantity_for_4_strings,specification
+B09,Streamlined arch base 6061-T6,4,18x86x25; STEP + matching PDF
+A09,Streamlined anchor 6061-T6,4,18x55x10.5; STEP + matching PDF
+H01,SNSS-M4X45-FT,4,M4x45; FULL THREAD required; capheadD7/H4
+H02,WSJS-SUS-M4,4,OD8/ID4.5/t0.5
+H03,UY6-35,4,SUS304-WPB; OD6/wire0.4/L35+/-1.5/k0.098/solid6.8/deflection26.25
+H04,MSSFS4-8/12/16,16,4/string; length by g; flat end
+H05,SSBCB3-12/16/20 or SBCB3-25,8,2/string; buttonheadD5.7/H1.65; 2mm hex; length by g
+H06,WSJS-SUS-M3,height dependent,OD6/ID3.3/t0.5; stack by g; OD6 maximum
+H07,270011003520,8,SUS flathead wood screw3.5x20; verify headD<=7/90deg
+P01,Piezo reference envelope,4,OD<=12; total mounted thickness<=1.2; individual channels

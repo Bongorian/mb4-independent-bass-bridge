@@ -1,24 +1,26 @@
 # 検証記録と未評価事項
 
-## Rev Jで確認したこと
+## Rev Kで確認したこと
 
 | 確認項目 | 方法・記録 |
 | --- | --- |
-| CNC部品の有効性 | B08/A08各1ソリッド。STEP再読込、両方向の差分体積1e−6 mm³未満、外形座標差1e−5 mm未満。曲面の体積数値積分差は相対1e−5未満で記録 |
+| CNC部品の有効性 | B09/A09各1ソリッド。STEP再読込、両方向の差分体積1e−6 mm³未満、外形座標差1e−5 mm未満。曲面の体積数値積分差は診断値として記録し、形状一致は差分と外形で判定 |
 | 組立参考モデル | 64ソリッドの組立 |
 | 位置・高さの組合せ | q=−15/−5/5とg=0/6/12の9条件で部品・金物・ばね外径包絡の干渉を確認 |
 | 移動途中の確認 | 輸出STEPをq=−15〜5、1 mm刻み21位置、g=0で検査 |
 | 高さの支持 | 全4本のφ4平先の全面接地を確認 |
 | 長穴と後方ねじ | M3が連続長穴を通ること、長さ45.5 mm側の後方ねじが当たらないことを確認 |
+| 入口の縁 | 高さ穴の入口床周囲0.5 mmの連続材料を確認 |
 | 穴と材料 | 実下穴、指定タップ主径の周囲0.8 mm材料ガード、リブ根元の材料連続性 |
 | 金物の高さ選択 | g=0〜12を0.01 mm刻みの1201点で選択・先端位置を確認 |
+| 流線形部の機能座 | M3平面座を5位置で、後壁の座金座・ばね座を3高さで接触確認 |
 | 木ねじと工具 | 皿頭の包絡と、アンカー・後方ボルトを付ける前の工具域を確認 |
 
-元の記録：[geometry_check.json](../revisions/J/cad/geometry_check.json)、[travel_sweep_check.json](../revisions/J/cad/travel_sweep_check.json)。検査ソース：[build_bridge.py](../revisions/J/cad/build_bridge.py)、[verify_travel.py](../revisions/J/cad/verify_travel.py)。
+元の記録：[geometry_check.json](../revisions/K/cad/geometry_check.json)、[travel_sweep_check.json](../revisions/K/cad/travel_sweep_check.json)。検査ソース：[build_bridge.py](../revisions/K/cad/build_bridge.py)、[verify_travel.py](../revisions/K/cad/verify_travel.py)。
 
 ねじの噛合いに相当する指定主径領域は、干渉判定から除外しています。ばねは外径包絡と作動長で確認し、レンダーの螺旋は参考形状です。21位置の確認と直線長穴の寸法関係に基づく検証であり、全位置の荷重下の挙動を実測した結果ではありません。
 
-曲面フィレットのSTEP再パラメータ化で、体積の数値積分結果に微小差が生じます。そのためRev Jは積分値だけでなく、元ソリッドと再読込STEPの両方向のBoolean差分と外形座標も検査しています。結果の数値はgeometry_check.jsonに記録します。
+凸曲面・フィレットのSTEP再パラメータ化で、体積の数値積分結果に微小差が生じます。そのためRev Kは積分値だけでなく、元ソリッドと再読込STEPの両方向のBoolean差分と外形座標も検査しています。積分公差を厳しくしても、曲面の数値積分差が残る場合があります。両方向の形状差分を確認します。合否は有効な差分体積と外形で判定し、積分値の差だけで同一形状を否定しません。結果をgeometry_check.jsonに記録します。
 
 ## 未評価の事項
 
@@ -28,10 +30,10 @@
 - ピエゾの品番、接着方法、出力、周波数特性と弦間の振動の回り込み。
 - JLCの工具到達性・固定方法・加工可否・価格・納期。
 
-Rev Iで短縮した後リブを維持するRev Jの強度は未検証です。CNC形状とねじ周辺の材料が残ることは確認していますが、強度保証と同じ意味ではありません。
+リブとアンカー上面を変更したRev Kの強度は未検証です。CNC形状とねじ周辺の材料が残ることは確認していますが、強度保証と同じ意味ではありません。
 
 ## リポジトリと配布ZIPの整合性
 
-`python3 tools/check_repository.py`で、ローカルMarkdownリンク、各版の保存ファイルのSHA-256、Rev J見積ZIPと元STEP/PDFの一致、ZIPのCRC、10版の揃いを確認できます。これは資料と配布ファイルの整合性確認です。
+`python3 tools/check_repository.py`で、ローカルMarkdownリンク、各版の保存ファイルのSHA-256、Rev K見積ZIPと元STEP/PDFの一致、ZIPのCRC、11版の揃いを確認できます。これは資料と配布ファイルの整合性確認です。
 
-`python revisions/J/cad/verify_travel.py`はCadQueryが必要なCAD確認です。ソースを変更した場合はSTEPを再生成してから検査します。CADを変更していない資料整理だけで、すべての歴史的版の強度計算や加工見積をやり直したと解釈しません。
+`python revisions/K/cad/verify_travel.py`はCadQueryが必要なCAD確認です。ソースを変更した場合はSTEPを再生成してから検査します。CADを変更していない資料整理だけで、すべての歴史的版の強度計算や加工見積をやり直したと解釈しません。

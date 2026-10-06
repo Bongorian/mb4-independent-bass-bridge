@@ -1,0 +1,9 @@
+feature,Rev J,Rev K,reason
+Anchor roof,Raised separate crown,Continuous convex front roof to flat rear deck Z8,Simple streamlined profile
+Rear arch,R9 arch with edge rounds,Single constant-depth6 arch with exposed rimR1.2,Simplify wall silhouette
+Integral ribs,Previous rib profile,Swept cubic webs width3; tips lap2mm into wall; outerR0.8,Smooth load path; remove decorative grooves
+Height tap coordinates,X+/-5.7; Y19/25,X+/-5.5; Y19/24,Preserve closed access-floor rims
+Height access,D4.5,D4.2; floorZ8; thread region Z0..8,Keep material near outside rim and cradle
+Clamp pads,Separate pad profile,6x6 rounded pad; root Z2 into main plate; topZ6,Eliminate gap beneath rounded plate rim
+Mechanism,Base86; anchor55; q-15..5; H8..20,Unchanged,Retain 20mm intonation and low minimum height
+Body and piezo,MountY8/81; piezoY24,Unchanged,Retain mounting template and per-string piezo option

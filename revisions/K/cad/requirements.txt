@@ -1,0 +1,6 @@
+cadquery==2.8.0
+reportlab==5.0.1
+ezdxf==1.4.4
+Pillow==12.3.0
+
+svglib==2.2.0
