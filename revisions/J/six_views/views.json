@@ -1,0 +1,103 @@
+{
+  "revision": "J",
+  "source": "../cad/MB4_RevJ_preview.blend",
+  "note": "Body and long string reference objects hidden for all six views. Piezo envelopes and ball references remain visible. CAD unchanged.",
+  "views": [
+    {
+      "file": "01_front.png",
+      "label": "前面 / ネック側 (-Y)",
+      "camera_from": [
+        0,
+        -1,
+        0
+      ],
+      "screen_up": [
+        0,
+        0,
+        1
+      ],
+      "projection": "orthographic",
+      "vertical_extent_mm": 100
+    },
+    {
+      "file": "02_rear.png",
+      "label": "後面 / 調整ネジ側 (+Y)",
+      "camera_from": [
+        0,
+        1,
+        0
+      ],
+      "screen_up": [
+        0,
+        0,
+        1
+      ],
+      "projection": "orthographic",
+      "vertical_extent_mm": 100
+    },
+    {
+      "file": "03_left.png",
+      "label": "左面 (-X)",
+      "camera_from": [
+        -1,
+        0,
+        0
+      ],
+      "screen_up": [
+        0,
+        0,
+        1
+      ],
+      "projection": "orthographic",
+      "vertical_extent_mm": 100
+    },
+    {
+      "file": "04_right.png",
+      "label": "右面 (+X)",
+      "camera_from": [
+        1,
+        0,
+        0
+      ],
+      "screen_up": [
+        0,
+        0,
+        1
+      ],
+      "projection": "orthographic",
+      "vertical_extent_mm": 100
+    },
+    {
+      "file": "05_top.png",
+      "label": "上面 (+Z)",
+      "camera_from": [
+        0,
+        0,
+        1
+      ],
+      "screen_up": [
+        0,
+        1,
+        0
+      ],
+      "projection": "orthographic",
+      "vertical_extent_mm": 100
+    },
+    {
+      "file": "06_bottom.png",
+      "label": "下面 (-Z)",
+      "camera_from": [
+        0,
+        0,
+        -1
+      ],
+      "screen_up": [
+        0,
+        -1,
+        0
+      ],
+      "projection": "orthographic",
+      "vertical_extent_mm": 100
+    }
+  ]
+}

@@ -17,13 +17,13 @@ def main():
         assert sha(p) == row['sha256'], row['path']
     print(f"Preserved revision assets: {len(records['files'])} SHA-256 matches")
 
-    for rev in 'ABCDEFGHI':
+    for rev in 'ABCDEFGHIJ':
         folder = ROOT / 'revisions' / rev
         assert (folder / 'bridge_preview.png').is_file(), rev
         assert (folder / 'cad/build_bridge.py').is_file(), rev
         assert list((folder / 'cad/step').glob('*.step')), rev
         assert list((folder / 'pdf').glob('*.pdf')), rev
-    print('Revision A-I: source, preview, STEP and PDF present')
+    print('Revision A-J: source, preview, STEP and PDF present')
 
     markdown = [ROOT / 'README.md', *sorted((ROOT / 'docs').rglob('*.md')),
                 ROOT / 'downloads/README.md']
@@ -39,22 +39,23 @@ def main():
             links += 1
     print(f'Local documentation links: {links} valid')
 
-    r = ROOT / 'revisions/I'
-    expected = {f'{name}.{ext}' for name in ('B07_long_travel_base', 'A07_long_travel_anchor')
+    latest=records.get('latest_revision','I')
+    r = ROOT / 'revisions' / latest
+    expected = {f'{name}.{ext}' for name in records['latest_parts']
                 for ext in ('step', 'pdf')}
-    package = ROOT / 'downloads/MB4_JLCCNC_upload_RevI.zip'
+    package = ROOT / f'downloads/MB4_JLCCNC_upload_Rev{latest}.zip'
     with zipfile.ZipFile(package) as z:
         assert z.testzip() is None
         assert set(z.namelist()) == expected
         for name in expected:
             path = r / ('cad/step' if name.endswith('.step') else 'pdf') / name
             assert z.read(name) == path.read_bytes(), name
-    with zipfile.ZipFile(ROOT / 'downloads/MB4_RevI_six_views.zip') as z:
+    with zipfile.ZipFile(ROOT / f'downloads/MB4_Rev{latest}_six_views.zip') as z:
         assert z.testzip() is None
         for name in ('01_front.png', '02_rear.png', '03_left.png', '04_right.png',
-                     '05_top.png', '06_bottom.png', 'MB4_RevI_six_views.png'):
+                     '05_top.png', '06_bottom.png', f'MB4_Rev{latest}_six_views.png'):
             assert name in z.namelist(), name
-    print('Rev I ZIPs: CRC passed; quotation STEP/PDF match canonical files')
+    print(f'Rev {latest} ZIPs: CRC passed; quotation STEP/PDF match canonical files')
 
     p = json.loads((r / 'cad/parameters.json').read_text())
     assert p['base_length'] == 86 and p['anchor_length'] == 55
@@ -62,7 +63,7 @@ def main():
     sweep = json.loads((r / 'cad/travel_sweep_check.json').read_text())
     assert sweep['q_max'] - sweep['q_min'] == 20
     assert sweep['positions_checked'] == 21
-    print('Latest revision: I / base86 / anchor55 / bolt45 / travel20 verified')
+    print(f'Latest revision: {latest} / base86 / anchor55 / bolt45 / travel20 verified')
 
 if __name__ == '__main__':
     main()

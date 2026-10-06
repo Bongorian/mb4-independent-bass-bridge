@@ -1,10 +1,10 @@
 # 検証記録と未評価事項
 
-## Rev Iで確認したこと
+## Rev Jで確認したこと
 
 | 確認項目 | 方法・記録 |
 | --- | --- |
-| CNC部品の有効性 | B07/A07各1ソリッド。STEP再読込と体積一致、相対許容1e−6 |
+| CNC部品の有効性 | B08/A08各1ソリッド。STEP再読込、両方向の差分体積1e−6 mm³未満、外形座標差1e−5 mm未満。曲面の体積数値積分差は相対1e−5未満で記録 |
 | 組立参考モデル | 64ソリッドの組立 |
 | 位置・高さの組合せ | q=−15/−5/5とg=0/6/12の9条件で部品・金物・ばね外径包絡の干渉を確認 |
 | 移動途中の確認 | 輸出STEPをq=−15〜5、1 mm刻み21位置、g=0で検査 |
@@ -14,9 +14,11 @@
 | 金物の高さ選択 | g=0〜12を0.01 mm刻みの1201点で選択・先端位置を確認 |
 | 木ねじと工具 | 皿頭の包絡と、アンカー・後方ボルトを付ける前の工具域を確認 |
 
-元の記録：[geometry_check.json](../revisions/I/cad/geometry_check.json)、[travel_sweep_check.json](../revisions/I/cad/travel_sweep_check.json)。検査ソース：[build_bridge.py](../revisions/I/cad/build_bridge.py)、[verify_travel.py](../revisions/I/cad/verify_travel.py)。
+元の記録：[geometry_check.json](../revisions/J/cad/geometry_check.json)、[travel_sweep_check.json](../revisions/J/cad/travel_sweep_check.json)。検査ソース：[build_bridge.py](../revisions/J/cad/build_bridge.py)、[verify_travel.py](../revisions/J/cad/verify_travel.py)。
 
 ねじの噛合いに相当する指定主径領域は、干渉判定から除外しています。ばねは外径包絡と作動長で確認し、レンダーの螺旋は参考形状です。21位置の確認と直線長穴の寸法関係に基づく検証であり、全位置の荷重下の挙動を実測した結果ではありません。
+
+曲面フィレットのSTEP再パラメータ化で、体積の数値積分結果に微小差が生じます。そのためRev Jは積分値だけでなく、元ソリッドと再読込STEPの両方向のBoolean差分と外形座標も検査しています。結果の数値はgeometry_check.jsonに記録します。
 
 ## 未評価の事項
 
@@ -26,10 +28,10 @@
 - ピエゾの品番、接着方法、出力、周波数特性と弦間の振動の回り込み。
 - JLCの工具到達性・固定方法・加工可否・価格・納期。
 
-後リブの足を短くしたRev Iの強度は未検証です。CNC形状とねじ周辺の材料が残ることは確認していますが、強度保証と同じ意味ではありません。
+Rev Iで短縮した後リブを維持するRev Jの強度は未検証です。CNC形状とねじ周辺の材料が残ることは確認していますが、強度保証と同じ意味ではありません。
 
 ## リポジトリと配布ZIPの整合性
 
-`python3 tools/check_repository.py`で、ローカルMarkdownリンク、各版の保存ファイルのSHA-256、Rev I見積ZIPと元STEP/PDFの一致、ZIPのCRC、9版の揃いを確認できます。これは資料と配布ファイルの整合性確認です。
+`python3 tools/check_repository.py`で、ローカルMarkdownリンク、各版の保存ファイルのSHA-256、Rev J見積ZIPと元STEP/PDFの一致、ZIPのCRC、10版の揃いを確認できます。これは資料と配布ファイルの整合性確認です。
 
-`python revisions/I/cad/verify_travel.py`はCadQueryが必要なCAD確認です。ソースを変更した場合はSTEPを再生成してから検査します。CADを変更していない資料整理だけで、すべての歴史的版の強度計算や加工見積をやり直したと解釈しません。
+`python revisions/J/cad/verify_travel.py`はCadQueryが必要なCAD確認です。ソースを変更した場合はSTEPを再生成してから検査します。CADを変更していない資料整理だけで、すべての歴史的版の強度計算や加工見積をやり直したと解釈しません。

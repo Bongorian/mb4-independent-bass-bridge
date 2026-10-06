@@ -1,0 +1,32 @@
+MB4 Rev J / prototype quote request / not submitted
+
+B08_rounded_base.step + same-name PDF / quantity4
+A08_rounded_anchor.step + same-name PDF / quantity4
+Aluminum6061-T6 / As-machined / Threads YES / units mm.
+
+Make M3x0.5-6H and M4x0.7-6H threads from the pilot holes shown in STEP.
+A08 rear thread enters at X0/Z4 fromY55 in -Y; drilling path12 mm;
+THRU to open underside window. Full circumferential thread landY47..55, 8 mm MIN.
+Tap every partial outlet wall; deburr from the open underside, no blind tip.
+
+B08 has a top-open rear tray8x8/R1.5/depth2 to Z3 and D7.4x2 rear head recess.
+Front and rear body countersinks D7/90, head seatZ3, underlying plate floor1.4.
+Keep R2 wall/rib inside corners and plain3 mm web profiles. Wall thickness6.
+Arch rimR1.2; web outside diagonalsR0.8 / inside diagonalsR0.5; free front plate upper rimR0.5.
+Anchor upperR1.2 / lowerR0.6; crown upperR1.2 / rootR0.6. Functional seats remain unchanged.
+Do not round the base rim under the webs into a groove or remove the ribs.
+General ISO2768-m; marked functional axes/widths +/-0.05; body-seat flatness0.05.
+Ra3.2 target. No polishing of functional seats. Other edge break limits in PDFs.
+STEP governs 3D geometry; matching PDFs govern threads/tolerances/finish.
+
+Please review top/bottom/end milling access, short rear tapping, tool reach,
+material availability, price and lead time. Do not upload assembly/meshes/guide for machining.
+Two separate upload ZIPs include only each part's STEP and matching shop PDF.
+
+Official JLC references checked2026-10-05:
+https://jlccnc.com/help/article/cnc-machining-ordering-guidelines
+https://jlccnc.com/help/article/cnc-machining-design-guideline
+https://jlccnc.com/help/article/threaded-hole-guideline
+https://jlccnc.com/help/article/aluminum-6061-cnc-machining
+
+Status: geometric prototype verification only; supplier review and physical testing pending.

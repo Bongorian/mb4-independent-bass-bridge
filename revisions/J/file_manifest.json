@@ -1,0 +1,27 @@
+{
+  "revision": "J",
+  "units": "mm",
+  "upload_parts": [
+    {
+      "name": "B08_rounded_base.step",
+      "size_bytes": 690674,
+      "sha256": "603af2790486f3dd971efed8ee53895ebdef916d6407b060ea88215966371dea"
+    },
+    {
+      "name": "B08_rounded_base.pdf",
+      "size_bytes": 139708,
+      "sha256": "4c30f4e2d06fd167dc402748035f12ef8fd1c5648b83d0a9f64fecf0e32acf79"
+    },
+    {
+      "name": "A08_rounded_anchor.step",
+      "size_bytes": 708077,
+      "sha256": "1acac67cd9cf830db18828e1596719c708999e9850fb9e8c133c4eb629e9abb0"
+    },
+    {
+      "name": "A08_rounded_anchor.pdf",
+      "size_bytes": 125259,
+      "sha256": "621c25981cc808846a6270bf2134bb248436a182bf94ad63db1df7ea800e0898"
+    }
+  ],
+  "supplier_status": "not submitted; manual review pending"
+}

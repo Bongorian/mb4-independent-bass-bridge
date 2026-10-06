@@ -1,0 +1,15 @@
+feature,RevI,RevJ,status
+arch_rim,C0.25,R1.2,rounded
+rib_outer_diagonal,C0.25,R0.8,rounded
+rib_inner_diagonal,sharp,R0.5,rounded
+free_front_plate_upper_rim,C0.25,R0.5,rounded
+anchor_upper_edge,R0.8,R1.2,rounded
+anchor_lower_edge,R0.4,R0.6,rounded
+crown_upper_edge,R1.0,R1.2,rounded
+crown_root,R0.8,R0.6,avoids overlapping fillets within unchanged2mm crown
+base_length,86,86,unchanged
+travel,20,20,unchanged
+reference_height,8..20,8..20,unchanged
+mounts,0/8 and0/81,0/8 and0/81,unchanged
+piezo,0/24,0/24,unchanged
+rear_hardware,M4x45FT andUY6-35,M4x45FT andUY6-35,unchanged

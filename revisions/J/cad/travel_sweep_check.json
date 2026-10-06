@@ -1,0 +1,14 @@
+{
+  "q_min": -15,
+  "q_max": 5,
+  "positions_checked": 21,
+  "step_mm": 1,
+  "gap": 0,
+  "base_anchor": "passed",
+  "height_foot_D4_full_support": "passed",
+  "spring_D6_envelope": "passed",
+  "rear_bolt_L45_5_tolerance": "passed",
+  "clamp_M3_continuous_slots": "passed",
+  "actual_exported_pilot_bores": "passed",
+  "minimum_rear_land_engagement_with_length_tolerance": 7.5
+}

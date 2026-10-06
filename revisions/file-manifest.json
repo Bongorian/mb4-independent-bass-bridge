@@ -1,6 +1,11 @@
 {
-  "snapshot_date": "2026-10-05",
-  "purpose": "Preserved historical files; all hashes checked against original local archives before publication",
+  "snapshot_date": "2026-10-06",
+  "latest_revision": "J",
+  "latest_parts": [
+    "B08_rounded_base",
+    "A08_rounded_anchor"
+  ],
+  "purpose": "Original A-I archive preserved; new J rounded parts and matching documents verified",
   "files": [
     {
       "path": "revisions/A/BOM.csv",
@@ -1301,6 +1306,201 @@
       "path": "revisions/I/travel_preview.png",
       "size_bytes": 96798,
       "sha256": "ad8b03b50082eef141c7a7c7930bf8a1042c83eea024dcea876df7f282f0b851"
+    },
+    {
+      "path": "revisions/J/BOM.csv",
+      "size_bytes": 724,
+      "sha256": "471846ff35d369ac4c2db95fe8faa0efec595f6b862fb7f1c81e4e14f6715f9b"
+    },
+    {
+      "path": "revisions/J/MB4_mount_template_1to1.dxf",
+      "size_bytes": 21583,
+      "sha256": "a84786090af506915dba390861c84365581005aeb93b006a6efa12d356fff0e6"
+    },
+    {
+      "path": "revisions/J/MISUMI_purchase_options.csv",
+      "size_bytes": 6472,
+      "sha256": "da087f18c3200cccf4784c5028500f0a7785ed83ace79d5aeb543dc50d8f475b"
+    },
+    {
+      "path": "revisions/J/README.txt",
+      "size_bytes": 2323,
+      "sha256": "25ceb9c0ef09fc7b593b901de3015099cd7f89ea006e71286737903328390551"
+    },
+    {
+      "path": "revisions/J/RFQ_JLC.txt",
+      "size_bytes": 1883,
+      "sha256": "6d57d6f02541a7e8530d56688269392d6b156cd8ad304023654c4cd2c0b91387"
+    },
+    {
+      "path": "revisions/J/bridge_preview.png",
+      "size_bytes": 2340333,
+      "sha256": "8206b73a9b357866ecf29ab3b4389d101db206455bf8ac2c91bef23310d82db8"
+    },
+    {
+      "path": "revisions/J/bridge_rear_preview.png",
+      "size_bytes": 2278942,
+      "sha256": "f844e2449b40e8d0eebac1a7b96bfeeb7e6f19440a1fba5e17f1cb6155ed6db0"
+    },
+    {
+      "path": "revisions/J/cad/build_bridge.py",
+      "size_bytes": 19739,
+      "sha256": "fa07a583fa7d0ba23bea019e5872132f453290aec97833e4360e7f38ff1d8533"
+    },
+    {
+      "path": "revisions/J/cad/compose_six_views.py",
+      "size_bytes": 3075,
+      "sha256": "81840fe5d93cb05feb3c1875042de18a15192bf3c233803f409ec68e742b01ac"
+    },
+    {
+      "path": "revisions/J/cad/geometry_check.json",
+      "size_bytes": 9284,
+      "sha256": "e40c36eb8db10c983eb07293eb3ce871b97a762b9ea6168b3c219a7a5bcb9790"
+    },
+    {
+      "path": "revisions/J/cad/make_documents.py",
+      "size_bytes": 18444,
+      "sha256": "e0f51cfc176a4d3f06b51d794b6af6164e6853999438a1b4316b3e4a0beecc0e"
+    },
+    {
+      "path": "revisions/J/cad/package_outputs.py",
+      "size_bytes": 2311,
+      "sha256": "cd2024d4a6ccd2e22155c5443dbdca7ca210f3a55ccbdcfbb942b2e4003f1f38"
+    },
+    {
+      "path": "revisions/J/cad/parameters.json",
+      "size_bytes": 5188,
+      "sha256": "41d5b67d468bf693dec41b83e1d9b86dd2116ee1fb050b8f83ccca7fed95fbd2"
+    },
+    {
+      "path": "revisions/J/cad/render_bridge.py",
+      "size_bytes": 2875,
+      "sha256": "1f9ea4cf01e1deb05437c529ac1a1efefb3358dcad174f112f7f3d46f20b7f0e"
+    },
+    {
+      "path": "revisions/J/cad/render_six_views.py",
+      "size_bytes": 3441,
+      "sha256": "56c518e279632f0308fc116837e77037fc0a3586f8546a62ab3ff800f43d2d0e"
+    },
+    {
+      "path": "revisions/J/cad/requirements.txt",
+      "size_bytes": 76,
+      "sha256": "cee182d246293a5ad4e4aab59e9591488dfc21b9dc011fee0c64cbb99cb1a6cc"
+    },
+    {
+      "path": "revisions/J/cad/scene_manifest.json",
+      "size_bytes": 12666,
+      "sha256": "bbe67635f027de56098eb28f1da925c8d58a0abef356c39e8e316c2ef5aff0d8"
+    },
+    {
+      "path": "revisions/J/cad/step/A08_rounded_anchor.step",
+      "size_bytes": 708077,
+      "sha256": "1acac67cd9cf830db18828e1596719c708999e9850fb9e8c133c4eb629e9abb0"
+    },
+    {
+      "path": "revisions/J/cad/step/B08_rounded_base.step",
+      "size_bytes": 690674,
+      "sha256": "603af2790486f3dd971efed8ee53895ebdef916d6407b060ea88215966371dea"
+    },
+    {
+      "path": "revisions/J/cad/step/MB4_assembly.step",
+      "size_bytes": 7517806,
+      "sha256": "2176e79fc04e2f5f360c258b0b8b9a9f2c0c53ca795af7902fe17a7f44b163e6"
+    },
+    {
+      "path": "revisions/J/cad/travel_sweep_check.json",
+      "size_bytes": 378,
+      "sha256": "333809fc48f213e199bb85c0f64c5afc228a2f820db9fbc8c010758d7817e627"
+    },
+    {
+      "path": "revisions/J/cad/verify_travel.py",
+      "size_bytes": 1811,
+      "sha256": "1a906eb2a391ef04549bfc8e87a08b9725172071d6bc8b160917c29b91a36087"
+    },
+    {
+      "path": "revisions/J/features.csv",
+      "size_bytes": 840,
+      "sha256": "cbe40fff7fdbc7557122f316dcd751edff853363b646347fb6869d82d89c598c"
+    },
+    {
+      "path": "revisions/J/file_manifest.json",
+      "size_bytes": 778,
+      "sha256": "741fae67fe757f76154eed37120126b3d911f846ebd99db2edbdaaf477100fa1"
+    },
+    {
+      "path": "revisions/J/hardware_sources.txt",
+      "size_bytes": 5894,
+      "sha256": "04d043c9a3a163dc5a2e012a73b5ac1f045a0115198e0a2e8c50def419d6d163"
+    },
+    {
+      "path": "revisions/J/pdf/A08_rounded_anchor.pdf",
+      "size_bytes": 125259,
+      "sha256": "621c25981cc808846a6270bf2134bb248436a182bf94ad63db1df7ea800e0898"
+    },
+    {
+      "path": "revisions/J/pdf/B08_rounded_base.pdf",
+      "size_bytes": 139708,
+      "sha256": "4c30f4e2d06fd167dc402748035f12ef8fd1c5648b83d0a9f64fecf0e32acf79"
+    },
+    {
+      "path": "revisions/J/pdf/MB4_RevJ_guide.pdf",
+      "size_bytes": 2358960,
+      "sha256": "949f82af2de00cc5cf0b54fc861e978dcb0e26315d6549561ba542f6a1aa46cd"
+    },
+    {
+      "path": "revisions/J/revision_changes.csv",
+      "size_bytes": 573,
+      "sha256": "13b4129e3b0596e95e83a4cea2daa90f9ad6185bfffb4f3bb2fb1893256cb4b2"
+    },
+    {
+      "path": "revisions/J/six_views/01_front.png",
+      "size_bytes": 723230,
+      "sha256": "489bed02d3f7cd89c94262d25e1363b1cd730becf848ca92c9e219e732ed48aa"
+    },
+    {
+      "path": "revisions/J/six_views/02_rear.png",
+      "size_bytes": 706409,
+      "sha256": "3b9e12cedb47237df8a1eb821a30e47e15ce7392b2abe72ae52cf4409eee4aa8"
+    },
+    {
+      "path": "revisions/J/six_views/03_left.png",
+      "size_bytes": 664984,
+      "sha256": "1defe52b97c549264fd4dd681d07d16d348f9cb5e904a4d1f4b21fa778db1e1f"
+    },
+    {
+      "path": "revisions/J/six_views/04_right.png",
+      "size_bytes": 664661,
+      "sha256": "ba507a8428d2da0845c7e26a79808f2dc4dfd30a130982be97b0c44dc32ae92a"
+    },
+    {
+      "path": "revisions/J/six_views/05_top.png",
+      "size_bytes": 1517694,
+      "sha256": "ebdd33d4cecad2f006815795e57fc460357339318f3efcd2d4fa59385acdd0f4"
+    },
+    {
+      "path": "revisions/J/six_views/06_bottom.png",
+      "size_bytes": 1333311,
+      "sha256": "19bde0c2c38be1164d7c938ae25ede402eb82aa86e449ad0a6e8f9ee7de99d8c"
+    },
+    {
+      "path": "revisions/J/six_views/MB4_RevJ_six_views.png",
+      "size_bytes": 667517,
+      "sha256": "7676a8b3349ce2f3686033be2e426195738813c533105dab681427e2848f1604"
+    },
+    {
+      "path": "revisions/J/six_views/README.txt",
+      "size_bytes": 443,
+      "sha256": "c0ceb5e0990de15c2f0a63a9d95b5d708d2e86f66e1cf6a4532914412ce73bab"
+    },
+    {
+      "path": "revisions/J/six_views/views.json",
+      "size_bytes": 1865,
+      "sha256": "6dbc7199dba988df6e89df46f0eecc8f77858edab577989b28467281cec409e2"
+    },
+    {
+      "path": "revisions/J/travel_preview.png",
+      "size_bytes": 147653,
+      "sha256": "a72c2d405633c1e7fe3c1b0d4ef9345b8c93755fea200b2ed08a2e68255b2890"
     }
   ]
 }

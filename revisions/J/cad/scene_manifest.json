@@ -1,0 +1,578 @@
+[
+  {
+    "name": "S1_B08_rounded_base_0",
+    "file": "preview_mesh/S1_B08_rounded_base_0.stl",
+    "color": [
+      0.3800000025127421,
+      0.4500000038597685,
+      0.5000000034286967
+    ]
+  },
+  {
+    "name": "S1_A08_rounded_anchor_1",
+    "file": "preview_mesh/S1_A08_rounded_anchor_1.stl",
+    "color": [
+      0.6300000081935074,
+      0.6799999908109459,
+      0.7200000033238447
+    ]
+  },
+  {
+    "name": "S1_clamp_washer_stack_2",
+    "file": "preview_mesh/S1_clamp_washer_stack_2.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S1_clamp_M3_3",
+    "file": "preview_mesh/S1_clamp_M3_3.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S1_clamp_washer_stack_4",
+    "file": "preview_mesh/S1_clamp_washer_stack_4.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S1_clamp_M3_5",
+    "file": "preview_mesh/S1_clamp_M3_5.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S1_height_M4_6",
+    "file": "preview_mesh/S1_height_M4_6.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S1_height_M4_7",
+    "file": "preview_mesh/S1_height_M4_7.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S1_height_M4_8",
+    "file": "preview_mesh/S1_height_M4_8.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S1_height_M4_9",
+    "file": "preview_mesh/S1_height_M4_9.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S1_intonation_M4x45_FULL_THREAD_10",
+    "file": "preview_mesh/S1_intonation_M4x45_FULL_THREAD_10.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S1_intonation_washer_11",
+    "file": "preview_mesh/S1_intonation_washer_11.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S1_compression_spring_REFERENCE_12",
+    "file": "preview_mesh/S1_compression_spring_REFERENCE_12.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S1_string_reference_13",
+    "file": "preview_mesh/S1_string_reference_13.stl",
+    "color": [
+      0.8500000127184191,
+      0.8500000127184191,
+      0.8500000127184191
+    ]
+  },
+  {
+    "name": "S1_ball_reference_ONLY_14",
+    "file": "preview_mesh/S1_ball_reference_ONLY_14.stl",
+    "color": [
+      0.7200000033238447,
+      0.6300000081935074,
+      0.4300000078368356
+    ]
+  },
+  {
+    "name": "S1_piezo_envelope_ONLY_15",
+    "file": "preview_mesh/S1_piezo_envelope_ONLY_15.stl",
+    "color": [
+      0.700000005816421,
+      0.3800000025127421,
+      0.13000000109304727
+    ]
+  },
+  {
+    "name": "S2_B08_rounded_base_0",
+    "file": "preview_mesh/S2_B08_rounded_base_0.stl",
+    "color": [
+      0.3800000025127421,
+      0.4500000038597685,
+      0.5000000034286967
+    ]
+  },
+  {
+    "name": "S2_A08_rounded_anchor_1",
+    "file": "preview_mesh/S2_A08_rounded_anchor_1.stl",
+    "color": [
+      0.6300000081935074,
+      0.6799999908109459,
+      0.7200000033238447
+    ]
+  },
+  {
+    "name": "S2_clamp_washer_stack_2",
+    "file": "preview_mesh/S2_clamp_washer_stack_2.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S2_clamp_M3_3",
+    "file": "preview_mesh/S2_clamp_M3_3.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S2_clamp_washer_stack_4",
+    "file": "preview_mesh/S2_clamp_washer_stack_4.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S2_clamp_M3_5",
+    "file": "preview_mesh/S2_clamp_M3_5.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S2_height_M4_6",
+    "file": "preview_mesh/S2_height_M4_6.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S2_height_M4_7",
+    "file": "preview_mesh/S2_height_M4_7.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S2_height_M4_8",
+    "file": "preview_mesh/S2_height_M4_8.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S2_height_M4_9",
+    "file": "preview_mesh/S2_height_M4_9.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S2_intonation_M4x45_FULL_THREAD_10",
+    "file": "preview_mesh/S2_intonation_M4x45_FULL_THREAD_10.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S2_intonation_washer_11",
+    "file": "preview_mesh/S2_intonation_washer_11.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S2_compression_spring_REFERENCE_12",
+    "file": "preview_mesh/S2_compression_spring_REFERENCE_12.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S2_string_reference_13",
+    "file": "preview_mesh/S2_string_reference_13.stl",
+    "color": [
+      0.8500000127184191,
+      0.8500000127184191,
+      0.8500000127184191
+    ]
+  },
+  {
+    "name": "S2_ball_reference_ONLY_14",
+    "file": "preview_mesh/S2_ball_reference_ONLY_14.stl",
+    "color": [
+      0.7200000033238447,
+      0.6300000081935074,
+      0.4300000078368356
+    ]
+  },
+  {
+    "name": "S2_piezo_envelope_ONLY_15",
+    "file": "preview_mesh/S2_piezo_envelope_ONLY_15.stl",
+    "color": [
+      0.700000005816421,
+      0.3800000025127421,
+      0.13000000109304727
+    ]
+  },
+  {
+    "name": "S3_B08_rounded_base_0",
+    "file": "preview_mesh/S3_B08_rounded_base_0.stl",
+    "color": [
+      0.3800000025127421,
+      0.4500000038597685,
+      0.5000000034286967
+    ]
+  },
+  {
+    "name": "S3_A08_rounded_anchor_1",
+    "file": "preview_mesh/S3_A08_rounded_anchor_1.stl",
+    "color": [
+      0.6300000081935074,
+      0.6799999908109459,
+      0.7200000033238447
+    ]
+  },
+  {
+    "name": "S3_clamp_washer_stack_2",
+    "file": "preview_mesh/S3_clamp_washer_stack_2.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S3_clamp_M3_3",
+    "file": "preview_mesh/S3_clamp_M3_3.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S3_clamp_washer_stack_4",
+    "file": "preview_mesh/S3_clamp_washer_stack_4.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S3_clamp_M3_5",
+    "file": "preview_mesh/S3_clamp_M3_5.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S3_height_M4_6",
+    "file": "preview_mesh/S3_height_M4_6.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S3_height_M4_7",
+    "file": "preview_mesh/S3_height_M4_7.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S3_height_M4_8",
+    "file": "preview_mesh/S3_height_M4_8.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S3_height_M4_9",
+    "file": "preview_mesh/S3_height_M4_9.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S3_intonation_M4x45_FULL_THREAD_10",
+    "file": "preview_mesh/S3_intonation_M4x45_FULL_THREAD_10.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S3_intonation_washer_11",
+    "file": "preview_mesh/S3_intonation_washer_11.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S3_compression_spring_REFERENCE_12",
+    "file": "preview_mesh/S3_compression_spring_REFERENCE_12.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S3_string_reference_13",
+    "file": "preview_mesh/S3_string_reference_13.stl",
+    "color": [
+      0.8500000127184191,
+      0.8500000127184191,
+      0.8500000127184191
+    ]
+  },
+  {
+    "name": "S3_ball_reference_ONLY_14",
+    "file": "preview_mesh/S3_ball_reference_ONLY_14.stl",
+    "color": [
+      0.7200000033238447,
+      0.6300000081935074,
+      0.4300000078368356
+    ]
+  },
+  {
+    "name": "S3_piezo_envelope_ONLY_15",
+    "file": "preview_mesh/S3_piezo_envelope_ONLY_15.stl",
+    "color": [
+      0.700000005816421,
+      0.3800000025127421,
+      0.13000000109304727
+    ]
+  },
+  {
+    "name": "S4_B08_rounded_base_0",
+    "file": "preview_mesh/S4_B08_rounded_base_0.stl",
+    "color": [
+      0.3800000025127421,
+      0.4500000038597685,
+      0.5000000034286967
+    ]
+  },
+  {
+    "name": "S4_A08_rounded_anchor_1",
+    "file": "preview_mesh/S4_A08_rounded_anchor_1.stl",
+    "color": [
+      0.6300000081935074,
+      0.6799999908109459,
+      0.7200000033238447
+    ]
+  },
+  {
+    "name": "S4_clamp_washer_stack_2",
+    "file": "preview_mesh/S4_clamp_washer_stack_2.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S4_clamp_M3_3",
+    "file": "preview_mesh/S4_clamp_M3_3.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S4_clamp_washer_stack_4",
+    "file": "preview_mesh/S4_clamp_washer_stack_4.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S4_clamp_M3_5",
+    "file": "preview_mesh/S4_clamp_M3_5.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S4_height_M4_6",
+    "file": "preview_mesh/S4_height_M4_6.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S4_height_M4_7",
+    "file": "preview_mesh/S4_height_M4_7.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S4_height_M4_8",
+    "file": "preview_mesh/S4_height_M4_8.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S4_height_M4_9",
+    "file": "preview_mesh/S4_height_M4_9.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S4_intonation_M4x45_FULL_THREAD_10",
+    "file": "preview_mesh/S4_intonation_M4x45_FULL_THREAD_10.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S4_intonation_washer_11",
+    "file": "preview_mesh/S4_intonation_washer_11.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S4_compression_spring_REFERENCE_12",
+    "file": "preview_mesh/S4_compression_spring_REFERENCE_12.stl",
+    "color": [
+      0.7600000136009656,
+      0.7699999931816375,
+      0.7899999959075178
+    ]
+  },
+  {
+    "name": "S4_string_reference_13",
+    "file": "preview_mesh/S4_string_reference_13.stl",
+    "color": [
+      0.8500000127184191,
+      0.8500000127184191,
+      0.8500000127184191
+    ]
+  },
+  {
+    "name": "S4_ball_reference_ONLY_14",
+    "file": "preview_mesh/S4_ball_reference_ONLY_14.stl",
+    "color": [
+      0.7200000033238447,
+      0.6300000081935074,
+      0.4300000078368356
+    ]
+  },
+  {
+    "name": "S4_piezo_envelope_ONLY_15",
+    "file": "preview_mesh/S4_piezo_envelope_ONLY_15.stl",
+    "color": [
+      0.700000005816421,
+      0.3800000025127421,
+      0.13000000109304727
+    ]
+  }
+]
