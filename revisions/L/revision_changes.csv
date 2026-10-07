@@ -1,0 +1,8 @@
+feature,Rev K,Rev L,reason
+Ball cradle,Rounded rectangular well W8/L11,Capsule W8.2/Y6..15; frontR1.1; rearR4.1,Simplify the visible opening
+Cradle top mouth,Deburred edge,True CAD filletR0.6 into convex roof,Smoother transition
+Rear string slit,Slot extended toY22,Removed; front-only channelY-2..8/W3.4,Close redundant rear notch
+Load reference,ShoulderY6; floorZ2; reference axisZ5,Unchanged,Maintain height and intonation references
+Reference loading,Ball at seating position,Vertical insertY11/Z15..5; forward seatY11..9,Verify reference loading path and shoulder stop
+Base,B09_streamlined_base,B10_streamlined_base; identical shape,Matched release identifiers
+Mechanism,H8..20; q-15..5; base86,Unchanged,Keep low minimum height and 20mm travel

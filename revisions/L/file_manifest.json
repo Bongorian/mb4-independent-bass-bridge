@@ -1,0 +1,27 @@
+{
+  "revision": "L",
+  "units": "mm",
+  "upload_parts": [
+    {
+      "name": "B10_streamlined_base.step",
+      "size_bytes": 655957,
+      "sha256": "20ed20da452272402f2c94ef881fc9b3a625a2d44e66a91491417b38f4ba59ce"
+    },
+    {
+      "name": "B10_streamlined_base.pdf",
+      "size_bytes": 135529,
+      "sha256": "aa5c9d66f0695791bf00def585f94afb2491012c5fe8726a2fb30a3b155439e1"
+    },
+    {
+      "name": "A10_sculpted_ball_anchor.step",
+      "size_bytes": 946927,
+      "sha256": "51f58bfc5c5edd243327ba9c1554f2998286e7a3e650fae7d6ef9d6d88f75c7e"
+    },
+    {
+      "name": "A10_sculpted_ball_anchor.pdf",
+      "size_bytes": 143932,
+      "sha256": "e31dc179ac308d119cedd7888d3596c612de675c5b0f7697f2479a71f86f669f"
+    }
+  ],
+  "supplier_status": "not submitted; manual review pending"
+}

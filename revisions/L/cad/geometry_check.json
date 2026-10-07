@@ -1,0 +1,353 @@
+{
+  "revision": "L",
+  "units": "mm",
+  "valid_solids": {
+    "B10_streamlined_base": {
+      "volume_mm3": 6502.893660946644,
+      "bbox_mm": [
+        18.000000200009104,
+        86.0,
+        25.0
+      ],
+      "material": "6061-T6"
+    },
+    "A10_sculpted_ball_anchor": {
+      "volume_mm3": 4652.466934229836,
+      "bbox_mm": [
+        18.000000200002916,
+        55.0000002,
+        10.500000200506367
+      ],
+      "material": "6061-T6"
+    }
+  },
+  "assembly_solids": 64,
+  "step_roundtrip": [
+    {
+      "part": "B10_streamlined_base",
+      "relative_volume_integration_difference": 7.730428579225674e-10,
+      "native_minus_step_volume_mm3": 0.0,
+      "step_minus_native_volume_mm3": 0.0,
+      "maximum_bbox_coordinate_difference_mm": 7.216449660063518e-16
+    },
+    {
+      "part": "A10_sculpted_ball_anchor",
+      "relative_volume_integration_difference": 8.278272749592994e-08,
+      "native_minus_step_volume_mm3": 0.0,
+      "step_minus_native_volume_mm3": 0.0,
+      "maximum_bbox_coordinate_difference_mm": 3.517186542012496e-13
+    }
+  ],
+  "limits": [
+    {
+      "q": -15,
+      "g": 0,
+      "string_axis_height": 8,
+      "spring_length": 30.5,
+      "spring_force_reference_N": 0.441,
+      "spring_solid_height_margin": 23.7,
+      "rear_full_land_overlap_mm": 8,
+      "rear_bolt_penetration_mm": 8,
+      "thread_type": "full thread required",
+      "rear_screw_tip_local_y": 47,
+      "spring_worst_tolerance_deflection": 6.0,
+      "spring_allowable_deflection": 26.25,
+      "clamp_length": 12,
+      "clamp_washer_stack": 1.5,
+      "clamp_tip_z": 0.5,
+      "clamp_thread_engagement": 5.5,
+      "height_screw_length": 8,
+      "height_thread_engagement": 8
+    },
+    {
+      "q": -15,
+      "g": 6,
+      "string_axis_height": 14,
+      "spring_length": 30.5,
+      "spring_force_reference_N": 0.441,
+      "spring_solid_height_margin": 23.7,
+      "rear_full_land_overlap_mm": 8,
+      "rear_bolt_penetration_mm": 8,
+      "thread_type": "full thread required",
+      "rear_screw_tip_local_y": 47,
+      "spring_worst_tolerance_deflection": 6.0,
+      "spring_allowable_deflection": 26.25,
+      "clamp_length": 20,
+      "clamp_washer_stack": 3.5,
+      "clamp_tip_z": 0.5,
+      "clamp_thread_engagement": 5.5,
+      "height_screw_length": 12,
+      "height_thread_engagement": 6
+    },
+    {
+      "q": -15,
+      "g": 12,
+      "string_axis_height": 20,
+      "spring_length": 30.5,
+      "spring_force_reference_N": 0.441,
+      "spring_solid_height_margin": 23.7,
+      "rear_full_land_overlap_mm": 8,
+      "rear_bolt_penetration_mm": 8,
+      "thread_type": "full thread required",
+      "rear_screw_tip_local_y": 47,
+      "spring_worst_tolerance_deflection": 6.0,
+      "spring_allowable_deflection": 26.25,
+      "clamp_length": 25,
+      "clamp_washer_stack": 2.5,
+      "clamp_tip_z": 0.5,
+      "clamp_thread_engagement": 5.5,
+      "height_screw_length": 16,
+      "height_thread_engagement": 4
+    },
+    {
+      "q": -5,
+      "g": 0,
+      "string_axis_height": 8,
+      "spring_length": 20.5,
+      "spring_force_reference_N": 1.421,
+      "spring_solid_height_margin": 13.7,
+      "rear_full_land_overlap_mm": 8,
+      "rear_bolt_penetration_mm": 18,
+      "thread_type": "full thread required",
+      "rear_screw_tip_local_y": 37,
+      "spring_worst_tolerance_deflection": 16.0,
+      "spring_allowable_deflection": 26.25,
+      "clamp_length": 12,
+      "clamp_washer_stack": 1.5,
+      "clamp_tip_z": 0.5,
+      "clamp_thread_engagement": 5.5,
+      "height_screw_length": 8,
+      "height_thread_engagement": 8
+    },
+    {
+      "q": -5,
+      "g": 6,
+      "string_axis_height": 14,
+      "spring_length": 20.5,
+      "spring_force_reference_N": 1.421,
+      "spring_solid_height_margin": 13.7,
+      "rear_full_land_overlap_mm": 8,
+      "rear_bolt_penetration_mm": 18,
+      "thread_type": "full thread required",
+      "rear_screw_tip_local_y": 37,
+      "spring_worst_tolerance_deflection": 16.0,
+      "spring_allowable_deflection": 26.25,
+      "clamp_length": 20,
+      "clamp_washer_stack": 3.5,
+      "clamp_tip_z": 0.5,
+      "clamp_thread_engagement": 5.5,
+      "height_screw_length": 12,
+      "height_thread_engagement": 6
+    },
+    {
+      "q": -5,
+      "g": 12,
+      "string_axis_height": 20,
+      "spring_length": 20.5,
+      "spring_force_reference_N": 1.421,
+      "spring_solid_height_margin": 13.7,
+      "rear_full_land_overlap_mm": 8,
+      "rear_bolt_penetration_mm": 18,
+      "thread_type": "full thread required",
+      "rear_screw_tip_local_y": 37,
+      "spring_worst_tolerance_deflection": 16.0,
+      "spring_allowable_deflection": 26.25,
+      "clamp_length": 25,
+      "clamp_washer_stack": 2.5,
+      "clamp_tip_z": 0.5,
+      "clamp_thread_engagement": 5.5,
+      "height_screw_length": 16,
+      "height_thread_engagement": 4
+    },
+    {
+      "q": 5,
+      "g": 0,
+      "string_axis_height": 8,
+      "spring_length": 10.5,
+      "spring_force_reference_N": 2.4010000000000002,
+      "spring_solid_height_margin": 3.7,
+      "rear_full_land_overlap_mm": 8,
+      "rear_bolt_penetration_mm": 28,
+      "thread_type": "full thread required",
+      "rear_screw_tip_local_y": 27,
+      "spring_worst_tolerance_deflection": 26.0,
+      "spring_allowable_deflection": 26.25,
+      "clamp_length": 12,
+      "clamp_washer_stack": 1.5,
+      "clamp_tip_z": 0.5,
+      "clamp_thread_engagement": 5.5,
+      "height_screw_length": 8,
+      "height_thread_engagement": 8
+    },
+    {
+      "q": 5,
+      "g": 6,
+      "string_axis_height": 14,
+      "spring_length": 10.5,
+      "spring_force_reference_N": 2.4010000000000002,
+      "spring_solid_height_margin": 3.7,
+      "rear_full_land_overlap_mm": 8,
+      "rear_bolt_penetration_mm": 28,
+      "thread_type": "full thread required",
+      "rear_screw_tip_local_y": 27,
+      "spring_worst_tolerance_deflection": 26.0,
+      "spring_allowable_deflection": 26.25,
+      "clamp_length": 20,
+      "clamp_washer_stack": 3.5,
+      "clamp_tip_z": 0.5,
+      "clamp_thread_engagement": 5.5,
+      "height_screw_length": 12,
+      "height_thread_engagement": 6
+    },
+    {
+      "q": 5,
+      "g": 12,
+      "string_axis_height": 20,
+      "spring_length": 10.5,
+      "spring_force_reference_N": 2.4010000000000002,
+      "spring_solid_height_margin": 3.7,
+      "rear_full_land_overlap_mm": 8,
+      "rear_bolt_penetration_mm": 28,
+      "thread_type": "full thread required",
+      "rear_screw_tip_local_y": 27,
+      "spring_worst_tolerance_deflection": 26.0,
+      "spring_allowable_deflection": 26.25,
+      "clamp_length": 25,
+      "clamp_washer_stack": 2.5,
+      "clamp_tip_z": 0.5,
+      "clamp_thread_engagement": 5.5,
+      "height_screw_length": 16,
+      "height_thread_engagement": 4
+    }
+  ],
+  "height_tap_wall_guards": [
+    {
+      "xy": [
+        -5.5,
+        19
+      ],
+      "guard_radial_mm": 0.8,
+      "axial_span_mm": [
+        1,
+        7
+      ],
+      "missing_material_mm3": 0.0
+    },
+    {
+      "xy": [
+        -5.5,
+        24
+      ],
+      "guard_radial_mm": 0.8,
+      "axial_span_mm": [
+        1,
+        7
+      ],
+      "missing_material_mm3": 0.0
+    },
+    {
+      "xy": [
+        5.5,
+        19
+      ],
+      "guard_radial_mm": 0.8,
+      "axial_span_mm": [
+        1,
+        7
+      ],
+      "missing_material_mm3": 0.0
+    },
+    {
+      "xy": [
+        5.5,
+        24
+      ],
+      "guard_radial_mm": 0.8,
+      "axial_span_mm": [
+        1,
+        7
+      ],
+      "missing_material_mm3": 0.0
+    }
+  ],
+  "rear_tap_guard_radial_mm": 0.8,
+  "rear_tap_guard_axial_span_y": [
+    47,
+    55
+  ],
+  "hardware_interference": "passed; only major-diameter cylinders removed at designated tapped holes",
+  "base_M3_bores": "actual D2.5 through bores at X+/-6,Y36 passed; radial material guard 0.8 mm passed",
+  "spring_full_D6_envelope": "passed at all 9 travel/height conditions",
+  "rear_mounts": {
+    "xy": [
+      [
+        0,
+        81
+      ]
+    ],
+    "driver_clearance": "D6 x35 mm passed before anchor/intonation screw installation",
+    "head_seat_z": 3,
+    "counterbore_D7_4_depth": 2
+  },
+  "web_root_band": "passed: continuous outer material at X+/-8.85,Y66.5..81,Z2.75..2.9",
+  "front_mount": {
+    "xy": [
+      0,
+      8
+    ],
+    "installation": "fix base before installing anchor",
+    "D6_driver_without_anchor": "passed"
+  },
+  "piezo_center_xy": [
+    0,
+    24
+  ],
+  "front_limit_anchor_overhang_mm": 15,
+  "height_and_clamp_sweep": "1201 heights checked across g=0..12",
+  "normal_q_range": [
+    -15,
+    5
+  ],
+  "nominal_mechanical_q_range": [
+    -15,
+    5
+  ],
+  "travel_mm": 20,
+  "spring_tolerance_envelope": "35 +/-1.5 mm; working 10.5..30.5; max deflection26 <=26.25 mm",
+  "ball_cradle": {
+    "profile": "capsule rearR4.1; frontR1.1; W8.2; Y6..15; mouthR0.6",
+    "floor_z": 2,
+    "shoulder_y": 6,
+    "string_channel": "front-only W3.4; floorZ3.3; no rear slit",
+    "reference_ball": "D6 x4.75 cylinder, axisX; centreY9/Z5; actual strings unverified",
+    "loading_path": "top insertion atY11, Z15..5; forward translationY11..9 passed",
+    "shoulder_stop": "reference ball atY8.7 encounters retaining shoulders; passed",
+    "floor_minimum_mm": 2
+  },
+  "convex_surfaces": {
+    "anchor_roof": "single Bezier roof: front parabolic XZ7.8+2.7*(1-(X/9)^2); tangent rampY21..27.8 to full-width deckZ8; no spine or intersecting domes",
+    "wall": "single R9 arch, thickness6, exposed arch rimsR1.2; no added seat bosses",
+    "anchor_max_height_mm": 10.5,
+    "height_access_mouths": "D4.2, axesX+/-5.5,Y19/24; closed floor ring radial0.5 passed",
+    "functional_contact_witnesses": "M3 tracks at5 positions; M4 washer and spring lands at3 heights passed"
+  },
+  "cosmetic_edge_radii_mm": {
+    "arch": 1.2,
+    "rib_outer": 0.8,
+    "rib_inner": 0,
+    "free_front_rim": 0.8,
+    "anchor_top": 0.7,
+    "anchor_bottom": 0.6,
+    "crown_top": 0,
+    "crown_root": 0
+  },
+  "not_verified": [
+    "actual supplier CNC acceptance/price",
+    "physical strength/fatigue",
+    "actual string ball/winding fit and string centre at contact",
+    "specific bass fit",
+    "piezo pickup isolation/performance",
+    "actual spring free-length tolerance and ends"
+  ],
+  "spring_model": "visual reference, constant pitch; catalogue envelope separately checked"
+}

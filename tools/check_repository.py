@@ -17,13 +17,13 @@ def main():
         assert sha(p) == row['sha256'], row['path']
     print(f"Preserved revision assets: {len(records['files'])} SHA-256 matches")
 
-    for rev in 'ABCDEFGHIJK':
+    for rev in 'ABCDEFGHIJKL':
         folder = ROOT / 'revisions' / rev
         assert (folder / 'bridge_preview.png').is_file(), rev
         assert (folder / 'cad/build_bridge.py').is_file(), rev
         assert list((folder / 'cad/step').glob('*.step')), rev
         assert list((folder / 'pdf').glob('*.pdf')), rev
-    print('Revision A-K: source, preview, STEP and PDF present')
+    print('Revision A-L: source, preview, STEP and PDF present')
 
     markdown = [ROOT / 'README.md', *sorted((ROOT / 'docs').rglob('*.md')),
                 ROOT / 'downloads/README.md']

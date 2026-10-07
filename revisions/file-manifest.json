@@ -1,11 +1,11 @@
 {
-  "snapshot_date": "2026-10-06",
-  "latest_revision": "K",
+  "snapshot_date": "2026-10-07",
+  "latest_revision": "L",
   "latest_parts": [
-    "B09_streamlined_base",
-    "A09_streamlined_anchor"
+    "B10_streamlined_base",
+    "A10_sculpted_ball_anchor"
   ],
-  "purpose": "Original A-J archive preserved; new K streamlined parts and matching documents verified",
+  "purpose": "Original A-K archive preserved; new L refined ball cradle and matching documents verified",
   "files": [
     {
       "path": "revisions/A/BOM.csv",
@@ -1691,6 +1691,211 @@
       "path": "revisions/K/six_views/views.json",
       "size_bytes": 1865,
       "sha256": "b25f26ad1a68dd2bcfef02cfdbbd3857ad2ffc5397e3558700ba318e79fe9788"
+    },
+    {
+      "path": "revisions/L/BOM.csv",
+      "size_bytes": 744,
+      "sha256": "a5ae9f4a7641fc500145a693b00900a581cc1f575cd4a6f81401c06b53c3f2de"
+    },
+    {
+      "path": "revisions/L/MB4_mount_template_1to1.dxf",
+      "size_bytes": 21583,
+      "sha256": "82f3bfe6197387433b8e2eecac9ff83374469d3cf70f66b4f2ec9853e1366430"
+    },
+    {
+      "path": "revisions/L/MISUMI_purchase_options.csv",
+      "size_bytes": 6472,
+      "sha256": "da087f18c3200cccf4784c5028500f0a7785ed83ace79d5aeb543dc50d8f475b"
+    },
+    {
+      "path": "revisions/L/README.txt",
+      "size_bytes": 2440,
+      "sha256": "3b9b0554eae3371166d6749ca282fc998e12556d5e5bc56924858c822ec16c6e"
+    },
+    {
+      "path": "revisions/L/RFQ_JLC.txt",
+      "size_bytes": 2544,
+      "sha256": "2f560402d359ad3eb259d5b66351fe77a2f78d8650e861012101834de603056c"
+    },
+    {
+      "path": "revisions/L/ball_cradle_empty.png",
+      "size_bytes": 1866068,
+      "sha256": "cac7d3ac1d2cf34d5facabf0720da819a4b5480ff3ed958083c93bca99c99a80"
+    },
+    {
+      "path": "revisions/L/ball_cradle_loaded.png",
+      "size_bytes": 1929857,
+      "sha256": "6d906ed3cec25cc7d44a7c4714ae5a77c397890e02d92c4f43dda864a9fb3a4e"
+    },
+    {
+      "path": "revisions/L/bridge_preview.png",
+      "size_bytes": 2335186,
+      "sha256": "c5364c3d14ed5eef230f21737da0805901a11fb1e9a1ef5a9ac963a376167063"
+    },
+    {
+      "path": "revisions/L/bridge_rear_preview.png",
+      "size_bytes": 2278516,
+      "sha256": "ee04ed4206148f8701fd09e59cc8a8f430b31cc2bde6bf0d9bf598ffad833641"
+    },
+    {
+      "path": "revisions/L/cad/build_bridge.py",
+      "size_bytes": 24718,
+      "sha256": "802c8be92fba8cd17f6496801a0cd0d67e47ed473a9296336f55fd9d6ababca6"
+    },
+    {
+      "path": "revisions/L/cad/compose_six_views.py",
+      "size_bytes": 3075,
+      "sha256": "adae42cc8d52def1d24fe4d2d070d5decd4b5b9299e83fc57462772a4238d43e"
+    },
+    {
+      "path": "revisions/L/cad/geometry_check.json",
+      "size_bytes": 10301,
+      "sha256": "010ca3159c49512661d6934978beb24199f7f54c3a843d9b93e5ccb89fd25292"
+    },
+    {
+      "path": "revisions/L/cad/make_documents.py",
+      "size_bytes": 19344,
+      "sha256": "112fe60f2079c0857d4d84eb83b20e68949c91c87fc48188796847253edc0bd8"
+    },
+    {
+      "path": "revisions/L/cad/package_outputs.py",
+      "size_bytes": 2321,
+      "sha256": "270bcedfb046b7fa4712b9e81790826bb60fab5e953cdf981d3cc87f7903c2a3"
+    },
+    {
+      "path": "revisions/L/cad/parameters.json",
+      "size_bytes": 7151,
+      "sha256": "d9c7f2a14619d2897c22ea63fd00b383238cb8c237825803ca21c5ec2a9e31f2"
+    },
+    {
+      "path": "revisions/L/cad/render_ball_cradle.py",
+      "size_bytes": 1113,
+      "sha256": "ee0ebdbc27abe207a1ffa6443b55576d406bddf19ee36fc851c2ee782cfc72ea"
+    },
+    {
+      "path": "revisions/L/cad/render_bridge.py",
+      "size_bytes": 2875,
+      "sha256": "d2470ee6f2a659d24d4586909c951e5e6e091d93686cb638ab3c221cc5b16ec4"
+    },
+    {
+      "path": "revisions/L/cad/render_six_views.py",
+      "size_bytes": 3441,
+      "sha256": "a6a74fae56297000862b4715041096b20023f5c01fa97eee500a6435edd39f97"
+    },
+    {
+      "path": "revisions/L/cad/requirements.txt",
+      "size_bytes": 76,
+      "sha256": "cee182d246293a5ad4e4aab59e9591488dfc21b9dc011fee0c64cbb99cb1a6cc"
+    },
+    {
+      "path": "revisions/L/cad/scene_manifest.json",
+      "size_bytes": 12746,
+      "sha256": "f6842f22f9ed2c020c1da73da019dc8f0f708a062338b68f40f8ce2ffbb8b9bc"
+    },
+    {
+      "path": "revisions/L/cad/step/A10_sculpted_ball_anchor.step",
+      "size_bytes": 946927,
+      "sha256": "51f58bfc5c5edd243327ba9c1554f2998286e7a3e650fae7d6ef9d6d88f75c7e"
+    },
+    {
+      "path": "revisions/L/cad/step/B10_streamlined_base.step",
+      "size_bytes": 655957,
+      "sha256": "20ed20da452272402f2c94ef881fc9b3a625a2d44e66a91491417b38f4ba59ce"
+    },
+    {
+      "path": "revisions/L/cad/step/MB4_assembly.step",
+      "size_bytes": 8383329,
+      "sha256": "ff80b8e49442892fec4ef7f4b7a88b80bf5918f968fb52bcb1c223ed07e76c2c"
+    },
+    {
+      "path": "revisions/L/cad/travel_sweep_check.json",
+      "size_bytes": 378,
+      "sha256": "333809fc48f213e199bb85c0f64c5afc228a2f820db9fbc8c010758d7817e627"
+    },
+    {
+      "path": "revisions/L/cad/verify_travel.py",
+      "size_bytes": 1821,
+      "sha256": "6d807a443ea7bce2b9d568143f1a35fc5542f97eca598e35356d81ac96a90346"
+    },
+    {
+      "path": "revisions/L/features.csv",
+      "size_bytes": 1384,
+      "sha256": "bc0a5f154ee5fa5556d174dfbadc0fe4776d840a9ae622850ed4b002d3dbc166"
+    },
+    {
+      "path": "revisions/L/file_manifest.json",
+      "size_bytes": 798,
+      "sha256": "e857dd2e4e97504b40599228bd25b6adc83eba5106b111df4418ee60ec940206"
+    },
+    {
+      "path": "revisions/L/hardware_sources.txt",
+      "size_bytes": 6141,
+      "sha256": "14238730cc2678cda0f4273f6750d10593c1998b56e1e31f625f47312f68e5f7"
+    },
+    {
+      "path": "revisions/L/pdf/A10_sculpted_ball_anchor.pdf",
+      "size_bytes": 143932,
+      "sha256": "e31dc179ac308d119cedd7888d3596c612de675c5b0f7697f2479a71f86f669f"
+    },
+    {
+      "path": "revisions/L/pdf/B10_streamlined_base.pdf",
+      "size_bytes": 135529,
+      "sha256": "aa5c9d66f0695791bf00def585f94afb2491012c5fe8726a2fb30a3b155439e1"
+    },
+    {
+      "path": "revisions/L/pdf/MB4_RevL_guide.pdf",
+      "size_bytes": 2352616,
+      "sha256": "c9d278caffd0f439ef6edc779b85d9a82ef15f86c228c0798f8bbd349bf67ada"
+    },
+    {
+      "path": "revisions/L/revision_changes.csv",
+      "size_bytes": 758,
+      "sha256": "96c73fbc7e8560c7cfb21ac630b1371d265a34b8212be51f89c834954a0fe68d"
+    },
+    {
+      "path": "revisions/L/six_views/01_front.png",
+      "size_bytes": 723519,
+      "sha256": "912ad9186484d9745ad35062856a6b282df1cd7e4c4cdffac68a074b8f4150fc"
+    },
+    {
+      "path": "revisions/L/six_views/02_rear.png",
+      "size_bytes": 703808,
+      "sha256": "b5e5183b66f5240ff375403e9e50f0de80cda2b0806843fdcc32d2f864d2fc7e"
+    },
+    {
+      "path": "revisions/L/six_views/03_left.png",
+      "size_bytes": 674558,
+      "sha256": "2cfdb73f32b389f2e2b106627a3a9c8eda771eb3d33e084d063c2efbf12f4fe0"
+    },
+    {
+      "path": "revisions/L/six_views/04_right.png",
+      "size_bytes": 675204,
+      "sha256": "3a64a26e5be7e8188ae46d906b79ca786677945977109483050241338c56c49c"
+    },
+    {
+      "path": "revisions/L/six_views/05_top.png",
+      "size_bytes": 1523498,
+      "sha256": "78254d121c265e534bb64f866d6c24e8222eeca900417d4bf282d850589c117b"
+    },
+    {
+      "path": "revisions/L/six_views/06_bottom.png",
+      "size_bytes": 1332943,
+      "sha256": "79ad28f5d12b9e78743f4b12c9f9cd198fde341b802009121a75ba31196bb43e"
+    },
+    {
+      "path": "revisions/L/six_views/MB4_RevL_six_views.png",
+      "size_bytes": 670362,
+      "sha256": "f75faa20c90e2d45fa885a605a93625b27c39865d071bd4d8b129de2b2cf8ae4"
+    },
+    {
+      "path": "revisions/L/six_views/README.txt",
+      "size_bytes": 443,
+      "sha256": "5cdf2092e078828ac93bf6b450d2ab5bad3f1d8c851622569413a514d20cbe67"
+    },
+    {
+      "path": "revisions/L/six_views/views.json",
+      "size_bytes": 1865,
+      "sha256": "d9914a4a78a207bbbd2d2695f9e33ce6f1d2219d90836651092757fc988dda46"
     }
   ]
 }

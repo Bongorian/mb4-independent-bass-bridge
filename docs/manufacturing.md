@@ -1,15 +1,15 @@
-# 加工と調達 — Rev K
+# 加工と調達 — Rev L
 
 ## CNCへ渡す2品
 
 | 部品 | 材料・数量 | 加工データ |
 | --- | --- | --- |
-| B09ベース | 6061-T6、4個 | [STEP](../revisions/K/cad/step/B09_streamlined_base.step)、[英文加工図](../revisions/K/pdf/B09_streamlined_base.pdf) |
-| A09アンカー | 6061-T6、4個 | [STEP](../revisions/K/cad/step/A09_streamlined_anchor.step)、[英文加工図](../revisions/K/pdf/A09_streamlined_anchor.pdf) |
+| B10ベース | 6061-T6、4個 | [STEP](../revisions/L/cad/step/B10_streamlined_base.step)、[英文加工図](../revisions/L/pdf/B10_streamlined_base.pdf) |
+| A10アンカー | 6061-T6、4個 | [STEP](../revisions/L/cad/step/A10_sculpted_ball_anchor.step)、[英文加工図](../revisions/L/pdf/A10_sculpted_ball_anchor.pdf) |
 
-[JLC見積用ZIP](../downloads/MB4_JLCCNC_upload_RevK.zip)にはこの4ファイルだけを収録しています。B09とA09を別々の品目として各4個で見積依頼します。全組立を表す`MB4_assembly.step`は切削対象として提出しません。
+[JLC見積用ZIP](../downloads/MB4_JLCCNC_upload_RevL.zip)にはこの4ファイルだけを収録しています。B10とA10を別々の品目として各4個で見積依頼します。全組立を表す`MB4_assembly.step`は切削対象として提出しません。
 
-まず1弦分を実物評価する場合は各1個で見積依頼してください。Rev J以前のSTEP・図面は最新版の加工には使用しません。Rev Kでは凸曲面に合わせて両部品が変更されています。
+まず1弦分を実物評価する場合は各1個で見積依頼してください。Rev K以前のアンカーSTEP・図面は最新版の加工には使用しません。Rev LのB10ベースはRev KのB09と同形状です。保持部を変えたA10は新しい図面が必要です。
 
 ## 見積設定と図面の役割
 
@@ -17,11 +17,15 @@
 
 STEPのねじ穴は下穴径で表現しています。M3下穴φ2.5、M4下穴φ3.3のまま納品する指示ではありません。加工図どおりM3×0.5-6H、M4×0.7-6Hに加工します。STEPは3D形状、同名PDFはねじ・寸法公差・仕上げ指示を担います。
 
-[英文見積依頼文](../revisions/K/RFQ_JLC.txt)と[加工フィーチャー表](../revisions/K/features.csv)も参照してください。図面にはリブを削除しないこと、機能座面を研磨しないこと、指定逃げとRを維持することを記載しています。
+[英文見積依頼文](../revisions/L/RFQ_JLC.txt)と[加工フィーチャー表](../revisions/L/features.csv)も参照してください。図面にはリブを削除しないこと、機能座面を研磨しないこと、指定逃げとRを維持することを記載しています。
+
+## 球端保持部の加工
+
+A10の保持座は幅8.2、Y6〜15、底Z2、前内隅R1.1、奥R4.1、入口R0.6です。上面から加工する開放ポケットとし、球端後方の細溝を削除しました。前の保持肩Y6、弦出口幅3.4・底Z3.3を保ちます。入口RはSTEPでモデル化しています。工具径と到達性は業者の審査で確認してください。球端・巻き部の実適合と表面接触は試作で評価します。
 
 ## 丸みと加工上の確認点
 
-Rev Kは丸い前部から低い後部へ滑らかにつながるBezier上面と、単純なアーチ支柱・曲線リブを持ちます。多重の膨らみ、追加の座ボスや中央の筋を設けません。ボールエンドミル等による3D仕上げパスは増えるため、従来と同じ加工費は想定しません。
+Rev Kから継続する外形は、丸い前部から低い後部へ滑らかにつながるBezier上面と、単純なアーチ支柱・曲線リブを持ちます。多重の膨らみ、追加の座ボスや中央の筋を設けません。ボールエンドミル等による3D仕上げパスは増えるため、従来と同じ加工費は想定しません。
 
 M3固定は一段の後部平面Z8、高さ穴の入口はφ4.2・床Z8です。高さねじの軸をX±5.5/Y19・24へ調整し、入口が外周や隣の加工部へ欠けないようにしています。タップねじ領域Z0〜8と後壁の座金・ばね受け面、ボディ取付面とピエゾ接着面を保護します。
 
@@ -36,9 +40,9 @@ M3固定は一段の後部平面Z8、高さ穴の入口はφ4.2・床Z8です。
 
 ## 市販金物
 
-数量と高さによる長さの選択は[部品表](../revisions/K/BOM.csv)、[購入候補表](../revisions/K/MISUMI_purchase_options.csv)、[参照元と選定理由](../revisions/K/hardware_sources.txt)に記載しています。
+数量と高さによる長さの選択は[部品表](../revisions/L/BOM.csv)、[購入候補表](../revisions/L/MISUMI_purchase_options.csv)、[参照元と選定理由](../revisions/L/hardware_sources.txt)に記載しています。
 
-| 用途 | Rev Kの候補 | 4弦分 |
+| 用途 | Rev Lの候補 | 4弦分 |
 | --- | --- | --- |
 | 後方調整ねじ | NBK SNSS-M4-45-FT／ミスミSNSS-M4X45-FT、M4×45全ねじ | 4本 |
 | 後方座金 | WSJS-SUS-M4、外径8・厚さ0.5 | 4枚 |
